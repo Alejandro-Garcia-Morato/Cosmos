@@ -1,0 +1,386 @@
+/* FUENTES */
+@font-face {
+    font-family: Poppins;
+    src: url(../recursos/fuentes/Poppins-Regular.ttf);
+}
+
+/* COLORES */
+:root {
+    --color-negro: #080808;
+    --color-gris-claro: #e4e4e4;
+    --color-azul-oscuro: #171b25;
+    --color-naranja-claro: #e9bda1;
+    --color-azul-claro: #7a9bb6;
+    --color-azul-medio: #2e3245;
+    --color-marron-claro: #bbb1b4;
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+/* CONTENEDOR */
+.contenedor {
+    display: grid;
+    grid-template-areas: "navegador"
+        "cabecera"
+        "contenido"
+        "footer";
+}
+
+/* MENÚ PRINCIPAL */
+.menu_principal {
+    grid-area: navegador;
+    width: 100vw;
+    height: 8vh;
+    background-color: rgba(228, 228, 228, 0.7);
+    box-shadow: 0 1rem 1.5rem var(--color-negro);
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2.5vw;
+}
+
+.menu_principal .menu-lista_planetas,
+.menu-lista_idiomas {
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+
+.menu_principal .menu-lista_planetas li {
+    padding: 0 1.4vw;
+    transition: .3s;
+}
+
+.menu_principal .menu-lista_planetas li:hover {
+    transform: scale(1.25);
+}
+
+.menu_principal .menu-lista_planetas li a {
+    text-decoration: none;
+    color: var(--color-negro);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+.home-icon {
+    width: 3.5vh;
+}
+
+.current {
+    text-decoration: underline;
+}
+
+/* .menu_principal .menu-lista_idiomas{
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+} */
+
+.menu_principal .menu-lista_idiomas li {
+    padding: 0 .1vw;
+}
+
+.menu_principal .menu-lista_idiomas li button {
+    color: var(--color-negro);
+    font-size: .95rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* CABECERA */
+header {
+    grid-area: cabecera;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg-header {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(8, 8, 8, 0.4), rgba(8, 8, 8, 0.6)),
+        url(../recursos/imagenes/bg-header.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20vh 10vw;
+}
+
+.bg-header h1 {
+    font-size: 6.7rem;
+    font-weight: 600;
+    color: var(--color-gris-claro);
+}
+
+.bg-header p {
+    font-size: 2.3rem;
+    color: var(--color-gris-claro);
+    padding: 0 8vw;
+}
+
+/* SECCIÓN */
+.seccion-planetas {
+    grid-area: contenido;
+    width: 100vw;
+    height: 300vh;
+    background-image: linear-gradient(rgba(8, 8, 8, 0.2), rgba(8, 8, 8, 0.2)),
+        url(../recursos/imagenes/via-lactea.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 10;
+    padding: 10vh 5vw;
+    box-shadow: 0 -.4rem .8rem var(--color-negro);
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "esp1 sol esp2"
+        "mercurio venus tierra"
+        "luna marte jupiter"
+        "saturno urano neptuno";
+    gap: 3vw;
+}
+
+.articulo-planeta {
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.articulo-planeta:hover {
+    transform: scale(1.1);
+}
+
+.articulo-planeta:nth-of-type(1) {
+    grid-area: sol;
+}
+
+.articulo-planeta:nth-of-type(2) {
+    grid-area: mercurio;
+}
+
+.articulo-planeta:nth-of-type(3) {
+    grid-area: venus;
+}
+
+.articulo-planeta:nth-of-type(4) {
+    grid-area: tierra;
+}
+
+.articulo-planeta:nth-of-type(5) {
+    grid-area: luna;
+}
+
+.articulo-planeta:nth-of-type(6) {
+    grid-area: marte;
+}
+
+.articulo-planeta:nth-of-type(7) {
+    grid-area: jupiter;
+}
+
+.articulo-planeta:nth-of-type(8) {
+    grid-area: saturno;
+}
+
+.articulo-planeta:nth-of-type(9) {
+    grid-area: urano;
+}
+
+.articulo-planeta:nth-of-type(10) {
+    grid-area: neptuno;
+}
+
+.articulo-planeta-img {
+    width: 100%;
+    height: 80%;
+}
+
+.articulo-planeta-img a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.articulo-planeta-img img {
+    width: 80%;
+    transition: .8s;
+}
+
+.articulo-planeta-img img:hover {
+    transform: scale(1.15) rotate(-35deg);
+}
+
+.articulo-planeta-titulo {
+    width: 100%;
+    height: 20%;
+    background-color: rgba(122, 155, 182, 0.8);
+    border-radius: 5rem;
+    box-shadow: .65rem .75rem .55rem var(--color-azul-oscuro);
+}
+
+.articulo-planeta-titulo a {
+    width: 100%;
+    height: 100%;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--color-negro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    grid-area: footer;
+    width: 100vw;
+    height: 25vh;
+    padding: 3vh 0;
+    background-color: var(--color-gris-claro);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: var(--color-negro);
+    text-align: center;
+    font-size: 1.2rem;
+    z-index: 10;
+}
+
+/* .footer-creditos-desarrolladores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+/* .footer-creditos-desarrolladores-nombres{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+} */
+
+/* .footer-creditos-desarrolladores-nombres li{
+    padding: 0 4vw;
+} */
+
+/* .footer-creditos-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} */
+
+/* MEDIA QUERIES */
+
+/* Para portátiles */
+@media screen and (min-width: 804px) and (max-width: 1024px) {
+
+    /* SECCIÓN */
+    .seccion-planetas {
+        height: 400vh;
+        display: grid;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "sol mercurio"
+            "venus tierra"
+            "luna marte"
+            "jupiter saturno"
+            "urano neptuno";
+        gap: 5vw;
+    }
+
+}
+
+/* Para tablets */
+@media (min-width: 481px) and (max-width: 803px) {
+
+    /* SECCIÓN */
+    .seccion-planetas {
+        height: 800vh;
+        padding: 16vh 12vw;
+        display: grid;
+        grid-template-rows: repeat(10, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: "sol"
+            "mercurio"
+            "venus"
+            "tierra"
+            "luna"
+            "marte"
+            "jupiter"
+            "saturno"
+            "urano"
+            "neptuno";
+        gap: 14vh;
+    }
+
+    .articulo-planeta-img img {
+        width: 70%;
+    }
+
+}
+
+/* Para móviles */
+@media (max-width: 480px) {
+
+    /* SECCIÓN */
+    .seccion-planetas {
+        height: 1000vh;
+        padding: 0;
+        display: grid;
+        grid-template-rows: repeat(10, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: "sol"
+            "mercurio"
+            "venus"
+            "tierra"
+            "luna"
+            "marte"
+            "jupiter"
+            "saturno"
+            "urano"
+            "neptuno";
+        gap: 3vh;
+    }
+
+    .articulo-planeta-img img {
+        width: 65%;
+    }
+
+    .articulo-planeta-titulo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .articulo-planeta-titulo a {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
