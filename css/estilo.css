@@ -4,15 +4,26 @@
     src: url(../recursos/fuentes/Poppins-Regular.ttf);
 }
 
+@font-face {
+    font-family: PoppinsB;
+    src: url(../recursos/fuentes/Poppins-Bold.ttf);
+}
+
 /* COLORES */
 :root {
     --color-negro: #080808;
     --color-gris-claro: #e4e4e4;
-    --color-azul-oscuro: #171b25;
     --color-naranja-claro: #e9bda1;
     --color-azul-claro: #7a9bb6;
     --color-azul-medio: #2e3245;
+    --color-azul-oscuro: #171b25;
     --color-marron-claro: #bbb1b4;
+    --color-azul-claro-header: #66c1b5;
+    --color-azul-medio-header: #3f849f;
+    --color-azul-oscuro-header: #1d4765;
+    --color-azul-verdoso-header: #3f756e;
+    --color-verde-oscuro-header: #2d4a3a;
+    --color-naranja-header: rgb(184, 63, 19);
 }
 
 /* RESET */
@@ -81,6 +92,10 @@
     text-decoration: underline;
 }
 
+.menu_principal-aux {
+    z-index: 1000;
+}
+
 /* .menu_principal .menu-lista_idiomas{
     height: 8vh;
     display: flex;
@@ -128,6 +143,11 @@ header {
     font-size: 6.7rem;
     font-weight: 600;
     color: var(--color-gris-claro);
+    font-family: PoppinsB;
+    text-shadow: .1vw .2vh .2rem rgba(184, 63, 19, .8),
+                .1vw .4vh .4rem var(--color-azul-claro-header),
+                .1vw .6vh .6rem var(--color-verde-oscuro-header),
+                .1vw .8vh .8rem var(--color-azul-oscuro-header);
 }
 
 .bg-header p {
@@ -140,8 +160,8 @@ header {
 .seccion-planetas {
     grid-area: contenido;
     width: 100vw;
-    height: 300vh;
-    background-image: linear-gradient(rgba(8, 8, 8, 0.2), rgba(8, 8, 8, 0.2)),
+    height: 240vh;
+    background-image: linear-gradient(rgba(8, 8, 8, 0.4), rgba(8, 8, 8, 0.2)),
         url(../recursos/imagenes/via-lactea.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -167,7 +187,7 @@ header {
 }
 
 .articulo-planeta:hover {
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 
 .articulo-planeta:nth-of-type(1) {
@@ -229,7 +249,7 @@ header {
 }
 
 .articulo-planeta-img img:hover {
-    transform: scale(1.15) rotate(-35deg);
+    transform: scale(1.25) rotate(-35deg);
 }
 
 .articulo-planeta-titulo {
@@ -237,6 +257,11 @@ header {
     height: 20%;
     background-color: rgba(122, 155, 182, 0.8);
     border-radius: 5rem;
+    box-shadow: .2rem .3rem .8rem var(--color-azul-oscuro);
+    transition: .5s;
+}
+
+.articulo-planeta-titulo:hover {
     box-shadow: .65rem .75rem .55rem var(--color-azul-oscuro);
 }
 
@@ -256,15 +281,15 @@ header {
 footer {
     grid-area: footer;
     width: 100vw;
-    height: 25vh;
-    padding: 3vh 0;
+    height: 30vh;
+    padding: 3vh 10vw;
     background-color: var(--color-gris-claro);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     color: var(--color-negro);
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     z-index: 10;
 }
 
