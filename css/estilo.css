@@ -5,7 +5,7 @@
 }
 
 @font-face {
-    font-family: PoppinsB;
+    font-family: PoppinsBold;
     src: url(../recursos/fuentes/Poppins-Bold.ttf);
 }
 
@@ -23,7 +23,7 @@
     --color-azul-oscuro-header: #1d4765;
     --color-azul-verdoso-header: #3f756e;
     --color-verde-oscuro-header: #2d4a3a;
-    --color-naranja-header: rgb(184, 63, 19);
+    --color-naranja-header: #b83f13;
 }
 
 /* RESET */
@@ -48,7 +48,7 @@
     grid-area: navegador;
     width: 100vw;
     height: 8vh;
-    background-color: rgba(228, 228, 228, 0.7);
+    background-image: radial-gradient(circle, rgba(228, 228, 228, 0.5), rgba(228, 228, 228, 0.8));
     box-shadow: 0 1rem 1.5rem var(--color-negro);
     position: fixed;
     z-index: 1;
@@ -96,14 +96,6 @@
     z-index: 1000;
 }
 
-/* .menu_principal .menu-lista_idiomas{
-    height: 8vh;
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    align-items: center;
-} */
-
 .menu_principal .menu-lista_idiomas li {
     padding: 0 .1vw;
 }
@@ -141,27 +133,27 @@ header {
 
 .bg-header h1 {
     font-size: 6.7rem;
-    font-weight: 600;
+    /* font-weight: 600; */
     color: var(--color-gris-claro);
-    font-family: PoppinsB;
-    text-shadow: .1vw .2vh .2rem rgba(184, 63, 19, .8),
-                .1vw .4vh .4rem var(--color-azul-claro-header),
-                .1vw .6vh .6rem var(--color-verde-oscuro-header),
-                .1vw .8vh .8rem var(--color-azul-oscuro-header);
+    font-family: PoppinsBold;
+    text-shadow: .1vw .25vh .1rem var(--color-naranja-header),
+        .1vw .5vh .2rem var(--color-azul-claro-header),
+        .1vw .75vh .3rem var(--color-verde-oscuro-header),
+        .1vw 1vh .4rem var(--color-azul-oscuro-header);
 }
 
 .bg-header p {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     color: var(--color-gris-claro);
-    padding: 0 8vw;
+    padding: 0 6vw;
 }
 
 /* SECCIÓN */
 .seccion-planetas {
     grid-area: contenido;
     width: 100vw;
-    height: 240vh;
-    background-image: linear-gradient(rgba(8, 8, 8, 0.4), rgba(8, 8, 8, 0.2)),
+    height: 300vh;
+    background-image: linear-gradient(rgba(8, 8, 8, .4), rgba(8, 8, 8, .2)),
         url(../recursos/imagenes/via-lactea.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -177,7 +169,7 @@ header {
         "mercurio venus tierra"
         "luna marte jupiter"
         "saturno urano neptuno";
-    gap: 3vw;
+    gap: 2.8vw;
 }
 
 .articulo-planeta {
@@ -187,7 +179,7 @@ header {
 }
 
 .articulo-planeta:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
 }
 
 .articulo-planeta:nth-of-type(1) {
@@ -244,25 +236,31 @@ header {
 }
 
 .articulo-planeta-img img {
-    width: 80%;
+    width: 85%;
     transition: .8s;
 }
 
+.articulo-planeta:nth-of-type(1) .articulo-planeta-img img {
+    width: 95%;
+}
+
 .articulo-planeta-img img:hover {
-    transform: scale(1.25) rotate(-35deg);
+    transform: scale(1.15) rotate(-40deg);
 }
 
 .articulo-planeta-titulo {
     width: 100%;
     height: 20%;
-    background-color: rgba(122, 155, 182, 0.8);
+    background-image: radial-gradient(ellipse,
+            rgba(228, 228, 228, .75),
+            rgba(122, 155, 182, .75));
     border-radius: 5rem;
-    box-shadow: .2rem .3rem .8rem var(--color-azul-oscuro);
+    box-shadow: .3rem .4rem .8rem var(--color-azul-oscuro);
     transition: .5s;
 }
 
 .articulo-planeta-titulo:hover {
-    box-shadow: .65rem .75rem .55rem var(--color-azul-oscuro);
+    box-shadow: .6rem .75rem .55rem var(--color-azul-oscuro);
 }
 
 .articulo-planeta-titulo a {
@@ -275,15 +273,20 @@ header {
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    text-shadow: 0 .1vh .1rem var(--color-naranja-claro),
+        0 .2vh .2rem var(--color-azul-claro-header),
+        0 .4vh .3rem var(--color-verde-oscuro-header),
+        0 .8vh .4rem var(--color-azul-oscuro-header);
 }
 
 /* FOOTER */
 footer {
     grid-area: footer;
     width: 100vw;
-    height: 30vh;
+    height: 35vh;
     padding: 3vh 10vw;
     background-color: var(--color-gris-claro);
+    background-image: radial-gradient(circle, rgba(8, 8, 8, .2), var(--color-gris-claro));
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -292,29 +295,6 @@ footer {
     font-size: 1.1rem;
     z-index: 10;
 }
-
-/* .footer-creditos-desarrolladores{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-} */
-
-/* .footer-creditos-desarrolladores-nombres{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style: none;
-} */
-
-/* .footer-creditos-desarrolladores-nombres li{
-    padding: 0 4vw;
-} */
-
-/* .footer-creditos-info{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-} */
 
 /* MEDIA QUERIES */
 
