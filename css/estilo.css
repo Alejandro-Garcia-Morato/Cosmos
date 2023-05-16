@@ -23,7 +23,7 @@
     --color-azul-oscuro-header: #1d4765;
     --color-azul-verdoso-header: #3f756e;
     --color-verde-oscuro-header: #2d4a3a;
-    --color-naranja-header: rgb(184, 63, 19);
+    --color-naranja-header: #b83f13;
 }
 
 /* RESET */
@@ -56,7 +56,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-right: 2.5vw;
+    padding-right: 2vw;
 }
 
 .menu_principal .menu-lista_planetas,
@@ -69,40 +69,36 @@
 }
 
 .menu_principal .menu-lista_planetas li {
-    padding: 0 .95vw;
-    transition: .3s;
-}
-
-.menu_principal .menu-lista_planetas li:hover {
-    transform: scale(1.25);
+    padding: 0 1vw;
 }
 
 .menu_principal .menu-lista_planetas li a {
     text-decoration: none;
     color: var(--color-negro);
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     display: flex;
+    transition: .3s;
+}
+
+.menu_principal .menu-lista_planetas li:hover a {
+    transform: scale(1.3);
 }
 
 .home-icon {
-    width: 3.5vh;
+    width: 3.6vh;
 }
 
 .current {
     text-decoration: underline;
 }
 
-.menu_principal-aux {
-    z-index: 1000;
-}
-
 .menu_principal .menu-lista_idiomas li {
-    padding: 0 .1vw;
+    margin-left: .4vw;
 }
 
 .menu_principal .menu-lista_idiomas li button {
     color: var(--color-negro);
-    font-size: .95rem;
+    font-size: 1rem;
     border: none;
     background-color: transparent;
     cursor: pointer;
@@ -119,8 +115,8 @@
 }
 
 .menu_principal .burguer_menu .burguer_menu-linea {
-    width: 2.5rem;
-    height: .8vh;
+    width: 3.8rem;
+    height: .5vh;
     background: rgba(8, 8, 8, .8);
     border-radius: .5rem;
     transition: .35s;
@@ -147,6 +143,10 @@ input:checked~.burguer_menu .burguer_menu-linea:nth-child(3) {
     transform: rotate(-45deg);
 }
 
+.menu_principal-aux {
+    z-index: 50;
+}
+
 /* CABECERA */
 header {
     grid-area: cabecera;
@@ -157,7 +157,7 @@ header {
 .bg-header {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(8, 8, 8, 0.4), rgba(8, 8, 8, 0.6)),
+    background-image: linear-gradient(rgba(8, 8, 8, 0.25), rgba(8, 8, 8, 0.5)),
         url(../recursos/imagenes/bg-header.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -167,23 +167,22 @@ header {
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-    padding: 20vh 10vw;
+    padding: 24vh 10vw 22vh 10vw;
 }
 
 .bg-header h1 {
-    font-size: 6.7rem;
-    line-height: 1.3;
-    /* font-weight: 600; */
+    font-size: 7rem;
+    line-height: 1;
     color: var(--color-gris-claro);
     font-family: PoppinsBold;
     text-shadow: .1vw .25vh .1rem var(--color-naranja-header),
-        .1vw .5vh .2rem var(--color-azul-claro-header),
-        .1vw .75vh .3rem var(--color-verde-oscuro-header),
-        .1vw 1vh .4rem var(--color-azul-oscuro-header);
+        .1vw .6vh .2rem var(--color-azul-claro-header),
+        .1vw .9vh .3rem var(--color-verde-oscuro-header),
+        .1vw 1.2vh .4rem var(--color-azul-oscuro-header);
 }
 
 .bg-header p {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     color: var(--color-gris-claro);
     padding: 0 6vw;
 }
@@ -192,8 +191,7 @@ header {
 .seccion-planetas {
     grid-area: contenido;
     width: 100vw;
-    height: 300vh;
-    background-image: linear-gradient(rgba(8, 8, 8, .4), rgba(8, 8, 8, .2)),
+    background-image: linear-gradient(rgba(8, 8, 8, .6), rgba(8, 8, 8, .3)),
         url(../recursos/imagenes/via-lactea.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -201,7 +199,7 @@ header {
     position: relative;
     z-index: 10;
     padding: 10vh 5vw;
-    box-shadow: 0 -.4rem .8rem var(--color-negro);
+    box-shadow: 0 -1vh .6rem var(--color-negro);
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(3, 1fr);
@@ -209,7 +207,7 @@ header {
         "mercurio venus tierra"
         "luna marte jupiter"
         "saturno urano neptuno";
-    gap: 2.8vw;
+    gap: 3vw;
 }
 
 .articulo-planeta {
@@ -217,7 +215,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: 0.5s;
+    transition: .4s;
 }
 
 .articulo-planeta:hover {
@@ -266,7 +264,6 @@ header {
 
 .articulo-planeta-img {
     width: 100%;
-    height: 80%;
 }
 
 .articulo-planeta-img a {
@@ -287,28 +284,27 @@ header {
 }
 
 .articulo-planeta:hover .articulo-planeta-img img {
-    transform: scale(1.15) rotate(-40deg);
+    transform: scale(1.12) rotate(-60deg);
 }
 
 .articulo-planeta-titulo {
     width: 100%;
-    height: 20%;
     background-image: radial-gradient(ellipse,
             rgba(228, 228, 228, .75),
             rgba(122, 155, 182, .75));
     border-radius: 5rem;
-    box-shadow: .3rem .4rem .8rem var(--color-azul-oscuro);
-    transition: .5s;
+    box-shadow: .5vw 1vh .8rem var(--color-azul-oscuro);
+    transition: .4s;
 }
 
 .articulo-planeta:hover .articulo-planeta-titulo {
-    box-shadow: .6rem .75rem .55rem var(--color-azul-oscuro);
+    box-shadow: .8vw 1.6vh 1rem var(--color-azul-oscuro);
 }
 
 .articulo-planeta-titulo a {
     width: 100%;
     height: 100%;
-    font-size: 3rem;
+    font-size: 3.3rem;
     font-weight: 600;
     color: var(--color-negro);
     display: flex;
@@ -326,7 +322,7 @@ footer {
     grid-area: footer;
     width: 100vw;
     height: 40vh;
-    padding: 3vh 10vw;
+    padding: 3vh 8vw;
     background-color: var(--color-gris-claro);
     background-image: radial-gradient(circle, rgba(8, 8, 8, .2), var(--color-gris-claro));
     display: flex;
@@ -344,78 +340,9 @@ footer {
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
     /* MENÚ PRINCIPAL */
-    .menu_principal .menu-lista_planetas li {
-        padding: 0 .5vw;
-    }
-
-    .menu_principal .menu-lista_planetas li:hover {
-        transform: scale(1.1);
-    }
-
-    .menu_principal .menu-lista_planetas li a {
-        font-size: 1.05rem;
-    }
-
-    .home-icon {
-        width: 3vh;
-    }
-
-    .menu_principal .menu-lista_idiomas li button,
-    .menu_principal .menu-lista_idiomas li p {
-        font-size: .8rem;
-    }
-
-    /* CABECERA */
-    .bg-header h1 {
-        font-size: 6.2rem;
-        padding: 0 2.5vw;
-        line-height: 1.15;
-    }
-
-    .bg-header p {
-        font-size: 2rem;
-        padding: 0;
-    }
-
-    /* SECCIÓN */
-    .seccion-planetas {
-        height: 400vh;
-        padding: 8vh 5vw 10vh 5vw;
-        display: grid;
-        grid-template-rows: repeat(5, 1fr);
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas: "sol mercurio"
-            "venus tierra"
-            "luna marte"
-            "jupiter saturno"
-            "urano neptuno";
-        gap: 5vw;
-    }
-
-    .articulo-planeta:hover {
-        transform: scale(1.075);
-    }
-
-    .articulo-planeta-titulo {
-        width: 90%;
-    }
-
-    /* FOOTER */
-    footer {
-        height: 45vh;
-        padding: 3vh 8vw;
-        font-size: 1rem;
-    }
-
-}
-
-/* Para tablets */
-@media (min-width: 426px) and (max-width: 768px) {
-
-    /* MENÚ PRINCIPAL */
 
     .menu_principal {
-        padding: 0 5vw;
+        padding: 0 3vw 0 1.8vh;
     }
 
     .menu_principal .menu-lista_planetas {
@@ -427,9 +354,9 @@ footer {
         height: 100vh;
         top: 0;
         left: 0;
-        padding: 0;
-        background-color: rgba(228, 228, 228, 0.97);
-        transform: translateX(-120%);
+        padding-bottom: 3vh;
+        background-color: rgba(228, 228, 228, 0.95);
+        transform: translateX(-110%);
         transition: .8s;
         box-shadow: .3rem .3rem .3rem var(--color-negro);
     }
@@ -438,7 +365,7 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        padding: 1vh 0;
+        padding: 1.1vh 0;
         z-index: 1;
     }
 
@@ -448,88 +375,56 @@ footer {
         padding: 0;
     }
 
-    .menu_principal .menu-lista_planetas li:hover {
-        transform: none;
-    }
-
     .menu_principal .menu-lista_planetas li a {
         width: 100%;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         transition: .2s;
     }
 
     .menu_principal .menu-lista_planetas li a:hover {
+        transform: none;
         font-size: 1.7rem;
         box-shadow: 0 .2rem 1rem var(--color-negro);
+        background-image: radial-gradient(circle, rgba(228, 228, 228, .1) 30%, rgba(8, 8, 8, .1));
     }
 
     .home-icon {
-        width: 4.5vh;
-        transition: .3s;
+        width: 4.4vh;
+        transition: .2s;
     }
 
     .menu_principal .menu-lista_planetas li a:hover>.home-icon {
-        width: 5.5vh;
+        width: 5.6vh;
     }
 
     .menu_principal .menu-lista_idiomas li {
-        padding-left: .5vw;
+        margin-left: .5vw;
     }
 
     .menu_principal .menu-lista_idiomas li button,
     .menu_principal .menu-lista_idiomas li p {
-        font-size: 1.05rem;
+        font-size: 1.2rem;
     }
 
     /* CABECERA */
 
-    .bg-header {
-        padding: 20vh 5vw;
-    }
-
     .bg-header h1 {
-        font-size: 4.6rem;
+        font-size: 6.5rem;
         line-height: 1.1;
     }
 
     .bg-header p {
-        font-size: 1.2rem;
-        padding: 0 1rem;
+        font-size: 2rem;
+        padding: 0;
     }
 
     /* SECCIÓN */
+
     .seccion-planetas {
-        height: 1000vh;
-        padding: 16vh 12vw;
-        display: grid;
-        grid-template-rows: repeat(10, 1fr);
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-areas: "sol"
-            "mercurio"
-            "venus"
-            "tierra"
-            "luna"
-            "marte"
-            "jupiter"
-            "saturno"
-            "urano"
-            "neptuno";
-        gap: 1vh;
-    }
-
-    .articulo-planeta-img img {
-        width: 90%;
-    }
-
-    /* SECCIÓN */
-/*     .seccion-planetas {
-        height: 400vh;
-        padding: 8vh 5vw 10vh 5vw;
-        display: grid;
         grid-template-rows: repeat(5, 1fr);
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas: "sol mercurio"
@@ -541,21 +436,188 @@ footer {
     }
 
     .articulo-planeta:hover {
-        transform: scale(1.075);
+        transform: scale(1.15);
+    }
+
+    .articulo-planeta-img img {
+        padding: 1rem;
+    }
+
+    .articulo-planeta:nth-of-type(1) .articulo-planeta-img img {
+        width: 85%;
+        padding: 0;
+    }
+
+    .articulo-planeta:hover .articulo-planeta-img img {
+        transform: scale(1.15) rotate(-60deg);
+    }
+
+    .articulo-planeta-titulo {
+        width: 95%;
+    }
+
+    .articulo-planeta-titulo a {
+        font-size: 3rem;
+    }
+
+    /* FOOTER */
+
+    footer {
+        height: 45vh;
+        padding: 3vh 7vw;
+        font-size: 1rem;
+    }
+
+}
+
+/* Para tablets */
+@media (min-width: 426px) and (max-width: 768px) {
+
+    /* MENÚ PRINCIPAL */
+
+    .menu_principal {
+        padding: 0 3vw 0 1.8vh;
+    }
+
+    .menu_principal .menu-lista_planetas {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        width: 60vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        padding-bottom: 3vh;
+        background-color: rgba(228, 228, 228, 0.95);
+        transform: translateX(-110%);
+        transition: .8s;
+        box-shadow: .3rem .3rem .3rem var(--color-negro);
+    }
+
+    .menu_principal .burguer_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 1.1vh 0;
+        z-index: 1;
+    }
+
+    .menu_principal .burguer_menu .burguer_menu-linea {
+        width: 3.4rem;
+    }
+
+    .menu_principal .menu-lista_planetas li {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+
+    .menu_principal .menu-lista_planetas li a {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3rem;
+        transition: .2s;
+    }
+
+    .menu_principal .menu-lista_planetas li a:hover {
+        transform: none;
+        font-size: 1.7rem;
+        box-shadow: 0 .2rem 1rem var(--color-negro);
+        background-image: radial-gradient(circle, rgba(228, 228, 228, .1) 30%, rgba(8, 8, 8, .1));
+    }
+
+    .home-icon {
+        width: 4.4vh;
+        transition: .2s;
+    }
+
+    .menu_principal .menu-lista_planetas li a:hover>.home-icon {
+        width: 5.6vh;
+    }
+
+    .menu_principal .menu-lista_idiomas li {
+        margin-left: .5vw;
+    }
+
+    .menu_principal .menu-lista_idiomas li button,
+    .menu_principal .menu-lista_idiomas li p {
+        font-size: 1.2rem;
+    }
+
+    /* CABECERA */
+
+    .bg-header {
+        padding: 20vh 5vw 18vh 5vw;
+    }
+
+    .bg-header h1 {
+        font-size: 4.62rem;
+        line-height: 1.25;
+    }
+
+    .bg-header p {
+        font-size: 1.4rem;
+        padding: 0 3vw;
+    }
+
+    /* SECCIÓN */
+
+    .seccion-planetas {
+        padding: 15vh 10vw;
+        display: grid;
+        grid-template-rows: repeat(10, 1fr);
+        grid-template-columns: 1fr;
+        grid-template-areas: "sol"
+            "mercurio"
+            "venus"
+            "tierra"
+            "luna"
+            "marte"
+            "jupiter"
+            "saturno"
+            "urano"
+            "neptuno";
+        gap: 5vh;
+    }
+
+    .articulo-planeta:hover {
+        transform: scale(1.1);
+    }
+
+    .articulo-planeta-img img {
+        width: 80%;
+    }
+
+    .articulo-planeta:nth-of-type(1) .articulo-planeta-img img {
+        width: 90%;
+    }
+
+    .articulo-planeta:hover .articulo-planeta-img img {
+        transform: scale(1.1) rotate(-60deg);
     }
 
     .articulo-planeta-titulo {
         width: 90%;
-    } */
+    }
+
+    .articulo-planeta-titulo a {
+        font-size: 3.5rem;
+    }
 
     /* FOOTER */
-footer {
-    height: 50vh;
-    padding: 2vh 8vw;
-    font-size: .9rem;
-}
+
+    footer {
+        height: 50vh;
+        padding: 2vh 5vw;
+        font-size: .9rem;
+    }
 
 }
+
 
 /* Para móviles */
 @media (max-width: 425px) {
@@ -563,7 +625,7 @@ footer {
     /* MENÚ PRINCIPAL */
 
     .menu_principal {
-        padding: 0 6vw;
+        padding: 0 3vw 0 1.8vh;
     }
 
     .menu_principal .menu-lista_planetas {
@@ -575,9 +637,9 @@ footer {
         height: 100vh;
         top: 0;
         left: 0;
-        padding: 0;
+        padding-bottom: 3vh;
         background-color: rgba(228, 228, 228, 0.95);
-        transform: translateX(-120%);
+        transform: translateX(-110%);
         transition: .8s;
         box-shadow: .3rem .3rem .3rem var(--color-negro);
     }
@@ -586,8 +648,12 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        padding: 1vh 0;
+        padding: 1.1vh 0;
         z-index: 1;
+    }
+
+    .menu_principal .burguer_menu .burguer_menu-linea {
+        width: 3rem;
     }
 
     .menu_principal .menu-lista_planetas li {
@@ -596,66 +662,64 @@ footer {
         padding: 0;
     }
 
-    .menu_principal .menu-lista_planetas li:hover {
-        transform: none;
-    }
-
     .menu_principal .menu-lista_planetas li a {
         width: 100%;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         transition: .2s;
     }
 
     .menu_principal .menu-lista_planetas li a:hover {
-        font-size: 1.7rem;
+        transform: none;
+        font-size: 1.8rem;
         box-shadow: 0 .2rem 1rem var(--color-negro);
+        background-image: radial-gradient(circle, rgba(228, 228, 228, .1) 30%, rgba(8, 8, 8, .1));
     }
 
     .home-icon {
-        width: 4.5vh;
-        transition: .3s;
+        width: 4.8vh;
+        transition: .2s;
     }
 
     .menu_principal .menu-lista_planetas li a:hover>.home-icon {
-        width: 5.5vh;
+        width: 5.9vh;
     }
 
     .menu_principal .menu-lista_idiomas li {
-        padding-left: .8vw;
+        margin-left: .5vw;
     }
 
     .menu_principal .menu-lista_idiomas li button,
     .menu_principal .menu-lista_idiomas li p {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     /* CABECERA */
 
     .bg-header {
-        padding: 25vh 5vw;
+        padding: 25vh 5vw 22vh 5vw;
     }
 
     .bg-header h1 {
-        font-size: 2.8rem;
-        line-height: .9;
+        font-size: 3.3rem;
+        line-height: 1.2;
     }
 
     .bg-header p {
-        font-size: 1rem;
-        padding: 0 1.5rem;
+        font-size: 1.3rem;
+        padding: 0 2.5vw;
     }
 
     /* SECCIÓN */
+
     .seccion-planetas {
-        height: 1000vh;
-        padding: 0;
+        padding: 10vh 8vw;
         display: grid;
         grid-template-rows: repeat(10, 1fr);
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
         grid-template-areas: "sol"
             "mercurio"
             "venus"
@@ -666,26 +730,43 @@ footer {
             "saturno"
             "urano"
             "neptuno";
-        gap: 3vh;
+        gap: 5vh;
+    }
+
+    .articulo-planeta:hover {
+        transform: scale(1.1);
+    }
+
+    .articulo-planeta-img {
+        height: auto;
     }
 
     .articulo-planeta-img img {
-        width: 65%;
+        width: 80%;
+    }
+
+    .articulo-planeta:nth-of-type(1) .articulo-planeta-img img {
+        width: 90%;
+    }
+
+    .articulo-planeta:hover .articulo-planeta-img img {
+        transform: scale(1.1) rotate(-60deg);
     }
 
     .articulo-planeta-titulo {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 95%;
     }
 
-    .articulo-planeta-titulo a {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    /* .articulo-planeta-titulo a {
+        font-size: 3.5rem;
+    } */
+
+    /* FOOTER */
+
+    footer {
+        height: 50vh;
+        padding: 2vh 3vw;
+        font-size: .8rem;
     }
 
 }
