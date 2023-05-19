@@ -29,16 +29,16 @@
             <ul class="menu-lista_planetas">
                 <li><a href="./index.html"><img class="home-icon" src="./recursos/imagenes/home.webp" alt="Home"></a>
                 </li>
-                <li><a href="./paginas/sol.html">Sol</a></li>
-                <li><a href="./paginas/mercurio.html">Mercurio</a></li>
+                <li><a id="menu-lista_planetas-sol" href="./paginas/sol.html">Sol</a></li>
+                <li><a id="menu-lista_planetas-mercurio" href="./paginas/mercurio.html">Mercurio</a></li>
                 <li><a href="./paginas/venus.html">Venus</a></li>
-                <li><a href="./paginas/tierra.html">Tierra</a></li>
-                <li><a href="./paginas/luna.html">Luna</a></li>
-                <li><a href="./paginas/marte.html">Marte</a></li>
-                <li><a href="./paginas/jupiter.html">Júpiter</a></li>
-                <li><a href="./paginas/saturno.html">Saturno</a></li>
-                <li><a href="./paginas/urano.html">Urano</a></li>
-                <li><a href="./paginas/neptuno.html">Neptuno</a></li>
+                <li><a id="menu-lista_planetas-tierra" href="./paginas/tierra.html">Tierra</a></li>
+                <li><a id="menu-lista_planetas-luna" href="./paginas/luna.html">Luna</a></li>
+                <li><a id="menu-lista_planetas-marte" href="./paginas/marte.html">Marte</a></li>
+                <li><a id="menu-lista_planetas-jupiter" href="./paginas/jupiter.html">Júpiter</a></li>
+                <li><a id="menu-lista_planetas-saturno" href="./paginas/saturno.html">Saturno</a></li>
+                <li><a id="menu-lista_planetas-urano" href="./paginas/urano.html">Urano</a></li>
+                <li><a id="menu-lista_planetas-neptuno" href="./paginas/neptuno.html">Neptuno</a></li>
             </ul>
 
             <ul class="menu-lista_idiomas">
@@ -205,20 +205,76 @@
         <!-- PIE DE PÁGINA -->
         <footer>
 
-            <p>Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato
+            <p id="footer-desarrolladores">Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres |
+                Alejandro García-Morato
                 Ramos</p>
 
-            <p>Han participado en la elaboración de esta web los alumnos de Marina Martínez Bonat de 3º de ESO A, B y C
+            <p id="footer-info">Han participado en la elaboración de esta web los alumnos de Marina Martínez Bonat de 3º
+                de ESO A, B y C
                 y los alumnos de Alicia Portero Hernández dentro del programa de formación en competencias STEAM en el
                 que participa el IES Juan Bosco de Alcázar de San Juan</p>
 
-            <p>© 2023 Todos los derechos reservados</p>
+            <p id="footer-copy">© 2023 Todos los derechos reservados</p>
 
         </footer>
         <!-- /PIE DE PÁGINA -->
 
     </div>
     <!-- /Contenedor -->
+
+    <script>
+        function cambiarIdioma(idioma) {
+            if (idioma === 'es') {
+                document.getElementById('menu-lista_planetas-sol').innerHTML = 'Sol';
+                document.getElementById('menu-lista_planetas-mercurio').innerHTML = 'Mercurio';
+                document.getElementById('menu-lista_planetas-tierra').innerHTML = 'Tierra';
+                document.getElementById('menu-lista_planetas-luna').innerHTML = 'Luna';
+                document.getElementById('menu-lista_planetas-marte').innerHTML = 'Marte';
+                document.getElementById('menu-lista_planetas-jupiter').innerHTML = 'Júpiter';
+                document.getElementById('menu-lista_planetas-saturno').innerHTML = 'Saturno';
+                document.getElementById('menu-lista_planetas-urano').innerHTML = 'Urano';
+                document.getElementById('menu-lista_planetas-neptuno').innerHTML = 'Neptuno';
+                document.getElementById('header-titulo').innerHTML = 'Descubre el cosmos';
+                document.getElementById('header-subtitulo').innerHTML = '"El cosmos es todo lo que es, todo lo que fue y todo lo que alguna vez será" - Carl Sagan';
+                document.getElementById('articulo-planeta-titulo_sol').innerHTML = 'Sol';
+                document.getElementById('articulo-planeta-titulo_mercurio').innerHTML = 'Mercurio';
+                document.getElementById('articulo-planeta-titulo_tierra').innerHTML = 'Tierra';
+                document.getElementById('articulo-planeta-titulo_luna').innerHTML = 'Luna';
+                document.getElementById('articulo-planeta-titulo_marte').innerHTML = 'Marte';
+                document.getElementById('articulo-planeta-titulo_jupiter').innerHTML = 'Júpiter';
+                document.getElementById('articulo-planeta-titulo_saturno').innerHTML = 'Saturno';
+                document.getElementById('articulo-planeta-titulo_urano').innerHTML = 'Urano';
+                document.getElementById('articulo-planeta-titulo_neptuno').innerHTML = 'Neptuno';
+                document.getElementById('footer-desarrolladores').innerHTML = 'Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
+                document.getElementById('footer-info').innerHTML = 'Han participado en la elaboración de esta web los alumnos de Marina Martínez Bonat de 3º de ESO A, B y C y los alumnos de Alicia Portero Hernández dentro del programa de formación en competencias STEAM en el que participa el IES Juan Bosco de Alcázar de San Juan';
+                document.getElementById('footer-copy').innerHTML = '© 2023 Todos los derechos reservados';
+            } else if (idioma === 'en') {
+                document.getElementById('menu-lista_planetas-sol').innerHTML = 'Sun';
+                document.getElementById('menu-lista_planetas-mercurio').innerHTML = 'Mercury';
+                document.getElementById('menu-lista_planetas-tierra').innerHTML = 'Earth';
+                document.getElementById('menu-lista_planetas-luna').innerHTML = 'Moon';
+                document.getElementById('menu-lista_planetas-marte').innerHTML = 'Mars';
+                document.getElementById('menu-lista_planetas-jupiter').innerHTML = 'Jupiter';
+                document.getElementById('menu-lista_planetas-saturno').innerHTML = 'Saturn';
+                document.getElementById('menu-lista_planetas-urano').innerHTML = 'Uranus';
+                document.getElementById('menu-lista_planetas-neptuno').innerHTML = 'Neptune';
+                document.getElementById('header-titulo').innerHTML = 'Discover the cosmos';
+                document.getElementById('header-subtitulo').innerHTML = '"The Cosmos is all that is or was or ever will be" - Carl Sagan';
+                document.getElementById('articulo-planeta-titulo_sol').innerHTML = 'Sun';
+                document.getElementById('articulo-planeta-titulo_mercurio').innerHTML = 'Mercury';
+                document.getElementById('articulo-planeta-titulo_tierra').innerHTML = 'Earth';
+                document.getElementById('articulo-planeta-titulo_luna').innerHTML = 'Moon';
+                document.getElementById('articulo-planeta-titulo_marte').innerHTML = 'Mars';
+                document.getElementById('articulo-planeta-titulo_jupiter').innerHTML = 'Jupiter';
+                document.getElementById('articulo-planeta-titulo_saturno').innerHTML = 'Saturn';
+                document.getElementById('articulo-planeta-titulo_urano').innerHTML = 'Uranus';
+                document.getElementById('articulo-planeta-titulo_neptuno').innerHTML = 'Neptune';
+                document.getElementById('footer-desarrolladores').innerHTML = 'Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
+                document.getElementById('footer-info').innerHTML = 'The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco de Alcázar de San Juan participates';
+                document.getElementById('footer-copy').innerHTML = '© 2023 All rights reserved';
+            }
+        }
+    </script>
 
 </body>
 

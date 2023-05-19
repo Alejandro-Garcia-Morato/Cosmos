@@ -354,7 +354,7 @@ footer {
         height: 100vh;
         top: 0;
         left: 0;
-        padding-bottom: 3vh;
+        padding-bottom: 5vh;
         background-color: rgba(228, 228, 228, 0.95);
         transform: translateX(-110%);
         transition: .8s;
@@ -488,7 +488,7 @@ footer {
         height: 100vh;
         top: 0;
         left: 0;
-        padding-bottom: 3vh;
+        padding-bottom: 5vh;
         background-color: rgba(228, 228, 228, 0.95);
         transform: translateX(-110%);
         transition: .8s;
@@ -637,7 +637,7 @@ footer {
         height: 100vh;
         top: 0;
         left: 0;
-        padding-bottom: 3vh;
+        padding-bottom: 5vh;
         background-color: rgba(228, 228, 228, 0.95);
         transform: translateX(-110%);
         transition: .8s;
