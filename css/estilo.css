@@ -336,6 +336,194 @@ footer {
 
 /* MEDIA QUERIES */
 
+/* Para pizarras */
+@media screen and (min-width: 2601px) {
+
+    /* MENÚ PRINCIPAL */
+    
+    .menu_principal .menu-lista_planetas li a {
+        font-size: 3rem;
+    }
+
+    .home-icon {
+        width: 4vh;
+    }
+    
+    .menu_principal .menu-lista_idiomas li button {
+        font-size: 2.1rem;
+    }
+
+    /* CABECERA */
+
+    .bg-header{
+        padding: 20vh 10vw;
+    }
+
+    .bg-header h1 {
+        font-size: 22.5rem;
+        line-height: 1.1;
+    }
+
+    .bg-header p {
+        font-size: 6rem;
+        padding: 0;
+    }
+
+    /* SECCIÓN */
+
+    .articulo-planeta-titulo a {
+        font-size: 6.3rem;
+    }
+
+    /* FOOTER */
+
+    footer {
+        font-size: 2.4rem;
+    }
+
+}
+
+/* Para televisiones grandes */
+@media screen and (min-width: 2201px) and (max-width: 2600px) {
+
+    /* MENÚ PRINCIPAL */
+    
+    .menu_principal .menu-lista_planetas li a {
+        font-size: 2rem;
+    }
+
+    .home-icon {
+        width: 4vh;
+    }
+    
+    .menu_principal .menu-lista_idiomas li button {
+        font-size: 1.4rem;
+    }
+
+    /* CABECERA */
+
+    .bg-header{
+        padding: 20vh 10vw;
+    }
+
+    .bg-header h1 {
+        font-size: 15rem;
+        line-height: 1.1;
+    }
+
+    .bg-header p {
+        font-size: 4rem;
+        padding: 0;
+    }
+
+    /* SECCIÓN */
+
+    .articulo-planeta-titulo a {
+        font-size: 4.2rem;
+    }
+
+    /* FOOTER */
+
+    footer {
+        font-size: 1.6rem;
+    }
+
+}
+
+/* Para televisiones */
+@media screen and (min-width: 1801px) and (max-width: 2200px) {
+
+    /* MENÚ PRINCIPAL */
+    
+    .menu_principal .menu-lista_planetas li a {
+        font-size: 1.7rem;
+    }
+
+    .home-icon {
+        width: 4vh;
+    }
+    
+    .menu_principal .menu-lista_idiomas li button {
+        font-size: 1.4rem;
+    }
+
+    /* CABECERA */
+
+    .bg-header{
+        padding: 20vh 10vw;
+    }
+
+    .bg-header h1 {
+        font-size: 12rem;
+        line-height: 1.1;
+    }
+
+    .bg-header p {
+        font-size: 3rem;
+        padding: 0;
+    }
+
+    /* SECCIÓN */
+
+    .articulo-planeta-titulo a {
+        font-size: 4.2rem;
+    }
+
+    /* FOOTER */
+
+    footer {
+        font-size: 1.6rem;
+    }
+
+}
+
+/* Para pantallas grandes */
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
+
+    /* MENÚ PRINCIPAL */
+    
+    .menu_principal .menu-lista_planetas li a {
+        font-size: 1.5rem;
+    }
+
+    .home-icon {
+        width: 3.8vh;
+    }
+    
+    .menu_principal .menu-lista_idiomas li button {
+        font-size: 1.3rem;
+    }
+
+    /* CABECERA */
+
+    .bg-header{
+        padding: 20vh 10vw;
+    }
+
+    .bg-header h1 {
+        font-size: 10rem;
+        line-height: 1.1;
+    }
+
+    .bg-header p {
+        font-size: 2.8rem;
+        padding: 0;
+    }
+
+    /* SECCIÓN */
+
+    .articulo-planeta-titulo a {
+        font-size: 3.8rem;
+    }
+
+    /* FOOTER */
+
+    footer {
+        font-size: 1.25rem;
+    }
+
+}
+
 /* Para portátiles */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
