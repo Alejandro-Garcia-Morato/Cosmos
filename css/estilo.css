@@ -90,6 +90,7 @@
 
 .current {
     text-decoration: underline;
+    color: var(--color-negro);
 }
 
 .menu_principal .menu-lista_idiomas li {
@@ -102,6 +103,10 @@
     border: none;
     background-color: transparent;
     cursor: pointer;
+}
+
+.menu_principal .menu-lista_idiomas li p {
+    color: var(--color-negro);
 }
 
 .menu_principal .menu-lista_idiomas li button:hover {
@@ -364,9 +369,13 @@ footer {
     height: auto;
 }
 
-.solf {
-    /*fondo img*/
-    background-image: url(../recursos/imagenes/sol-home.webp);
+.main-cabecera-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-variant: small-caps;
+    font-size: 10vw;
+    line-height: .8;
     background-repeat: no-repeat;
     background-size: 150%;
     background-position-x: center;
@@ -374,13 +383,46 @@ footer {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+}
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-variant: small-caps;
-    font-size: 10vw;
-    line-height: .8;
+.main-cabecera-titulo-sol {
+    background-image: url(../recursos/imagenes/sol-home.webp);
+}
+
+.main-cabecera-titulo-mercurio {
+    background-image: url(../recursos/imagenes/mercurio-fondo-titulo.webp);
+}
+
+.main-cabecera-titulo-venus {
+    background-image: url(../recursos/imagenes/venus-fondo-titulo.webp);
+}
+
+.main-cabecera-titulo-tierra {
+    background-image: url(../recursos/imagenes/tierra-fondo-titulo.webp);
+}
+
+.main-cabecera-titulo-luna {
+    background-image: url(../recursos/imagenes/luna-fondo-titulo.webp);
+}
+
+.main-cabecera-titulo-marte {
+    background-image: url(../recursos/imagenes/marte-fondo-titulo.webp);
+}
+
+.main-cabecera-titulo-jupiter {
+    background-image: url(../recursos/imagenes/jupiter-fondo-titulo.webp);
+}
+
+.main-cabecera-titulo-saturno {
+    background-image: url(../recursos/imagenes/saturno-fondo-titulo.webp);
+}
+
+.main-cabecera-titulo-urano {
+    background-image: url(../recursos/imagenes/urano-fondo-titulo.webp);
+}
+
+.main-cabecera-titulo-neptuno {
+    background-image: url(../recursos/imagenes/neptuno-fondo-titulo.webp);
 }
 
 /*Aside*/
@@ -430,7 +472,7 @@ footer {
     font-variant: small-caps;
 }
 
-.articulo-planetas{
+.articulo-planetas {
     display: flex;
     flex-direction: column;
 }
@@ -770,7 +812,7 @@ footer {
     /* FOOTER */
 
     footer {
-        height: 45vh;
+        height: 50vh;
         padding: 3vh 7vw;
         font-size: 1rem;
     }
@@ -918,7 +960,7 @@ footer {
     /* FOOTER */
 
     footer {
-        height: 50vh;
+        height: 55vh;
         padding: 2vh 5vw;
         font-size: .9rem;
     }
@@ -1067,7 +1109,7 @@ footer {
     /* FOOTER */
 
     footer {
-        height: 50vh;
+        height: 55vh;
         padding: 2vh 3vw;
         font-size: .8rem;
     }
