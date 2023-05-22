@@ -35,7 +35,7 @@
 }
 
 /* CONTENEDOR */
-.contenedor {
+.contenedor-home {
     display: grid;
     grid-template-areas: "navegador"
         "cabecera"
@@ -188,7 +188,7 @@ header {
 }
 
 /* SECCIÓN */
-.seccion-planetas {
+.home-seccion-planetas {
     grid-area: contenido;
     width: 100vw;
     background-image: linear-gradient(rgba(8, 8, 8, .6), rgba(8, 8, 8, .3)),
@@ -210,7 +210,7 @@ header {
     gap: 3vw;
 }
 
-.articulo-planeta {
+.home-articulo-planeta {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -218,55 +218,55 @@ header {
     transition: .4s;
 }
 
-.articulo-planeta:hover {
+.home-articulo-planeta:hover {
     transform: scale(1.1);
 }
 
-.articulo-planeta:nth-of-type(1) {
+.home-articulo-planeta:nth-of-type(1) {
     grid-area: sol;
 }
 
-.articulo-planeta:nth-of-type(2) {
+.home-articulo-planeta:nth-of-type(2) {
     grid-area: mercurio;
 }
 
-.articulo-planeta:nth-of-type(3) {
+.home-articulo-planeta:nth-of-type(3) {
     grid-area: venus;
 }
 
-.articulo-planeta:nth-of-type(4) {
+.home-articulo-planeta:nth-of-type(4) {
     grid-area: tierra;
 }
 
-.articulo-planeta:nth-of-type(5) {
+.home-articulo-planeta:nth-of-type(5) {
     grid-area: luna;
 }
 
-.articulo-planeta:nth-of-type(6) {
+.home-articulo-planeta:nth-of-type(6) {
     grid-area: marte;
 }
 
-.articulo-planeta:nth-of-type(7) {
+.home-articulo-planeta:nth-of-type(7) {
     grid-area: jupiter;
 }
 
-.articulo-planeta:nth-of-type(8) {
+.home-articulo-planeta:nth-of-type(8) {
     grid-area: saturno;
 }
 
-.articulo-planeta:nth-of-type(9) {
+.home-articulo-planeta:nth-of-type(9) {
     grid-area: urano;
 }
 
-.articulo-planeta:nth-of-type(10) {
+.home-articulo-planeta:nth-of-type(10) {
     grid-area: neptuno;
 }
 
-.articulo-planeta-img {
+.home--planeta-img {
     width: 100%;
 }
 
-.articulo-planeta-img a {
+.home-articulo-planeta-img a {
     width: 100%;
     height: 100%;
     display: flex;
@@ -274,20 +274,20 @@ header {
     align-items: center;
 }
 
-.articulo-planeta-img img {
+.home-articulo-planeta-img img {
     width: 85%;
     transition: .8s;
 }
 
-.articulo-planeta:nth-of-type(1) .articulo-planeta-img img {
+.home-articulo-planeta:nth-of-type(1) .home-articulo-planeta-img img {
     width: 95%;
 }
 
-.articulo-planeta:hover .articulo-planeta-img img {
+.home-articulo-planeta:hover .home-articulo-planeta-img img {
     transform: scale(1.12) rotate(-60deg);
 }
 
-.articulo-planeta-titulo {
+.home-articulo-planeta-titulo {
     width: 100%;
     background-image: radial-gradient(ellipse,
             rgba(228, 228, 228, .75),
@@ -297,11 +297,11 @@ header {
     transition: .4s;
 }
 
-.articulo-planeta:hover .articulo-planeta-titulo {
+.home-articulo-planeta:hover .home-articulo-planeta-titulo {
     box-shadow: .8vw 1.6vh 1rem var(--color-azul-oscuro);
 }
 
-.articulo-planeta-titulo a {
+.home-articulo-planeta-titulo a {
     width: 100%;
     height: 100%;
     font-size: 3.3rem;
@@ -321,7 +321,7 @@ header {
 footer {
     grid-area: footer;
     width: 100vw;
-    height: 40vh;
+    height: 50vh;
     padding: 3vh 8vw;
     background-color: var(--color-gris-claro);
     background-image: radial-gradient(circle, rgba(8, 8, 8, .2), var(--color-gris-claro));
@@ -334,13 +334,132 @@ footer {
     z-index: 10;
 }
 
+.footer-tafad {
+    margin: 0 auto;
+    width: 5rem;
+    height: auto;
+
+}
+
+/*PLANETAS*/
+.contenedor-planetas {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-areas: "navegador navegador"
+        "aside main"
+        "footer footer";
+}
+
+.body-planetas {
+    background-image: linear-gradient(rgba(8, 8, 8, 0.25), rgba(8, 8, 8, 0.8)),
+        url(../recursos/imagenes/via-lactea.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--color-gris-claro);
+}
+
+.planetas-img-titulo {
+    width: 30rem;
+    height: auto;
+}
+
+.solf {
+    /*fondo img*/
+    background-image: url(../recursos/imagenes/sol-home.webp);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position-x: center;
+    background-position-y: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-variant: small-caps;
+    font-size: 10vw;
+    line-height: .8;
+}
+
+/*Aside*/
+.aside-planetas {
+    grid-area: aside;
+    background-color: rgba(46, 50, 69, .7);
+    margin: 5%;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-top: 10vh;
+}
+
+.aside-titulo {
+    display: flex;
+    justify-content: center;
+    font-variant: small-caps;
+    font-size: 2rem;
+}
+
+.aside-planetas p::before {
+    content: "\2736";
+}
+
+.aside-planetas p {
+    text-align: justify;
+    margin-top: 1vh;
+    font-size: 1.2rem;
+}
+
+/*Cuerpo*/
+.main-planetas {
+    grid-area: main;
+    margin: 1rem;
+    margin-top: 10vh;
+}
+
+.main-cabecera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articulo-planetas .articulo-planetas-titulo {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    font-variant: small-caps;
+}
+
+.articulo-planetas{
+    display: flex;
+    flex-direction: column;
+}
+
+.articulo-planetas p {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.articulo-planetas:nth-of-type(1) {
+
+    border-right: 2px solid var(--color-gris-claro);
+    padding-right: 1rem;
+}
+
+.seccion-planetas {
+    column-count: 2;
+    text-align: justify;
+    margin-top: 5vh;
+}
+
+
 /* MEDIA QUERIES */
 
 /* Para pizarras */
 @media screen and (min-width: 2601px) {
 
     /* MENÚ PRINCIPAL */
-    
+
     .menu_principal .menu-lista_planetas li a {
         font-size: 3rem;
     }
@@ -348,14 +467,14 @@ footer {
     .home-icon {
         width: 4vh;
     }
-    
+
     .menu_principal .menu-lista_idiomas li button {
         font-size: 2.1rem;
     }
 
     /* CABECERA */
 
-    .bg-header{
+    .bg-header {
         padding: 20vh 10vw;
     }
 
@@ -371,7 +490,7 @@ footer {
 
     /* SECCIÓN */
 
-    .articulo-planeta-titulo a {
+    .home-articulo-planeta-titulo a {
         font-size: 6.3rem;
     }
 
@@ -387,7 +506,7 @@ footer {
 @media screen and (min-width: 2201px) and (max-width: 2600px) {
 
     /* MENÚ PRINCIPAL */
-    
+
     .menu_principal .menu-lista_planetas li a {
         font-size: 2rem;
     }
@@ -395,14 +514,14 @@ footer {
     .home-icon {
         width: 4vh;
     }
-    
+
     .menu_principal .menu-lista_idiomas li button {
         font-size: 1.4rem;
     }
 
     /* CABECERA */
 
-    .bg-header{
+    .bg-header {
         padding: 20vh 10vw;
     }
 
@@ -418,7 +537,7 @@ footer {
 
     /* SECCIÓN */
 
-    .articulo-planeta-titulo a {
+    .home-articulo-planeta-titulo a {
         font-size: 4.2rem;
     }
 
@@ -434,7 +553,7 @@ footer {
 @media screen and (min-width: 1801px) and (max-width: 2200px) {
 
     /* MENÚ PRINCIPAL */
-    
+
     .menu_principal .menu-lista_planetas li a {
         font-size: 1.7rem;
     }
@@ -442,14 +561,14 @@ footer {
     .home-icon {
         width: 4vh;
     }
-    
+
     .menu_principal .menu-lista_idiomas li button {
         font-size: 1.4rem;
     }
 
     /* CABECERA */
 
-    .bg-header{
+    .bg-header {
         padding: 20vh 10vw;
     }
 
@@ -465,7 +584,7 @@ footer {
 
     /* SECCIÓN */
 
-    .articulo-planeta-titulo a {
+    .home-articulo-planeta-titulo a {
         font-size: 4.2rem;
     }
 
@@ -481,7 +600,7 @@ footer {
 @media screen and (min-width: 1400px) and (max-width: 1800px) {
 
     /* MENÚ PRINCIPAL */
-    
+
     .menu_principal .menu-lista_planetas li a {
         font-size: 1.5rem;
     }
@@ -489,14 +608,14 @@ footer {
     .home-icon {
         width: 3.8vh;
     }
-    
+
     .menu_principal .menu-lista_idiomas li button {
         font-size: 1.3rem;
     }
 
     /* CABECERA */
 
-    .bg-header{
+    .bg-header {
         padding: 20vh 10vw;
     }
 
@@ -512,7 +631,7 @@ footer {
 
     /* SECCIÓN */
 
-    .articulo-planeta-titulo a {
+    .home-articulo-planeta-titulo a {
         font-size: 3.8rem;
     }
 
@@ -612,7 +731,7 @@ footer {
 
     /* SECCIÓN */
 
-    .seccion-planetas {
+    .home-seccion-planetas {
         grid-template-rows: repeat(5, 1fr);
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas: "sol mercurio"
@@ -623,28 +742,28 @@ footer {
         gap: 5vw;
     }
 
-    .articulo-planeta:hover {
+    .home-articulo-planeta:hover {
         transform: scale(1.15);
     }
 
-    .articulo-planeta-img img {
+    .home-articulo-planeta-img img {
         padding: 1rem;
     }
 
-    .articulo-planeta:nth-of-type(1) .articulo-planeta-img img {
+    .home-articulo-planeta:nth-of-type(1) .home-articulo-planeta-img img {
         width: 85%;
         padding: 0;
     }
 
-    .articulo-planeta:hover .articulo-planeta-img img {
+    .home-articulo-planeta:hover .home-articulo-planeta-img img {
         transform: scale(1.15) rotate(-60deg);
     }
 
-    .articulo-planeta-titulo {
+    .home-articulo-planeta-titulo {
         width: 95%;
     }
 
-    .articulo-planeta-titulo a {
+    .home-articulo-planeta-titulo a {
         font-size: 3rem;
     }
 
@@ -754,7 +873,7 @@ footer {
 
     /* SECCIÓN */
 
-    .seccion-planetas {
+    .home-seccion-planetas {
         padding: 15vh 10vw;
         display: grid;
         grid-template-rows: repeat(10, 1fr);
@@ -772,27 +891,27 @@ footer {
         gap: 5vh;
     }
 
-    .articulo-planeta:hover {
+    .home-articulo-planeta:hover {
         transform: scale(1.1);
     }
 
-    .articulo-planeta-img img {
+    .home-articulo-planeta-img img {
         width: 80%;
     }
 
-    .articulo-planeta:nth-of-type(1) .articulo-planeta-img img {
+    .home-articulo-planeta:nth-of-type(1) .home-articulo-planeta-img img {
         width: 90%;
     }
 
-    .articulo-planeta:hover .articulo-planeta-img img {
+    .home-articulo-planeta:hover .home-articulo-planeta-img img {
         transform: scale(1.1) rotate(-60deg);
     }
 
-    .articulo-planeta-titulo {
+    .home-articulo-planeta-titulo {
         width: 90%;
     }
 
-    .articulo-planeta-titulo a {
+    .home-articulo-planeta-titulo a {
         font-size: 3.5rem;
     }
 
@@ -903,7 +1022,7 @@ footer {
 
     /* SECCIÓN */
 
-    .seccion-planetas {
+    .home-seccion-planetas {
         padding: 10vh 8vw;
         display: grid;
         grid-template-rows: repeat(10, 1fr);
@@ -921,33 +1040,29 @@ footer {
         gap: 5vh;
     }
 
-    .articulo-planeta:hover {
+    .home-articulo-planeta:hover {
         transform: scale(1.1);
     }
 
-    .articulo-planeta-img {
+    .home-articulo-planeta-img {
         height: auto;
     }
 
-    .articulo-planeta-img img {
+    .home-articulo-planeta-img img {
         width: 80%;
     }
 
-    .articulo-planeta:nth-of-type(1) .articulo-planeta-img img {
+    .home-articulo-planeta:nth-of-type(1) .home-articulo-planeta-img img {
         width: 90%;
     }
 
-    .articulo-planeta:hover .articulo-planeta-img img {
+    .home-articulo-planeta:hover .home-articulo-planeta-img img {
         transform: scale(1.1) rotate(-60deg);
     }
 
-    .articulo-planeta-titulo {
+    .home-articulo-planeta-titulo {
         width: 95%;
     }
-
-    /* .articulo-planeta-titulo a {
-        font-size: 3.5rem;
-    } */
 
     /* FOOTER */
 
