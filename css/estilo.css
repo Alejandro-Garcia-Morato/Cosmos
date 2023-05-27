@@ -148,9 +148,9 @@ input:checked~.burguer_menu .burguer_menu-linea:nth-child(3) {
     transform: rotate(-45deg);
 }
 
-.menu_principal-aux {
+/* .menu_principal-aux {
     z-index: 50;
-}
+} */
 
 /* CABECERA */
 header {
@@ -376,12 +376,9 @@ footer {
 }
 
 /*PLANETAS*/
-.contenedor-planetas {
-    display: grid;
-    grid-template-columns: 20% 80%;
-    grid-template-areas: "navegador navegador"
-        "aside main"
-        "footer footer";
+
+.menu_principal_planetas{
+    background-color: rgba(228, 228, 228, 0.7);
 }
 
 .body-planetas {
@@ -393,15 +390,31 @@ footer {
     color: var(--color-gris-claro);
 }
 
+.contenedor-planetas {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-areas: "navegador navegador"
+        "aside main"
+        "footer footer";
+}
+
+/*Cuerpo*/
+.main-planetas {
+    grid-area: main;
+    margin: 10vh 1rem 1rem 1rem;
+}
+
+.main-cabecera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .planetas-img-titulo {
-    width: 30rem;
-    height: auto;
+    width: 33vw;
 }
 
 .main-cabecera-titulo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-variant: small-caps;
     font-size: 10vw;
     line-height: .8;
@@ -454,56 +467,22 @@ footer {
     background-image: url(../recursos/imagenes/neptuno-fondo-titulo.webp);
 }
 
-/*Aside*/
-.aside-planetas {
-    grid-area: aside;
-    background-color: rgba(46, 50, 69, .7);
-    margin: 5%;
-    border-radius: 15px;
-    padding: 1rem;
-    margin-top: 10vh;
-}
-
-.aside-titulo {
-    display: flex;
-    justify-content: center;
-    font-variant: small-caps;
-    font-size: 2rem;
-}
-
-.aside-planetas p::before {
-    content: "\2736";
-}
-
-.aside-planetas p {
-    text-align: justify;
-    margin-top: 1vh;
-    font-size: 1.2rem;
-}
-
-/*Cuerpo*/
-.main-planetas {
-    grid-area: main;
-    margin: 1rem;
-    margin-top: 10vh;
-}
-
-.main-cabecera {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.articulo-planetas .articulo-planetas-titulo {
-    font-size: 3rem;
-    display: flex;
-    justify-content: center;
-    font-variant: small-caps;
+.seccion-planetas {
+    /* text-align: justify; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-top: 5vh;
 }
 
 .articulo-planetas {
     display: flex;
     flex-direction: column;
+}
+
+.articulo-planetas .articulo-planetas-titulo {
+    font-size: 2.8rem;
+    font-variant: small-caps;
 }
 
 .articulo-planetas p {
@@ -512,17 +491,35 @@ footer {
 }
 
 .articulo-planetas:nth-of-type(1) {
-
     border-right: 2px solid var(--color-gris-claro);
     padding-right: 1rem;
 }
 
-.seccion-planetas {
-    column-count: 2;
-    text-align: justify;
-    margin-top: 5vh;
+/*Aside*/
+.aside-planetas {
+    grid-area: aside;
+    background-color: rgba(46, 50, 69, .7);
+    margin: 10vh 5% 5% 5%;
+    border-radius: 1rem;
+    padding: 1rem;
 }
 
+.aside-titulo {
+    display: flex;
+    justify-content: center;
+    font-variant: small-caps;
+    font-size: 1.8rem;
+}
+
+.aside-planetas p::before {
+    content: "\2736";
+}
+
+.aside-planetas p {
+    text-align: center;
+    margin-top: 2.5vh;
+    font-size: 1.2rem;
+}
 
 /* MEDIA QUERIES */
 
