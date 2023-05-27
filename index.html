@@ -42,11 +42,11 @@
             </ul>
 
             <ul class="menu-lista_idiomas">
-                <li><button onclick="cambiarIdioma('es')">Español</button></li>
+                <li><button onclick="cambiarIdiomaHome('es')">Español</button></li>
                 <li>
                     <p>|</p>
                 </li>
-                <li><button onclick="cambiarIdioma('en')">English</button></li>
+                <li><button onclick="cambiarIdiomaHome('en')">English</button></li>
             </ul>
 
         </nav>
@@ -216,7 +216,7 @@
 
             <p id="footer-copy">© 2023 Todos los derechos reservados</p>
 
-            <img class="footer-tafad" src="../recursos/imagenes/tafad-juan-bosco.webp" alt="tafad">
+            <img class="footer-tafad" src="./recursos/imagenes/tafad-juan-bosco.webp" alt="tafad">
 
         </footer>
         <!-- /PIE DE PÁGINA -->
@@ -224,59 +224,7 @@
     </div>
     <!-- /Contenedor -->
 
-    <script>
-        function cambiarIdioma(idioma) {
-            if (idioma === 'es') {
-                document.getElementById('menu-lista_planetas-sol').innerHTML = 'Sol';
-                document.getElementById('menu-lista_planetas-mercurio').innerHTML = 'Mercurio';
-                document.getElementById('menu-lista_planetas-tierra').innerHTML = 'Tierra';
-                document.getElementById('menu-lista_planetas-luna').innerHTML = 'Luna';
-                document.getElementById('menu-lista_planetas-marte').innerHTML = 'Marte';
-                document.getElementById('menu-lista_planetas-jupiter').innerHTML = 'Júpiter';
-                document.getElementById('menu-lista_planetas-saturno').innerHTML = 'Saturno';
-                document.getElementById('menu-lista_planetas-urano').innerHTML = 'Urano';
-                document.getElementById('menu-lista_planetas-neptuno').innerHTML = 'Neptuno';
-                document.getElementById('header-titulo').innerHTML = 'Descubre el cosmos';
-                document.getElementById('header-subtitulo').innerHTML = '"El cosmos es todo lo que es, todo lo que fue y todo lo que alguna vez será" - Carl Sagan';
-                document.getElementById('home-articulo-planeta-titulo_sol').innerHTML = 'Sol';
-                document.getElementById('home-articulo-planeta-titulo_mercurio').innerHTML = 'Mercurio';
-                document.getElementById('home-articulo-planeta-titulo_tierra').innerHTML = 'Tierra';
-                document.getElementById('home-articulo-planeta-titulo_luna').innerHTML = 'Luna';
-                document.getElementById('home-articulo-planeta-titulo_marte').innerHTML = 'Marte';
-                document.getElementById('home-articulo-planeta-titulo_jupiter').innerHTML = 'Júpiter';
-                document.getElementById('home-articulo-planeta-titulo_saturno').innerHTML = 'Saturno';
-                document.getElementById('home-articulo-planeta-titulo_urano').innerHTML = 'Urano';
-                document.getElementById('home-articulo-planeta-titulo_neptuno').innerHTML = 'Neptuno';
-                document.getElementById('footer-desarrolladores').innerHTML = 'Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
-                document.getElementById('footer-info').innerHTML = 'Han participado en la elaboración de esta web los alumnos de Marina Martínez Bonat de 3º de ESO A, B y C y los alumnos de Alicia Portero Hernández dentro del programa de formación en competencias STEAM en el que participa el IES Juan Bosco de Alcázar de San Juan';
-                document.getElementById('footer-copy').innerHTML = '© 2023 Todos los derechos reservados';
-            } else if (idioma === 'en') {
-                document.getElementById('menu-lista_planetas-sol').innerHTML = 'Sun';
-                document.getElementById('menu-lista_planetas-mercurio').innerHTML = 'Mercury';
-                document.getElementById('menu-lista_planetas-tierra').innerHTML = 'Earth';
-                document.getElementById('menu-lista_planetas-luna').innerHTML = 'Moon';
-                document.getElementById('menu-lista_planetas-marte').innerHTML = 'Mars';
-                document.getElementById('menu-lista_planetas-jupiter').innerHTML = 'Jupiter';
-                document.getElementById('menu-lista_planetas-saturno').innerHTML = 'Saturn';
-                document.getElementById('menu-lista_planetas-urano').innerHTML = 'Uranus';
-                document.getElementById('menu-lista_planetas-neptuno').innerHTML = 'Neptune';
-                document.getElementById('header-titulo').innerHTML = 'Discover the cosmos';
-                document.getElementById('header-subtitulo').innerHTML = '"The Cosmos is all that is or was or ever will be" - Carl Sagan';
-                document.getElementById('home-articulo-planeta-titulo_sol').innerHTML = 'Sun';
-                document.getElementById('home-articulo-planeta-titulo_mercurio').innerHTML = 'Mercury';
-                document.getElementById('home-articulo-planeta-titulo_tierra').innerHTML = 'Earth';
-                document.getElementById('home-articulo-planeta-titulo_luna').innerHTML = 'Moon';
-                document.getElementById('home-articulo-planeta-titulo_marte').innerHTML = 'Mars';
-                document.getElementById('home-articulo-planeta-titulo_jupiter').innerHTML = 'Jupiter';
-                document.getElementById('home-articulo-planeta-titulo_saturno').innerHTML = 'Saturn';
-                document.getElementById('home-articulo-planeta-titulo_urano').innerHTML = 'Uranus';
-                document.getElementById('home-articulo-planeta-titulo_neptuno').innerHTML = 'Neptune';
-                document.getElementById('footer-desarrolladores').innerHTML = 'Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
-                document.getElementById('footer-info').innerHTML = 'The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco de Alcázar de San Juan participates';
-                document.getElementById('footer-copy').innerHTML = '© 2023 All rights reserved';
-            }
-        }
-    </script>
+    <script src="./javascript/funciones.js"></script>
 
 </body>
 

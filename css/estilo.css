@@ -221,7 +221,30 @@ header {
     justify-content: center;
     align-items: center;
     transition: .4s;
+    /* position: relative; */
 }
+
+/* .home-articulo-planeta:before {
+    content: '';
+    position: absolute;
+    top: -.01rem;
+    left: -.01rem;
+    right: -.01rem;
+    bottom: -.01rem;
+    background-color: salmon;
+    z-index: -1;
+}
+
+.home-articulo-planeta:after {
+    content: '';
+    top: -.01rem;
+    left: -.01rem;
+    right: -.01rem;
+    bottom: -.01rem;
+    background-color: salmon;
+    filter: blur(40px);
+    z-index: -2;
+} */
 
 .home-articulo-planeta:hover {
     transform: scale(1.1);
@@ -267,7 +290,7 @@ header {
     grid-area: neptuno;
 }
 
-.home--planeta-img {
+.home-articulo-planeta-img {
     width: 100%;
 }
 
@@ -282,6 +305,7 @@ header {
 .home-articulo-planeta-img img {
     width: 85%;
     transition: .8s;
+    opacity: .75;
 }
 
 .home-articulo-planeta:nth-of-type(1) .home-articulo-planeta-img img {
@@ -290,6 +314,7 @@ header {
 
 .home-articulo-planeta:hover .home-articulo-planeta-img img {
     transform: scale(1.12) rotate(-60deg);
+    opacity: 1;
 }
 
 .home-articulo-planeta-titulo {
@@ -300,10 +325,14 @@ header {
     border-radius: 5rem;
     box-shadow: .5vw 1vh .8rem var(--color-azul-oscuro);
     transition: .4s;
+    /* opacity: 0; */
+    /* position: absolute; */
 }
 
 .home-articulo-planeta:hover .home-articulo-planeta-titulo {
     box-shadow: .8vw 1.6vh 1rem var(--color-azul-oscuro);
+    /* opacity: 1; */
+    /* transform: translateY(18vh); */
 }
 
 .home-articulo-planeta-titulo a {
@@ -329,18 +358,18 @@ footer {
     height: 50vh;
     padding: 3vh 8vw;
     background-color: var(--color-gris-claro);
-    background-image: radial-gradient(circle, rgba(8, 8, 8, .2), var(--color-gris-claro));
+    background-image: radial-gradient(circle, var(--color-gris-claro), rgba(8, 8, 8, .2));
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     color: var(--color-negro);
     text-align: center;
+    align-items: center;
     font-size: 1.1rem;
     z-index: 10;
 }
 
 .footer-tafad {
-    margin: 0 auto;
     width: 5rem;
     height: auto;
 
@@ -385,43 +414,43 @@ footer {
     color: transparent;
 }
 
-.main-cabecera-titulo-sol {
+#main-cabecera-titulo-sol {
     background-image: url(../recursos/imagenes/sol-home.webp);
 }
 
-.main-cabecera-titulo-mercurio {
+#main-cabecera-titulo-mercurio {
     background-image: url(../recursos/imagenes/mercurio-fondo-titulo.webp);
 }
 
-.main-cabecera-titulo-venus {
+#main-cabecera-titulo-venus {
     background-image: url(../recursos/imagenes/venus-fondo-titulo.webp);
 }
 
-.main-cabecera-titulo-tierra {
+#main-cabecera-titulo-tierra {
     background-image: url(../recursos/imagenes/tierra-fondo-titulo.webp);
 }
 
-.main-cabecera-titulo-luna {
+#main-cabecera-titulo-luna {
     background-image: url(../recursos/imagenes/luna-fondo-titulo.webp);
 }
 
-.main-cabecera-titulo-marte {
+#main-cabecera-titulo-marte {
     background-image: url(../recursos/imagenes/marte-fondo-titulo.webp);
 }
 
-.main-cabecera-titulo-jupiter {
+#main-cabecera-titulo-jupiter {
     background-image: url(../recursos/imagenes/jupiter-fondo-titulo.webp);
 }
 
-.main-cabecera-titulo-saturno {
+#main-cabecera-titulo-saturno {
     background-image: url(../recursos/imagenes/saturno-fondo-titulo.webp);
 }
 
-.main-cabecera-titulo-urano {
+#main-cabecera-titulo-urano {
     background-image: url(../recursos/imagenes/urano-fondo-titulo.webp);
 }
 
-.main-cabecera-titulo-neptuno {
+#main-cabecera-titulo-neptuno {
     background-image: url(../recursos/imagenes/neptuno-fondo-titulo.webp);
 }
 

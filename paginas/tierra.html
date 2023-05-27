@@ -29,24 +29,24 @@
             <ul class="menu-lista_planetas">
                 <li><a href="../index.html"><img class="home-icon" src="../recursos/imagenes/home.webp" alt="Home"></a>
                 </li>
-                <li><a href="./sol.html">Sol</a></li>
-                <li><a href="./mercurio.html">Mercurio</a></li>
+                <li><a id="menu-lista_planetas-sol" href="./sol.html">Sol</a></li>
+                <li><a id="menu-lista_planetas-mercurio" href="./mercurio.html">Mercurio</a></li>
                 <li><a href="./venus.html">Venus</a></li>
-                <li class="current"><a href="./tierra.html">Tierra</a></li>
-                <li><a href="./luna.html">Luna</a></li>
-                <li><a href="./marte.html">Marte</a></li>
-                <li><a href="./jupiter.html">Júpiter</a></li>
-                <li><a href="./saturno.html">Saturno</a></li>
-                <li><a href="./urano.html">Urano</a></li>
-                <li><a href="./neptuno.html">Neptuno</a></li>
+                <li class="current"><a id="menu-lista_planetas-tierra" href="./tierra.html">Tierra</a></li>
+                <li><a id="menu-lista_planetas-luna" href="./luna.html">Luna</a></li>
+                <li><a id="menu-lista_planetas-marte" href="./marte.html">Marte</a></li>
+                <li><a id="menu-lista_planetas-jupiter" href="./jupiter.html">Júpiter</a></li>
+                <li><a id="menu-lista_planetas-saturno" href="./saturno.html">Saturno</a></li>
+                <li><a id="menu-lista_planetas-urano" href="./urano.html">Urano</a></li>
+                <li><a id="menu-lista_planetas-neptuno" href="./neptuno.html">Neptuno</a></li>
             </ul>
 
             <ul class="menu-lista_idiomas">
-                <li><button onclick="cambiarIdioma('es')">Español</button></li>
+                <li><button onclick="cambiarIdiomaTierra('es')">Español</button></li>
                 <li>
                     <p>|</p>
                 </li>
-                <li><button onclick="cambiarIdioma('en')">English</button></li>
+                <li><button onclick="cambiarIdiomaTierra('en')">English</button></li>
             </ul>
 
         </nav>
@@ -55,7 +55,7 @@
         <main class="main-planetas">
             <div class="main-cabecera">
                 <img class="planetas-img-titulo" src="../recursos/imagenes/tierra-home.webp" alt="Imagen de la Tierra">
-                <h1 class="main-cabecera-titulo main-cabecera-titulo-tierra">la tierra</h1>
+                <h1 id="main-cabecera-titulo-tierra" class="main-cabecera-titulo">la tierra</h1>
             </div>
 
 
@@ -94,20 +94,26 @@
         <!-- PIE DE PÁGINA -->
         <footer>
 
-            <p>Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato
+            <p id="footer-desarrolladores">Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres |
+                Alejandro García-Morato
                 Ramos</p>
 
-            <p>Han participado en la elaboración de esta web los alumnos de Marina Martínez Bonat de 3º de ESO A, B y C
+            <p id="footer-info">Han participado en la elaboración de esta web los alumnos de Marina Martínez Bonat de 3º
+                de ESO A, B y C
                 y los alumnos de Alicia Portero Hernández dentro del programa de formación en competencias STEAM en el
                 que participa el IES Juan Bosco de Alcázar de San Juan</p>
 
-            <p>© 2023 Todos los derechos reservados</p>
+            <p id="footer-copy">© 2023 Todos los derechos reservados</p>
 
-            <img src="../recursos/imagenes/tafad-juan-bosco.webp" alt="tafad" class="footer-tafad">
+            <img class="footer-tafad" src="../recursos/imagenes/tafad-juan-bosco.webp" alt="Imagen tafad">
 
         </footer>
         <!-- /PIE DE PÁGINA -->
+
     </div>
+
+    <script src="../javascript/funciones.js"></script>
+
 </body>
 
 </html>
