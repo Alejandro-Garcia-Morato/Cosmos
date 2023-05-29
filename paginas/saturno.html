@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="shortcut icon" href="../recursos/imagenes/icono-cosmos.ico" />
     <!--poner meta descripcion-->
-    <title>COSMOS | Saturno</title>
+    <title>Saturno</title>
 </head>
 
 <body class="body-planetas">
@@ -16,7 +16,7 @@
     <div class="contenedor-planetas">
 
         <!-- NAVEGADOR -->
-        <nav class="menu_principal menu_principal_planetas">
+        <nav class="menu_principal">
 
             <input type="checkbox" id="burguer">
 
@@ -27,26 +27,26 @@
             </label>
 
             <ul class="menu-lista_planetas">
-                <li><a href="../index.html"><img class="home-icon" src="../recursos/imagenes/home.webp" alt="Home"></a>
+                <li><a href="./index.html"><img class="home-icon" src="../recursos/imagenes/home.webp" alt="Home"></a>
                 </li>
-                <li><a id="menu-lista_planetas-sol" href="./sol.html">Sol</a></li>
-                <li><a id="menu-lista_planetas-mercurio" href="./mercurio.html">Mercurio</a></li>
-                <li><a href="./venus.html">Venus</a></li>
-                <li><a id="menu-lista_planetas-tierra" href="./tierra.html">Tierra</a></li>
-                <li><a id="menu-lista_planetas-luna" href="./luna.html">Luna</a></li>
-                <li><a id="menu-lista_planetas-marte" href="./marte.html">Marte</a></li>
-                <li><a id="menu-lista_planetas-jupiter" href="./jupiter.html">Júpiter</a></li>
-                <li class="current"><a id="menu-lista_planetas-saturno" href="./saturno.html">Saturno</a></li>
-                <li><a id="menu-lista_planetas-urano" href="./urano.html">Urano</a></li>
-                <li><a id="menu-lista_planetas-neptuno" href="./neptuno.html">Neptuno</a></li>
+                <li><a id="menu-lista_planetas-sol" href="../paginas/sol.html">Sol</a></li>
+                <li><a id="menu-lista_planetas-mercurio" href="./paginas/mercurio.html">Mercurio</a></li>
+                <li><a href="../paginas/venus.html">Venus</a></li>
+                <li><a id="menu-lista_planetas-tierra" href="./paginas/tierra.html">Tierra</a></li>
+                <li><a id="menu-lista_planetas-luna" href="./paginas/luna.html">Luna</a></li>
+                <li><a id="menu-lista_planetas-marte" href="./paginas/marte.html">Marte</a></li>
+                <li><a id="menu-lista_planetas-jupiter" href="../paginas/jupiter.html">Júpiter</a></li>
+                <li><a id="menu-lista_planetas-saturno" href="../paginas/saturno.html">Saturno</a></li>
+                <li><a id="menu-lista_planetas-urano" href="./paginas/urano.html">Urano</a></li>
+                <li><a id="menu-lista_planetas-neptuno" href="./paginas/neptuno.html">Neptuno</a></li>
             </ul>
 
             <ul class="menu-lista_idiomas">
-                <li><button onclick="cambiarIdiomaSaturno('es')">Español</button></li>
+                <li><button onclick="cambiarIdioma('es')">Español</button></li>
                 <li>
                     <p>|</p>
                 </li>
-                <li><button onclick="cambiarIdiomaSaturno('en')">English</button></li>
+                <li><button onclick="cambiarIdioma('en')">English</button></li>
             </ul>
 
         </nav>
@@ -54,40 +54,33 @@
 
         <main class="main-planetas">
             <div class="main-cabecera">
-                <img class="planetas-img-titulo" src="../recursos/imagenes/saturno-home.webp" alt="Imagen de Saturno">
-                <h1 id="main-cabecera-titulo-saturno" class="main-cabecera-titulo">saturno</h1>
+                <img class="planetas-img-titulo" src="../recursos/imagenes/saturno-home.webp" alt="sol">
+                <h1 class="saturnof" id="titulo-saturno">saturno</h1>
             </div>
 
 
             <section class="seccion-planetas">
                 <article class="articulo-planetas">
-                    <h2 class="articulo-planetas-titulo">etimologia</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis praesentium dicta corporis
-                        tenetur blanditiis nemo expedita
-                        laboriosam harum eius aliquid eveniet qui at quos, aperiam reiciendis! Rem nulla ipsam debitis.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio modi ratione nam quasi pariatur
-                        placeat consequatur, sint rem
-                        voluptates cupiditate eos, ut ducimus laboriosam amet fugit est voluptate mollitia? Reiciendis.
+                    <h2 class="articulo-planetas-titulo" id="primero-article-saturno">etimologia</h2>
+                    <p id="etimologia-saturno">Su nombre viene del latín sol que era como los romanos llamaban al astro 
+                        brillante que les ofrecía la luz del día.
                     </p>
                 </article>
-                <article class="articulo-planetas">
-                    <h2 class="articulo-planetas-titulo">informacion</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta at laboriosam provident
-                        voluptatum consequuntur distinctio amet maxime ad
-                        deleniti, ullam dolore. Nesciunt asperiores numquam quo pariatur, optio debitis quibusdam
-                        obcaecati.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, error at cumque itaque
-                        optio dolorem repellat, suscipit dolor tempore,
-                        facere ipsam neque dicta magnam libero perspiciatis culpa officia maxime distinctio.</p>
+                <article  class="articulo-planetas">
+                    <h2 class="articulo-planetas-titulo" id="segundo-article-saturno">información</h2>
+                    <p id="uno-segundo-saturno">AGUA: Un estudio realizado por la universidad de Leicester ,ha detectado que el agua existe en la atmósfera.</p>
+                    <p id="dos-segundo-saturno">DURACIÓN: La duración de saturno es de 11 horas en total.Donde 10 horas es por el día y solo una por la noche la 
+                        traslación de Saturno es de 29 años y la rotación de 10 horas.
+                    </p>
+
                 </article>
             </section>
         </main>
         <!--Aside-->
         <aside class="aside-planetas">
-            <h3 class="aside-titulo">Datos Curiosos:</h3>
-            <p> Aunque veamos que es amarillo en realidad es blanco.</p>
-            <p> Su temperatura de superficie es de 5.778 K.</p>
-            <p> Tiene una gravedad de 274 m/s².</p>
+            <h3 class="aside-titulo" id="aside-saturno">Superficie:</h3>
+            <p id="uno-aside-saturno"> Saturno tiene una de 42,7 de millones de kilómetros.</p>
+            <p id="dos-aside-saturno"> Un radio de 58.232 km.</p>
         </aside>
         <!--/Aside-->
 
@@ -105,15 +98,59 @@
 
             <p id="footer-copy">© 2023 Todos los derechos reservados</p>
 
-            <img class="footer-tafad" src="../recursos/imagenes/tafad-juan-bosco.webp" alt="Imagen tafad">
+            <img src="../recursos/imagenes/tafad-juan-bosco.webp" alt="tafad" class="footer-tafad">
 
         </footer>
         <!-- /PIE DE PÁGINA -->
-
     </div>
-
-    <script src="../javascript/funciones.js"></script>
-
 </body>
-
+<script>
+    function cambiarIdioma(idioma) {
+            if (idioma === 'es') {
+                document.getElementById('menu-lista_planetas-sol').innerHTML = 'Sol';
+                document.getElementById('menu-lista_planetas-mercurio').innerHTML = 'Mercurio';
+                document.getElementById('menu-lista_planetas-tierra').innerHTML = 'Tierra';
+                document.getElementById('menu-lista_planetas-luna').innerHTML = 'Luna';
+                document.getElementById('menu-lista_planetas-marte').innerHTML = 'Marte';
+                document.getElementById('menu-lista_planetas-jupiter').innerHTML = 'Júpiter';
+                document.getElementById('menu-lista_planetas-saturno').innerHTML = 'Saturno';
+                document.getElementById('menu-lista_planetas-urano').innerHTML = 'Urano';
+                document.getElementById('menu-lista_planetas-neptuno').innerHTML = 'Neptuno';
+                document.getElementById('titulo-saturno').innerHTML = 'saturno';
+                document.getElementById('primero-article-saturno').innerHTML = 'etimologia';
+                document.getElementById('etimologia-saturno').innerHTML = 'Su nombre viene del latín sol que era como los romanos llamaban al astro brillante que les ofrecía la luz del día.';
+                document.getElementById('segundo-article-saturno').innerHTML = 'información';
+                document.getElementById('uno-segundo-saturno').innerHTML = 'AGUA: Un estudio realizado por la universidad de Leicester ,ha detectado que el agua existe en la atmósfera.';
+                document.getElementById('dos-segundo-saturno').innerHTML = 'DURACIÓN: La duración de saturno es de 11 horas en total.Donde 10 horas es por el día y solo una por la noche la traslación de Saturno es de 29 años y la rotación de 10 horas.';
+                document.getElementById('aside-saturno').innerHTML = 'Superficie:';
+                document.getElementById('uno-aside-saturno').innerHTML = 'Saturno tiene una de 42,7 de millones de kilómetros.';
+                document.getElementById('dos-aside-saturno').innerHTML = 'Un radio de 58.232 km.';
+                document.getElementById('footer-desarrolladores').innerHTML = 'Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
+                document.getElementById('footer-info').innerHTML = 'Han participado en la elaboración de esta web los alumnos de Marina Martínez Bonat de 3º de ESO A, B y C y los alumnos de Alicia Portero Hernández dentro del programa de formación en competencias STEAM en el que participa el IES Juan Bosco de Alcázar de San Juan';
+                document.getElementById('footer-copy').innerHTML = '© 2023 Todos los derechos reservados';
+            } else if (idioma === 'en') {
+                document.getElementById('menu-lista_planetas-sol').innerHTML = 'Sun';
+                document.getElementById('menu-lista_planetas-mercurio').innerHTML = 'Mercury';
+                document.getElementById('menu-lista_planetas-tierra').innerHTML = 'Earth';
+                document.getElementById('menu-lista_planetas-luna').innerHTML = 'Moon';
+                document.getElementById('menu-lista_planetas-marte').innerHTML = 'Mars';
+                document.getElementById('menu-lista_planetas-jupiter').innerHTML = 'Jupiter';
+                document.getElementById('menu-lista_planetas-saturno').innerHTML = 'Saturn';
+                document.getElementById('menu-lista_planetas-urano').innerHTML = 'Uranus';
+                document.getElementById('menu-lista_planetas-neptuno').innerHTML = 'Neptune';
+                document.getElementById('titulo-saturno').innerHTML = 'saturn';
+                document.getElementById('primero-article-saturno').innerHTML = 'etimologia';
+                document.getElementById('etimologia-saturno').innerHTML = 'Its name comes from the Latin sun, which was how the Romans called the bright star that offered them daylight.';
+                document.getElementById('segundo-article-saturno').innerHTML = 'información';
+                document.getElementById('uno-segundo-saturno').innerHTML = 'WATER: A study carried out by the University of Leicester has detected that water exists in the atmosphere.';
+                document.getElementById('dos-segundo-saturno').innerHTML = 'DURATION: The duration of Saturn is 11 hours in total. Where 10 hours is for the day and only one for the night.Saturn´s translation is 29 years and rotation 10 hours.';
+                document.getElementById('aside-saturno').innerHTML = 'Surface:';
+                document.getElementById('uno-aside-saturno').innerHTML = 'Saturn has a distance of 42.7 million kilometers.';
+                document.getElementById('dos-aside-saturno').innerHTML = 'A radius of 58,232 km.';
+                document.getElementById('footer-desarrolladores').innerHTML = 'Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
+                document.getElementById('footer-info').innerHTML = 'The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco de Alcázar de San Juan participates';
+                document.getElementById('footer-copy').innerHTML = '© 2023 All rights reserved';
+            }
+        }
+</script>
 </html>
