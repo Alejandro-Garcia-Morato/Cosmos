@@ -151,7 +151,7 @@ function cambiarIdiomaVenus(idioma) {
         document.getElementById('uno-venus').innerHTML = 'Su temperatura media 453ºC de día su temperatura es 426ºC y de noche -173ºC.En Venus no hay agua por su cercanía al sol.';
         document.getElementById('dos-venus').innerHTML = 'DURACIONES: 243,0226 de dia ,sus noche 116,75 días terrestres y sus años 243 días terrestres.';
         document.getElementById('tres-venus').innerHTML = 'MOVIMIENTOS: su rotación es en dirección contraria a la de la Tierra y su translación 225 días terrestres.';
-        document.getElementById('aside-venus').innerHTML = 'La atmósfera, superficie y gravedad';
+        document.getElementById('aside-venus').innerHTML = 'Datos Curiosos:';
         document.getElementById('uno-aside-venus').innerHTML = 'La superficie de Venus es de 460,2 millones de kilómetros/m2.';
         document.getElementById('dos-aside-venus').innerHTML = 'No se puede ver su superficie porque esta cubierta por nubes espesas.';
         document.getElementById('tres-aside-venus').innerHTML = 'Gravedad: 8,87 m/s².';
@@ -300,8 +300,8 @@ function cambiarIdiomaJupiter(idioma) {
         document.getElementById('uno-segundo-jupiter').innerHTML = 'Júpiter tiene una variación extremada de lluvia mensual por estación. Llueve durante el año en Júpiter. El mes con más lluvia en Júpiter es septiembre, con un promedio de 147 milímetros de lluvia. El mes con menos lluvia en Júpiter es diciembre, con un promedio de 45 milímetros de lluvia.Su atmósfera se compone aproximadamente de un 82% de hidrógeno y un 17% de helio. A estos componentes principales hay que sumarle otros en mucho menor porcentaje como metano, vapor de agua, amoniaco, etano, fosfina, sulfuro de hidrógeno e hidrosulfuro.';
         document.getElementById('tercero-article-jupiter').innerHTML = '¿tiene atmósfera júpiter?';
         document.getElementById('uno-segundo-jupiter').innerHTML = 'Sin duda, uno de los aspectos más fascinantes de Júpiter es su atmósfera, principalmente compuesta de hidrógeno en más de uno 80% además de grandes proporciones de helio amoniaco y etano.';
-        document.getElementById('aside-jupiter').innerHTML = '¿Cuánto dura el día en Júpiter?';
-        document.getElementById('uno-aside-jupiter').innerHTML = '0d 9h 56m temperatura del día completo.De la noche 4:56h y del día 5 horas';
+        document.getElementById('aside-jupiter').innerHTML = 'Datos Curiosos:';
+        document.getElementById('uno-aside-jupiter').innerHTML = 'El dia dura 9h 56m. De la noche 4:56h y del día 5 horas';
         document.getElementById('footer-desarrolladores').innerHTML = 'Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
         document.getElementById('footer-info').innerHTML = 'Han participado en la elaboración de esta web los alumnos de Marina Martínez Bonat de 3º de ESO A, B y C y los alumnos de Alicia Portero Hernández dentro del programa de formación en competencias STEAM en el que participa el IES Juan Bosco de Alcázar de San Juan';
         document.getElementById('footer-copy').innerHTML = '© 2023 Todos los derechos reservados';
@@ -347,8 +347,8 @@ function cambiarIdiomaSaturno(idioma) {
         document.getElementById('segundo-article-saturno').innerHTML = 'información';
         document.getElementById('uno-segundo-saturno').innerHTML = 'AGUA: Un estudio realizado por la universidad de Leicester ,ha detectado que el agua existe en la atmósfera.';
         document.getElementById('dos-segundo-saturno').innerHTML = 'DURACIÓN: La duración de saturno es de 11 horas en total.Donde 10 horas es por el día y solo una por la noche la traslación de Saturno es de 29 años y la rotación de 10 horas.';
-        document.getElementById('aside-saturno').innerHTML = 'Superficie:';
-        document.getElementById('uno-aside-saturno').innerHTML = 'Saturno tiene una de 42,7 de millones de kilómetros.';
+        document.getElementById('aside-saturno').innerHTML = 'Datos Curiosos:';
+        document.getElementById('uno-aside-saturno').innerHTML = 'Saturno tiene una superficie de 42,7 de millones de kilómetros.';
         document.getElementById('dos-aside-saturno').innerHTML = 'Un radio de 58.232 km.';
         document.getElementById('footer-desarrolladores').innerHTML = 'Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
         document.getElementById('footer-info').innerHTML = 'Han participado en la elaboración de esta web los alumnos de Marina Martínez Bonat de 3º de ESO A, B y C y los alumnos de Alicia Portero Hernández dentro del programa de formación en competencias STEAM en el que participa el IES Juan Bosco de Alcázar de San Juan';
