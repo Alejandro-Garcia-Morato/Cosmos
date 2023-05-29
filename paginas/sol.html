@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="shortcut icon" href="../recursos/imagenes/icono-cosmos.ico" />
     <!--poner meta descripcion-->
-    <title>COSMOS | Sol</title>
+    <title>Sol</title>
 </head>
 
 <body class="body-planetas">
@@ -16,7 +16,7 @@
     <div class="contenedor-planetas">
 
         <!-- NAVEGADOR -->
-        <nav class="menu_principal menu_principal_planetas">
+        <nav class="menu_principal">
 
             <input type="checkbox" id="burguer">
 
@@ -27,26 +27,26 @@
             </label>
 
             <ul class="menu-lista_planetas">
-                <li><a href="../index.html"><img class="home-icon" src="../recursos/imagenes/home.webp" alt="Home"></a>
+                <li><a href="./index.html"><img class="home-icon" src="../recursos/imagenes/home.webp" alt="Home"></a>
                 </li>
-                <li class="current"><a id="menu-lista_planetas-sol" href="./sol.html">Sol</a></li>
-                <li><a id="menu-lista_planetas-mercurio" href="./mercurio.html">Mercurio</a></li>
-                <li><a href="./venus.html">Venus</a></li>
-                <li><a id="menu-lista_planetas-tierra" href="./tierra.html">Tierra</a></li>
-                <li><a id="menu-lista_planetas-luna" href="./luna.html">Luna</a></li>
-                <li><a id="menu-lista_planetas-marte" href="./marte.html">Marte</a></li>
-                <li><a id="menu-lista_planetas-jupiter" href="./jupiter.html">Júpiter</a></li>
-                <li><a id="menu-lista_planetas-saturno" href="./saturno.html">Saturno</a></li>
-                <li><a id="menu-lista_planetas-urano" href="./urano.html">Urano</a></li>
-                <li><a id="menu-lista_planetas-neptuno" href="./neptuno.html">Neptuno</a></li>
+                <li><a id="menu-lista_planetas-sol" href="../paginas/sol.html">Sol</a></li>
+                <li><a id="menu-lista_planetas-mercurio" href="./paginas/mercurio.html">Mercurio</a></li>
+                <li><a href="../paginas/venus.html">Venus</a></li>
+                <li><a id="menu-lista_planetas-tierra" href="./paginas/tierra.html">Tierra</a></li>
+                <li><a id="menu-lista_planetas-luna" href="./paginas/luna.html">Luna</a></li>
+                <li><a id="menu-lista_planetas-marte" href="./paginas/marte.html">Marte</a></li>
+                <li><a id="menu-lista_planetas-jupiter" href="../paginas/jupiter.html">Júpiter</a></li>
+                <li><a id="menu-lista_planetas-saturno" href="../paginas/saturno.html">Saturno</a></li>
+                <li><a id="menu-lista_planetas-urano" href="./paginas/urano.html">Urano</a></li>
+                <li><a id="menu-lista_planetas-neptuno" href="./paginas/neptuno.html">Neptuno</a></li>
             </ul>
 
             <ul class="menu-lista_idiomas">
-                <li><button onclick="cambiarIdiomaSol('es')">Español</button></li>
+                <li><button onclick="cambiarIdioma('es')">Español</button></li>
                 <li>
                     <p>|</p>
                 </li>
-                <li><button onclick="cambiarIdiomaSol('en')">English</button></li>
+                <li><button onclick="cambiarIdioma('en')">English</button></li>
             </ul>
 
         </nav>
@@ -54,40 +54,32 @@
 
         <main class="main-planetas">
             <div class="main-cabecera">
-                <img class="planetas-img-titulo" src="../recursos/imagenes/sol-home.webp" alt="Imagen del Sol">
-                <h1 id="main-cabecera-titulo-sol" class="main-cabecera-titulo">sol</h1>
+                <img class="planetas-img-titulo" src="../recursos/imagenes/sol-home.webp" alt="sol">
+                <h1 class="solf" id="titulo-sol">sol</h1>
             </div>
 
 
             <section class="seccion-planetas">
                 <article class="articulo-planetas">
-                    <h2 class="articulo-planetas-titulo">etimologia</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis praesentium dicta corporis
-                        tenetur blanditiis nemo expedita
-                        laboriosam harum eius aliquid eveniet qui at quos, aperiam reiciendis! Rem nulla ipsam debitis.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio modi ratione nam quasi pariatur
-                        placeat consequatur, sint rem
-                        voluptates cupiditate eos, ut ducimus laboriosam amet fugit est voluptate mollitia? Reiciendis.
+                    <h2 class="articulo-planetas-titulo" id="primero-article-sol">etimologia</h2>
+                    <p id="etimologia-sol">Su nombre viene del latín sol que era como los romanos llamaban al astro 
+                        brillante que les ofrecía la luz del día.
                     </p>
                 </article>
-                <article class="articulo-planetas">
-                    <h2 class="articulo-planetas-titulo">informacion</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta at laboriosam provident
-                        voluptatum consequuntur distinctio amet maxime ad
-                        deleniti, ullam dolore. Nesciunt asperiores numquam quo pariatur, optio debitis quibusdam
-                        obcaecati.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, error at cumque itaque
-                        optio dolorem repellat, suscipit dolor tempore,
-                        facere ipsam neque dicta magnam libero perspiciatis culpa officia maxime distinctio.</p>
+                <article  class="articulo-planetas">
+                    <h2 class="articulo-planetas-titulo" id="segundo-article-sol">información</h2>
+                    <p id="uno-sol">Se clasifica como una estrella tipo es- pectral G2 y clase de luminosidad V: una estrella “G2V”.</p>
+                    <p id="dos-sol">MEDIDAS:con un diámetro de 1,3927 millones km y con un Radio de 696.340 km.</p>
+                    <p id="tres-sol">EDAD:4.500.000.000 años.</p>
                 </article>
             </section>
         </main>
         <!--Aside-->
         <aside class="aside-planetas">
-            <h3 class="aside-titulo">Datos Curiosos:</h3>
-            <p> Aunque veamos que es amarillo en realidad es blanco.</p>
-            <p> Su temperatura de superficie es de 5.778 K.</p>
-            <p> Tiene una gravedad de 274 m/s².</p>
+            <h3 class="aside-titulo" id="aside-sol">Datos Curiosos:</h3>
+            <p id="uno-aside-sol"> Aunque veamos que es amarillo en realidad es blanco.</p>
+            <p id="dos-aside-sol"> Su temperatura de superficie es de 5.778 K.</p>
+            <p id="tres-aside-sol"> Tiene una gravedad de 274 m/s².</p>
         </aside>
         <!--/Aside-->
 
@@ -105,15 +97,64 @@
 
             <p id="footer-copy">© 2023 Todos los derechos reservados</p>
 
-            <img class="footer-tafad" src="../recursos/imagenes/tafad-juan-bosco.webp" alt="Imagen tafad">
+            <img src="../recursos/imagenes/tafad-juan-bosco.webp" alt="tafad" class="footer-tafad">
 
         </footer>
         <!-- /PIE DE PÁGINA -->
-
     </div>
-
-    <script src="../javascript/funciones.js"></script>
-
 </body>
 
+<script>
+    function cambiarIdioma(idioma) {
+            if (idioma === 'es') {
+                document.getElementById('menu-lista_planetas-sol').innerHTML = 'Sol';
+                document.getElementById('menu-lista_planetas-mercurio').innerHTML = 'Mercurio';
+                document.getElementById('menu-lista_planetas-tierra').innerHTML = 'Tierra';
+                document.getElementById('menu-lista_planetas-luna').innerHTML = 'Luna';
+                document.getElementById('menu-lista_planetas-marte').innerHTML = 'Marte';
+                document.getElementById('menu-lista_planetas-jupiter').innerHTML = 'Júpiter';
+                document.getElementById('menu-lista_planetas-saturno').innerHTML = 'Saturno';
+                document.getElementById('menu-lista_planetas-urano').innerHTML = 'Urano';
+                document.getElementById('menu-lista_planetas-neptuno').innerHTML = 'Neptuno';
+                document.getElementById('titulo-sol').innerHTML = 'sol';
+                document.getElementById('primero-article-sol').innerHTML = 'etimologia';
+                document.getElementById('etimologia-sol').innerHTML = 'Su nombre viene del latín sol que era como los romanos llamaban al astro brillante que les ofrecía la luz del día.';
+                document.getElementById('segundo-article-sol').innerHTML = 'información';
+                document.getElementById('uno-sol').innerHTML = 'Se clasifica como una estrella tipo es- pectral G2 y clase de luminosidad V: una estrella “G2V”.';
+                document.getElementById('dos-sol').innerHTML = 'MEDIDAS:con un diámetro de 1,3927 millones km y con un Radio de 696.340 km.';
+                document.getElementById('tres-sol').innerHTML = 'EDAD:4.500.000.000 años.';
+                document.getElementById('aside-sol').innerHTML = 'Datos Curiosos:';
+                document.getElementById('uno-aside-sol').innerHTML = 'Aunque veamos que es amarillo en realidad es blanco.';
+                document.getElementById('dos-aside-sol').innerHTML = 'Su temperatura de superficie es de 5.778 K.';
+                document.getElementById('tres-aside-sol').innerHTML = 'Tiene una gravedad de 274 m/s².';
+                document.getElementById('footer-desarrolladores').innerHTML = 'Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
+                document.getElementById('footer-info').innerHTML = 'Han participado en la elaboración de esta web los alumnos de Marina Martínez Bonat de 3º de ESO A, B y C y los alumnos de Alicia Portero Hernández dentro del programa de formación en competencias STEAM en el que participa el IES Juan Bosco de Alcázar de San Juan';
+                document.getElementById('footer-copy').innerHTML = '© 2023 Todos los derechos reservados';
+            } else if (idioma === 'en') {
+                document.getElementById('menu-lista_planetas-sol').innerHTML = 'Sun';
+                document.getElementById('menu-lista_planetas-mercurio').innerHTML = 'Mercury';
+                document.getElementById('menu-lista_planetas-tierra').innerHTML = 'Earth';
+                document.getElementById('menu-lista_planetas-luna').innerHTML = 'Moon';
+                document.getElementById('menu-lista_planetas-marte').innerHTML = 'Mars';
+                document.getElementById('menu-lista_planetas-jupiter').innerHTML = 'Jupiter';
+                document.getElementById('menu-lista_planetas-saturno').innerHTML = 'Saturn';
+                document.getElementById('menu-lista_planetas-urano').innerHTML = 'Uranus';
+                document.getElementById('menu-lista_planetas-neptuno').innerHTML = 'Neptune';
+                document.getElementById('titulo-sol').innerHTML = 'sun';
+                document.getElementById('primero-article-sol').innerHTML = 'etymology';
+                document.getElementById('etimologia-sol').innerHTML = 'Its name comes from the Latin sun, which was how the Romans called the star brilliant that the light of day offered them.';
+                document.getElementById('segundo-article-sol').innerHTML = 'information';
+                document.getElementById('uno-sol').innerHTML = 'It is classified as a spectral type G2 star and luminosity class V: a “G2V” star.';
+                document.getElementById('dos-sol').innerHTML = 'MEASUREMENTS: with a diameter of 1.3927 million km and a radius of 696,340 km.';
+                document.getElementById('tres-sol').innerHTML = 'AGE: 4,500,000,000 years.';
+                document.getElementById('aside-sol').innerHTML = 'Fun facts:';
+                document.getElementById('uno-aside-sol').innerHTML = ' Although we see that it is yellow, it is actually white.';
+                document.getElementById('dos-aside-sol').innerHTML = ' Its surface temperature is 5,778 K.';
+                document.getElementById('tres-aside-sol').innerHTML = ' It has a gravity of 274 m/s².';
+                document.getElementById('footer-desarrolladores').innerHTML = 'Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
+                document.getElementById('footer-info').innerHTML = 'The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco de Alcázar de San Juan participates';
+                document.getElementById('footer-copy').innerHTML = '© 2023 All rights reserved';
+            }
+        }
+</script>
 </html>

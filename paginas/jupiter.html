@@ -2,13 +2,13 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/estilo.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
     <link rel="shortcut icon" href="../recursos/imagenes/icono-cosmos.ico" />
     <!--poner meta descripcion-->
-    <title>COSMOS | Júpiter</title>
+    <title>Júpiter</title>
 </head>
 
 <body class="body-planetas">
@@ -16,9 +16,9 @@
     <div class="contenedor-planetas">
 
         <!-- NAVEGADOR -->
-        <nav class="menu_principal menu_principal_planetas">
-            
-            <input type="checkbox" id="burguer" />
+        <nav class="menu_principal">
+
+            <input type="checkbox" id="burguer">
 
             <label class="burguer_menu" for="burguer">
                 <span class="burguer_menu-linea"></span>
@@ -27,71 +27,67 @@
             </label>
 
             <ul class="menu-lista_planetas">
-                <li><a href="../index.html"><img class="home-icon" src="../recursos/imagenes/home.webp" alt="Home"></a>
+                <li><a href="./index.html"><img class="home-icon" src="../recursos/imagenes/home.webp" alt="Home"></a>
                 </li>
-                <li><a id="menu-lista_planetas-sol" href="./sol.html">Sol</a></li>
-                <li><a id="menu-lista_planetas-mercurio" href="./mercurio.html">Mercurio</a></li>
-                <li><a href="./venus.html">Venus</a></li>
-                <li><a id="menu-lista_planetas-tierra" href="./tierra.html">Tierra</a></li>
-                <li><a id="menu-lista_planetas-luna" href="./luna.html">Luna</a></li>
-                <li><a id="menu-lista_planetas-marte" href="./marte.html">Marte</a></li>
-                <li class="current"><a id="menu-lista_planetas-jupiter" href="./jupiter.html">Júpiter</a></li>
-                <li><a id="menu-lista_planetas-saturno" href="./saturno.html">Saturno</a></li>
-                <li><a id="menu-lista_planetas-urano" href="./urano.html">Urano</a></li>
-                <li><a id="menu-lista_planetas-neptuno" href="./neptuno.html">Neptuno</a></li>
+                <li><a id="menu-lista_planetas-sol" href="../paginas/sol.html">Sol</a></li>
+                <li><a id="menu-lista_planetas-mercurio" href="./paginas/mercurio.html">Mercurio</a></li>
+                <li><a href="../paginas/venus.html">Venus</a></li>
+                <li><a id="menu-lista_planetas-tierra" href="./paginas/tierra.html">Tierra</a></li>
+                <li><a id="menu-lista_planetas-luna" href="./paginas/luna.html">Luna</a></li>
+                <li><a id="menu-lista_planetas-marte" href="./paginas/marte.html">Marte</a></li>
+                <li><a id="menu-lista_planetas-jupiter" href="../paginas/jupiter.html">Júpiter</a></li>
+                <li><a id="menu-lista_planetas-saturno" href="../paginas/saturno.html">Saturno</a></li>
+                <li><a id="menu-lista_planetas-urano" href="./paginas/urano.html">Urano</a></li>
+                <li><a id="menu-lista_planetas-neptuno" href="./paginas/neptuno.html">Neptuno</a></li>
             </ul>
 
             <ul class="menu-lista_idiomas">
-                <li><button onclick="cambiarIdiomaJupiter('es')">Español</button></li>
+                <li><button onclick="cambiarIdioma('es')">Español</button></li>
                 <li>
                     <p>|</p>
                 </li>
-                <li><button onclick="cambiarIdiomaJupiter('en')">English</button></li>
+                <li><button onclick="cambiarIdioma('en')">English</button></li>
             </ul>
+
         </nav>
         <!-- /NAVEGADOR -->
 
         <main class="main-planetas">
             <div class="main-cabecera">
-                <img class="planetas-img-titulo" src="../recursos/imagenes/jupiter-home.webp" alt="Imagen de Júpiter" />
-                <h1 id="main-cabecera-titulo-jupiter" class="main-cabecera-titulo">júpiter</h1>
+                <img class="planetas-img-titulo" src="../recursos/imagenes/jupiter-home.webp" alt="sol">
+                <h1 class="jupiterf" id="titulo-jupiter">júpiter</h1>
             </div>
+
 
             <section class="seccion-planetas">
                 <article class="articulo-planetas">
-                    <h2 class="articulo-planetas-titulo">etimologia</h2>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis
-                        praesentium dicta corporis tenetur blanditiis nemo expedita
-                        laboriosam harum eius aliquid eveniet qui at quos, aperiam
-                        reiciendis! Rem nulla ipsam debitis. Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Optio modi ratione nam quasi
-                        pariatur placeat consequatur, sint rem voluptates cupiditate eos,
-                        ut ducimus laboriosam amet fugit est voluptate mollitia?
-                        Reiciendis.
+                    <h2 class="articulo-planetas-titulo" id="primero-article-jupiter">etimologia</h2>
+                    <p id="etimologia-jupiter">Júpiter deriva de Ius-piter, o sea, últimamente de Deus-pater "dios padre"
                     </p>
                 </article>
-                <article class="articulo-planetas">
-                    <h2 class="articulo-planetas-titulo">informacion</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta at
-                        laboriosam provident voluptatum consequuntur distinctio amet
-                        maxime ad deleniti, ullam dolore. Nesciunt asperiores numquam quo
-                        pariatur, optio debitis quibusdam obcaecati. Lorem ipsum dolor sit
-                        amet, consectetur adipisicing elit. Temporibus, error at cumque
-                        itaque optio dolorem repellat, suscipit dolor tempore, facere
-                        ipsam neque dicta magnam libero perspiciatis culpa officia maxime
-                        distinctio.
+                <article  class="articulo-planetas">
+                    <h2 class="articulo-planetas-titulo" id="segundo-article-jupiter">precipitaciones</h2>
+                    <p id="uno-segundo-jupiter">Júpiter tiene una variación extremada de lluvia mensual por estación. Llueve durante el año en Júpiter. El mes 
+                        con más lluvia en Júpiter es septiembre, con un promedio de 147 milímetros de lluvia. El mes con menos lluvia
+                        en Júpiter es diciembre, con un promedio de 45 milímetros de lluvia. 
+                        Su atmósfera se compone aproximadamente de un 82% de hidrógeno y un 17% de helio. A estos componentes 
+                        principales hay que sumarle otros en mucho menor porcentaje como metano, vapor de agua, amoniaco, etano, 
+                        fosfina, sulfuro de hidrógeno e hidrosulfuro.
+                    </p>
+                </article>
+                <article  class="articulo-planetas">
+                    <h2 class="articulo-planetas-titulo" id="tercero-article-jupiter">¿tiene atmósfera júpiter?</h2>
+                    <p id="uno-tercero-jupiter">Sin duda, uno de los aspectos más fascinantes de Júpiter es su atmósfera, principalmente compuesta de
+                         hidrógeno en más de uno 80% además de grandes proporciones de helio amoniaco y etano.
                     </p>
                 </article>
             </section>
         </main>
         <!--Aside-->
         <aside class="aside-planetas">
-            <h3 class="aside-titulo">Datos Curiosos:</h3>
-            <p>Aunque veamos que es amarillo en realidad es blanco.</p>
-            <p>Su temperatura de superficie es de 5.778 K.</p>
-            <p>Tiene una gravedad de 274 m/s².</p>
+            <h3 class="aside-titulo" id="aside-jupiter">¿Cuánto dura el día en Júpiter?</h3>
+            <p id="uno-aside-jupiter"> 0d 9h 56m temperatura del día completo.
+                De la noche 4:56h y del día 5 horas.</p>
         </aside>
         <!--/Aside-->
 
@@ -109,15 +105,59 @@
 
             <p id="footer-copy">© 2023 Todos los derechos reservados</p>
 
-            <img class="footer-tafad" src="../recursos/imagenes/tafad-juan-bosco.webp" alt="Imagen tafad">
+            <img src="../recursos/imagenes/tafad-juan-bosco.webp" alt="tafad" class="footer-tafad">
 
         </footer>
         <!-- /PIE DE PÁGINA -->
-
     </div>
-
-    <script src="../javascript/funciones.js"></script>
-
 </body>
-
+<script>
+    function cambiarIdioma(idioma) {
+            if (idioma === 'es') {
+                document.getElementById('menu-lista_planetas-sol').innerHTML = 'Sol';
+                document.getElementById('menu-lista_planetas-mercurio').innerHTML = 'Mercurio';
+                document.getElementById('menu-lista_planetas-tierra').innerHTML = 'Tierra';
+                document.getElementById('menu-lista_planetas-luna').innerHTML = 'Luna';
+                document.getElementById('menu-lista_planetas-marte').innerHTML = 'Marte';
+                document.getElementById('menu-lista_planetas-jupiter').innerHTML = 'Júpiter';
+                document.getElementById('menu-lista_planetas-saturno').innerHTML = 'Saturno';
+                document.getElementById('menu-lista_planetas-urano').innerHTML = 'Urano';
+                document.getElementById('menu-lista_planetas-neptuno').innerHTML = 'Neptuno';
+                document.getElementById('titulo-jupiter').innerHTML = 'júpiter';
+                document.getElementById('primero-article-jupiter').innerHTML = 'etimologia';
+                document.getElementById('etimologia-jupiter').innerHTML = 'Júpiter deriva de Ius-piter, o sea, últimamente de Deus-pater "dios padre"';
+                document.getElementById('segundo-article-jupiter').innerHTML = 'precipitaciones';
+                document.getElementById('uno-segundo-jupiter').innerHTML = 'Júpiter tiene una variación extremada de lluvia mensual por estación. Llueve durante el año en Júpiter. El mes con más lluvia en Júpiter es septiembre, con un promedio de 147 milímetros de lluvia. El mes con menos lluvia en Júpiter es diciembre, con un promedio de 45 milímetros de lluvia.Su atmósfera se compone aproximadamente de un 82% de hidrógeno y un 17% de helio. A estos componentes principales hay que sumarle otros en mucho menor porcentaje como metano, vapor de agua, amoniaco, etano, fosfina, sulfuro de hidrógeno e hidrosulfuro.';
+                document.getElementById('tercero-article-jupiter').innerHTML = '¿tiene atmósfera júpiter?';
+                document.getElementById('uno-segundo-jupiter').innerHTML = 'Sin duda, uno de los aspectos más fascinantes de Júpiter es su atmósfera, principalmente compuesta de hidrógeno en más de uno 80% además de grandes proporciones de helio amoniaco y etano.';
+                document.getElementById('aside-jupiter').innerHTML = '¿Cuánto dura el día en Júpiter?';
+                document.getElementById('uno-aside-jupiter').innerHTML = '0d 9h 56m temperatura del día completo.De la noche 4:56h y del día 5 horas';
+                document.getElementById('footer-desarrolladores').innerHTML = 'Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
+                document.getElementById('footer-info').innerHTML = 'Han participado en la elaboración de esta web los alumnos de Marina Martínez Bonat de 3º de ESO A, B y C y los alumnos de Alicia Portero Hernández dentro del programa de formación en competencias STEAM en el que participa el IES Juan Bosco de Alcázar de San Juan';
+                document.getElementById('footer-copy').innerHTML = '© 2023 Todos los derechos reservados';
+            } else if (idioma === 'en') {
+                document.getElementById('menu-lista_planetas-sol').innerHTML = 'Sun';
+                document.getElementById('menu-lista_planetas-mercurio').innerHTML = 'Mercury';
+                document.getElementById('menu-lista_planetas-tierra').innerHTML = 'Earth';
+                document.getElementById('menu-lista_planetas-luna').innerHTML = 'Moon';
+                document.getElementById('menu-lista_planetas-marte').innerHTML = 'Mars';
+                document.getElementById('menu-lista_planetas-jupiter').innerHTML = 'Jupiter';
+                document.getElementById('menu-lista_planetas-saturno').innerHTML = 'Saturn';
+                document.getElementById('menu-lista_planetas-urano').innerHTML = 'Uranus';
+                document.getElementById('menu-lista_planetas-neptuno').innerHTML = 'Neptune';
+                document.getElementById('titulo-jupiter').innerHTML = 'Jupiter';
+                document.getElementById('primero-article-jupiter').innerHTML = 'etymology';
+                document.getElementById('etimologia-jupiter').innerHTML = 'Jupiter derives from Ius-piter, that is, ultimately from Deus-pater "father god"';
+                document.getElementById('segundo-article-jupiter').innerHTML = 'rainfall';
+                document.getElementById('uno-segundo-jupiter').innerHTML = 'Jupiter has an extreme variation of monthly rainfall by season. Rain falls throughout the year on Jupiter. The month with the most rain on Jupiter is September, with an average of 147 millimeters of rain. The month with the least rain on Jupiter is December, with an average of 45 millimeters of rain. Its atmosphere is made up of approximately 82% hydrogen and 17% helium. To these main components we must add others in a much lower percentage such as methane, water vapor, ammonia, ethane, phosphine, hydrogen sulfide and hydrosulfide.';
+                document.getElementById('tercero-article-jupiter').innerHTML = 'Does Jupiter have an atmosphere?';
+                document.getElementById('uno-segundo-jupiter').innerHTML = 'Undoubtedly, one of the most fascinating aspects of Jupiter is its atmosphere, mainly composed of more than 80% hydrogen in addition to large proportions of helium, ammonia and ethane.';
+                document.getElementById('aside-jupiter').innerHTML = 'How long is a day on Jupiter?';
+                document.getElementById('uno-aside-jupiter').innerHTML = ' 0d 9h 56m full day temperature. 4:56h at night and 5h during the day.';
+                document.getElementById('footer-desarrolladores').innerHTML = 'Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
+                document.getElementById('footer-info').innerHTML = 'The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco de Alcázar de San Juan participates';
+                document.getElementById('footer-copy').innerHTML = '© 2023 All rights reserved';
+            }
+        }
+</script>
 </html>

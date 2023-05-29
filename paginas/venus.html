@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="shortcut icon" href="../recursos/imagenes/icono-cosmos.ico" />
     <!--poner meta descripcion-->
-    <title>COSMOS | Venus</title>
+    <title>Venus</title>
 </head>
 
 <body class="body-planetas">
@@ -16,7 +16,7 @@
     <div class="contenedor-planetas">
 
         <!-- NAVEGADOR -->
-        <nav class="menu_principal menu_principal_planetas">
+        <nav class="menu_principal">
 
             <input type="checkbox" id="burguer">
 
@@ -27,26 +27,26 @@
             </label>
 
             <ul class="menu-lista_planetas">
-                <li><a href="../index.html"><img class="home-icon" src="../recursos/imagenes/home.webp" alt="Home"></a>
+                <li><a href="./index.html"><img class="home-icon" src="../recursos/imagenes/home.webp" alt="Home"></a>
                 </li>
-                <li><a id="menu-lista_planetas-sol" href="./sol.html">Sol</a></li>
-                <li><a id="menu-lista_planetas-mercurio" href="./mercurio.html">Mercurio</a></li>
-                <li class="current"><a href="./venus.html">Venus</a></li>
-                <li><a id="menu-lista_planetas-tierra" href="./tierra.html">Tierra</a></li>
-                <li><a id="menu-lista_planetas-luna" href="./luna.html">Luna</a></li>
-                <li><a id="menu-lista_planetas-marte" href="./marte.html">Marte</a></li>
-                <li><a id="menu-lista_planetas-jupiter" href="./jupiter.html">Júpiter</a></li>
-                <li><a id="menu-lista_planetas-saturno" href="./saturno.html">Saturno</a></li>
-                <li><a id="menu-lista_planetas-urano" href="./urano.html">Urano</a></li>
-                <li><a id="menu-lista_planetas-neptuno" href="./neptuno.html">Neptuno</a></li>
+                <li><a id="menu-lista_planetas-sol" href="../paginas/sol.html">Sol</a></li>
+                <li><a id="menu-lista_planetas-mercurio" href="./paginas/mercurio.html">Mercurio</a></li>
+                <li><a href="../paginas/venus.html">Venus</a></li>
+                <li><a id="menu-lista_planetas-tierra" href="./paginas/tierra.html">Tierra</a></li>
+                <li><a id="menu-lista_planetas-luna" href="./paginas/luna.html">Luna</a></li>
+                <li><a id="menu-lista_planetas-marte" href="./paginas/marte.html">Marte</a></li>
+                <li><a id="menu-lista_planetas-jupiter" href="../paginas/jupiter.html">Júpiter</a></li>
+                <li><a id="menu-lista_planetas-saturno" href="../paginas/saturno.html">Saturno</a></li>
+                <li><a id="menu-lista_planetas-urano" href="./paginas/urano.html">Urano</a></li>
+                <li><a id="menu-lista_planetas-neptuno" href="./paginas/neptuno.html">Neptuno</a></li>
             </ul>
 
             <ul class="menu-lista_idiomas">
-                <li><button onclick="cambiarIdiomaVenus('es')">Español</button></li>
+                <li><button onclick="cambiarIdioma('es')">Español</button></li>
                 <li>
                     <p>|</p>
                 </li>
-                <li><button onclick="cambiarIdiomaVenus('en')">English</button></li>
+                <li><button onclick="cambiarIdioma('en')">English</button></li>
             </ul>
 
         </nav>
@@ -54,40 +54,33 @@
 
         <main class="main-planetas">
             <div class="main-cabecera">
-                <img class="planetas-img-titulo" src="../recursos/imagenes/venus-home.webp" alt="Imagen de Venus">
-                <h1 id="main-cabecera-titulo-venus" class="main-cabecera-titulo">venus</h1>
+                <img class="planetas-img-titulo" src="../recursos/imagenes/venus-home.webp" alt="sol">
+                <h1 class="venusf">venus</h1>
             </div>
 
 
             <section class="seccion-planetas">
                 <article class="articulo-planetas">
-                    <h2 class="articulo-planetas-titulo">etimologia</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis praesentium dicta corporis
-                        tenetur blanditiis nemo expedita
-                        laboriosam harum eius aliquid eveniet qui at quos, aperiam reiciendis! Rem nulla ipsam debitis.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio modi ratione nam quasi pariatur
-                        placeat consequatur, sint rem
-                        voluptates cupiditate eos, ut ducimus laboriosam amet fugit est voluptate mollitia? Reiciendis.
+                    <h2 class="articulo-planetas-titulo" id="primero-article-venus">etimologia</h2>
+                    <p id="etimologia-venus">Su nombre viene de la mitologia romana que seria el equivalente a la diosa griega Afrodita.
+                        Es el unico planeta del sistema solar que tiene nombre de una diosa.
                     </p>
                 </article>
-                <article class="articulo-planetas">
-                    <h2 class="articulo-planetas-titulo">informacion</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta at laboriosam provident
-                        voluptatum consequuntur distinctio amet maxime ad
-                        deleniti, ullam dolore. Nesciunt asperiores numquam quo pariatur, optio debitis quibusdam
-                        obcaecati.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, error at cumque itaque
-                        optio dolorem repellat, suscipit dolor tempore,
-                        facere ipsam neque dicta magnam libero perspiciatis culpa officia maxime distinctio.</p>
+                <article  class="articulo-planetas">
+                    <h2 class="articulo-planetas-titulo" id="segundo-article-venus">información</h2>
+                    <p id="uno-venus">Su temperatura media 453ºC de día su temperatura es 426ºC y de noche -173ºC.En Venus no hay agua por su cercanía al sol.</p>
+                    <p id="dos-venus">DURACIONES: 243,0226 de dia ,sus noche 116,75 días terrestres y sus años 243 días terrestres.</p>
+                    <p id="tres-venus">MOVIMIENTOS: su rotación es en dirección contraria a la de la Tierra y su translación 225 días terrestres.</p>
                 </article>
             </section>
         </main>
         <!--Aside-->
         <aside class="aside-planetas">
-            <h3 class="aside-titulo">Datos Curiosos:</h3>
-            <p> Aunque veamos que es amarillo en realidad es blanco.</p>
-            <p> Su temperatura de superficie es de 5.778 K.</p>
-            <p> Tiene una gravedad de 274 m/s².</p>
+            <h3 class="aside-titulo" id="aside-venus">La atmósfera, superficie y gravedad</h3>
+            <p id="uno-aside-venus"> La superficie de Venus es de 460,2 millones de kilómetros/m2.</p>
+            <p id="dos-aside-venus"> No se puede ver su superficie porque esta cubierta por nubes espesas.</p>
+            <p id="tres-aside-venus"> Gravedad: 8,87 m/s².</p>
+            <p id="cuatro-aside-venus"> Atmósfera: Esta hecha de un  96% CO2 y 3% de nitrógeno.</p>
         </aside>
         <!--/Aside-->
 
@@ -105,15 +98,63 @@
 
             <p id="footer-copy">© 2023 Todos los derechos reservados</p>
 
-            <img class="footer-tafad" src="../recursos/imagenes/tafad-juan-bosco.webp" alt="Imagen tafad">
+            <img src="../recursos/imagenes/tafad-juan-bosco.webp" alt="tafad" class="footer-tafad">
 
         </footer>
         <!-- /PIE DE PÁGINA -->
-
     </div>
-
-    <script src="../javascript/funciones.js"></script>
-
 </body>
-
+<script>
+    function cambiarIdioma(idioma) {
+            if (idioma === 'es') {
+                document.getElementById('menu-lista_planetas-sol').innerHTML = 'Sol';
+                document.getElementById('menu-lista_planetas-mercurio').innerHTML = 'Mercurio';
+                document.getElementById('menu-lista_planetas-tierra').innerHTML = 'Tierra';
+                document.getElementById('menu-lista_planetas-luna').innerHTML = 'Luna';
+                document.getElementById('menu-lista_planetas-marte').innerHTML = 'Marte';
+                document.getElementById('menu-lista_planetas-jupiter').innerHTML = 'Júpiter';
+                document.getElementById('menu-lista_planetas-saturno').innerHTML = 'Saturno';
+                document.getElementById('menu-lista_planetas-urano').innerHTML = 'Urano';
+                document.getElementById('menu-lista_planetas-neptuno').innerHTML = 'Neptuno';
+                document.getElementById('primero-article-venus').innerHTML = 'etimologia';
+                document.getElementById('etimologia-venus').innerHTML = 'Su nombre viene de la mitologia romana que seria el equivalente a la diosa griega Afrodita. Es el unico planeta del sistema solar que tiene nombre de una diosa.';
+                document.getElementById('segundo-article-venus').innerHTML = 'información';
+                document.getElementById('uno-venus').innerHTML = 'Su temperatura media 453ºC de día su temperatura es 426ºC y de noche -173ºC.En Venus no hay agua por su cercanía al sol.';
+                document.getElementById('dos-venus').innerHTML = 'DURACIONES: 243,0226 de dia ,sus noche 116,75 días terrestres y sus años 243 días terrestres.';
+                document.getElementById('tres-venus').innerHTML = 'MOVIMIENTOS: su rotación es en dirección contraria a la de la Tierra y su translación 225 días terrestres.';
+                document.getElementById('aside-venus').innerHTML = 'La atmósfera, superficie y gravedad';
+                document.getElementById('uno-aside-venus').innerHTML = 'La superficie de Venus es de 460,2 millones de kilómetros/m2.';
+                document.getElementById('dos-aside-venus').innerHTML = 'No se puede ver su superficie porque esta cubierta por nubes espesas.';
+                document.getElementById('tres-aside-venus').innerHTML = 'Gravedad: 8,87 m/s².';
+                document.getElementById('cuatro-aside-venus').innerHTML = 'Atmósfera: Esta hecha de un  96% CO2 y 3% de nitrógeno.';
+                document.getElementById('footer-desarrolladores').innerHTML = 'Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
+                document.getElementById('footer-info').innerHTML = 'Han participado en la elaboración de esta web los alumnos de Marina Martínez Bonat de 3º de ESO A, B y C y los alumnos de Alicia Portero Hernández dentro del programa de formación en competencias STEAM en el que participa el IES Juan Bosco de Alcázar de San Juan';
+                document.getElementById('footer-copy').innerHTML = '© 2023 Todos los derechos reservados';
+            } else if (idioma === 'en') {
+                document.getElementById('menu-lista_planetas-sol').innerHTML = 'Sun';
+                document.getElementById('menu-lista_planetas-mercurio').innerHTML = 'Mercury';
+                document.getElementById('menu-lista_planetas-tierra').innerHTML = 'Earth';
+                document.getElementById('menu-lista_planetas-luna').innerHTML = 'Moon';
+                document.getElementById('menu-lista_planetas-marte').innerHTML = 'Mars';
+                document.getElementById('menu-lista_planetas-jupiter').innerHTML = 'Jupiter';
+                document.getElementById('menu-lista_planetas-saturno').innerHTML = 'Saturn';
+                document.getElementById('menu-lista_planetas-urano').innerHTML = 'Uranus';
+                document.getElementById('menu-lista_planetas-neptuno').innerHTML = 'Neptune';
+                document.getElementById('primero-article-venus').innerHTML = 'etymology';
+                document.getElementById('etimologia-venus').innerHTML = 'Its name comes from Roman mythology, which would be the equivalent of the Greek goddess Aphrodite.It is the only planet in the solar system named after a goddess.';
+                document.getElementById('segundo-article-venus').innerHTML = 'information';
+                document.getElementById('uno-venus').innerHTML = 'Its average temperature is 453ºC during the day its temperature is 426ºC and at night -173ºC. On Venus there is no water because of its proximity to the sun.';
+                document.getElementById('dos-venus').innerHTML = 'DURATION: 243.0226 days, its nights 116.75 Earth days and its years 243 Earth days.';
+                document.getElementById('tres-venus').innerHTML = 'MOVEMENTS: its rotation is in the opposite direction to that of the Earth and its translation 225 Earth days.';
+                document.getElementById('aside-venus').innerHTML = 'The atmosphere, surface and gravity';
+                document.getElementById('uno-aside-venus').innerHTML = ' The surface of Venus is 460.2 million km/m2.';
+                document.getElementById('dos-aside-venus').innerHTML = ' Its surface cannot be seen because it is covered by thick clouds.';
+                document.getElementById('tres-aside-venus').innerHTML = ' Gravity: 8.87 m/s².';
+                document.getElementById('cuatro-aside-venus').innerHTML = ' Atmosphere: It is made of 96% CO2 and 3% nitrogen.';
+                document.getElementById('footer-desarrolladores').innerHTML = 'Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
+                document.getElementById('footer-info').innerHTML = 'The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco de Alcázar de San Juan participates';
+                document.getElementById('footer-copy').innerHTML = '© 2023 All rights reserved';
+            }
+        }
+</script>
 </html>
