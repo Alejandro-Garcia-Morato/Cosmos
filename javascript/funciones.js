@@ -87,9 +87,9 @@ function cambiarIdiomaSol(idioma) {
         document.getElementById('menu-lista_planetas-neptuno').innerHTML = 'Neptune';
         document.getElementById('main-cabecera-titulo-sol').innerHTML = 'sun';
         document.getElementById('primero-article-sol').innerHTML = 'etymology';
-        document.getElementById('etimologia-sol').innerHTML = 'Its name comes from the Latin sun, which was how the Romans called the star brilliant that the light of day offered them.';
+        document.getElementById('etimologia-sol').innerHTML = 'Its name comes from the Latin sun, which was how the Romans called the bright star that offered them daylight.';
         document.getElementById('segundo-article-sol').innerHTML = 'information';
-        document.getElementById('uno-sol').innerHTML = 'It is classified as a spectral type G2 star and luminosity class V: a “G2V” star.';
+        document.getElementById('uno-sol').innerHTML = 'It is classified as a G2 spectral type star and luminosity class V: a “G2V” star.';
         document.getElementById('dos-sol').innerHTML = 'MEASUREMENTS: with a diameter of 1.3927 million km and a radius of 696,340 km.';
         document.getElementById('tres-sol').innerHTML = 'AGE: 4,500,000,000 years.';
         document.getElementById('aside-sol').innerHTML = 'Fun facts:';
