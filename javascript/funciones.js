@@ -282,7 +282,7 @@ function cambiarIdiomaLuna(idioma) {
         document.getElementById('articulo-planetas-texto-informacion4').innerHTML = 'Periodo de rotación: 27,3 días. Periodo de traslación: 27,3. días Por eso siempre vemos la misma cara de la luna.';
         document.getElementById('articulo-planetas-texto-informacion5').innerHTML = 'La gravedad es menor que en la TIerra (1,62m/s2). Una persona que pese 45 kilos en la Luna pesaría 8,05 kilos.';
         document.getElementById('aside-titulo').innerHTML = 'Datos Curiosos:';
-        document.getElementById('aside-planetas-texto1').innerHTML = ' Ha llegando más gente a la Luna que a las profundidades de los océanos.';
+        document.getElementById('aside-planetas-texto1').innerHTML = ' Ha llegado más gente a la Luna que a las profundidades de los océanos.';
         document.getElementById('aside-planetas-texto2').innerHTML = ' En la Luna no hay viento ni sonido.';
         document.getElementById('aside-planetas-texto3').innerHTML = ' Cada año la Luna se aleja de la Tierra 3.8 centímetros.';
         document.getElementById('aside-planetas-texto4').innerHTML = ' ¿Sabías que Mercurio y Venus son los únicos planetas del sistema solar que no tienen satélites?';
