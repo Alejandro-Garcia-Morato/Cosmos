@@ -279,7 +279,7 @@ function cambiarIdiomaLuna(idioma) {
         document.getElementById('articulo-planetas-texto-informacion1').innerHTML = "Las fases lunares son cuatro: nueva, cuarto creciente, luna llena y cuarto menguante.";
         document.getElementById('articulo-planetas-texto-informacion2').innerHTML = 'Astro más cercano a la Tierra (384.400Km) y satélite natural de nuestro planeta y el segundo más grande del sistema solar.';
         document.getElementById('articulo-planetas-texto-informacion3').innerHTML = 'La luna tiene un diámetro de 2474,8 Km. Su superficie está repleta de cráteres producidos por impactos de meteoritos debido a que la luna no tiene atmósfera.';
-        document.getElementById('articulo-planetas-texto-informacion4').innerHTML = 'Periodo de rotación: 27,3 días. Periodo de traslación: 27,3. días Por eso siempre vemos la misma cara de la luna.';
+        document.getElementById('articulo-planetas-texto-informacion4').innerHTML = 'Periodo de rotación: 27,3 días. Periodo de traslación: 27,3 días. Por eso siempre vemos la misma cara de la luna.';
         document.getElementById('articulo-planetas-texto-informacion5').innerHTML = 'La gravedad es menor que en la TIerra (1,62m/s2). Una persona que pese 45 kilos en la Luna pesaría 8,05 kilos.';
         document.getElementById('aside-titulo').innerHTML = 'Datos Curiosos:';
         document.getElementById('aside-planetas-texto1').innerHTML = ' Ha llegado más gente a la Luna que a las profundidades de los océanos.';
