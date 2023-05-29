@@ -174,7 +174,7 @@ function cambiarIdiomaVenus(idioma) {
         document.getElementById('uno-venus').innerHTML = 'Its average temperature is 453ºC during the day its temperature is 426ºC and at night -173ºC. On Venus there is no water because of its proximity to the sun.';
         document.getElementById('dos-venus').innerHTML = 'DURATION: 243.0226 days, its nights 116.75 Earth days and its years 243 Earth days.';
         document.getElementById('tres-venus').innerHTML = 'MOVEMENTS: its rotation is in the opposite direction to that of the Earth and its translation 225 Earth days.';
-        document.getElementById('aside-venus').innerHTML = 'The atmosphere, surface and gravity';
+        document.getElementById('aside-venus').innerHTML = 'Fun facts:';
         document.getElementById('uno-aside-venus').innerHTML = ' The surface of Venus is 460.2 million km/m2.';
         document.getElementById('dos-aside-venus').innerHTML = ' Its surface cannot be seen because it is covered by thick clouds.';
         document.getElementById('tres-aside-venus').innerHTML = ' Gravity: 8.87 m/s².';
@@ -322,7 +322,7 @@ function cambiarIdiomaJupiter(idioma) {
         document.getElementById('uno-segundo-jupiter').innerHTML = 'Jupiter has an extreme variation of monthly rainfall by season. Rain falls throughout the year on Jupiter. The month with the most rain on Jupiter is September, with an average of 147 millimeters of rain. The month with the least rain on Jupiter is December, with an average of 45 millimeters of rain. Its atmosphere is made up of approximately 82% hydrogen and 17% helium. To these main components we must add others in a much lower percentage such as methane, water vapor, ammonia, ethane, phosphine, hydrogen sulfide and hydrosulfide.';
         document.getElementById('tercero-article-jupiter').innerHTML = 'Does Jupiter have an atmosphere?';
         document.getElementById('uno-segundo-jupiter').innerHTML = 'Undoubtedly, one of the most fascinating aspects of Jupiter is its atmosphere, mainly composed of more than 80% hydrogen in addition to large proportions of helium, ammonia and ethane.';
-        document.getElementById('aside-jupiter').innerHTML = 'How long is a day on Jupiter?';
+        document.getElementById('aside-jupiter').innerHTML = 'Fun facts:';
         document.getElementById('uno-aside-jupiter').innerHTML = ' 0d 9h 56m full day temperature. 4:56h at night and 5h during the day.';
         document.getElementById('footer-desarrolladores').innerHTML = 'Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
         document.getElementById('footer-info').innerHTML = 'The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco de Alcázar de San Juan participates';
@@ -369,7 +369,7 @@ function cambiarIdiomaSaturno(idioma) {
         document.getElementById('segundo-article-saturno').innerHTML = 'información';
         document.getElementById('uno-segundo-saturno').innerHTML = 'WATER: A study carried out by the University of Leicester has detected that water exists in the atmosphere.';
         document.getElementById('dos-segundo-saturno').innerHTML = 'DURATION: The duration of Saturn is 11 hours in total. Where 10 hours is for the day and only one for the night.Saturn´s translation is 29 years and rotation 10 hours.';
-        document.getElementById('aside-saturno').innerHTML = 'Surface:';
+        document.getElementById('aside-saturno').innerHTML = 'Fun facts:';
         document.getElementById('uno-aside-saturno').innerHTML = 'Saturn has a distance of 42.7 million kilometers.';
         document.getElementById('dos-aside-saturno').innerHTML = 'A radius of 58,232 km.';
         document.getElementById('footer-desarrolladores').innerHTML = 'Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
