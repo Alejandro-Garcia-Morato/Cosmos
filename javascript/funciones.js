@@ -417,9 +417,9 @@ function cambiarIdiomaSaturno(idioma) {
         document.getElementById('uno-segundo-saturno').innerHTML = 'AGUA: Un estudio realizado por la universidad de Leicester, ha detectado que el agua existe en la atmósfera.';
         document.getElementById('dos-segundo-saturno').innerHTML = 'DURACIÓN: La duración de saturno es de 11 horas en total. Donde 10 horas es por el día y solo una por la noche. La traslación de Saturno es de 29 años terrestres.';
         document.getElementById('aside-saturno').innerHTML = 'Datos Curiosos:';
-        document.getElementById('uno-aside-saturno').innerHTML = 'Saturno tiene una superficie de 42,7 de millones de kilómetros.';
-        document.getElementById('dos-aside-saturno').innerHTML = 'Un radio de 58.232 km.';
-        document.getElementById('tres-aside-saturno').innerHTML = 'Saturno no es el único planeta que tiene anillos';
+        document.getElementById('uno-aside-saturno').innerHTML = ' Saturno tiene una superficie de 42,7 de millones de kilómetros.';
+        document.getElementById('dos-aside-saturno').innerHTML = ' Un radio de 58.232 km.';
+        document.getElementById('tres-aside-saturno').innerHTML = ' Saturno no es el único planeta que tiene anillos.';
         document.getElementById('footer-desarrolladores').innerHTML = 'Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
         document.getElementById('footer-info').innerHTML = 'Han participado en la elaboración de esta web los alumnos de Marina Martínez Bonat de 3º de ESO A, B y C y los alumnos de Alicia Portero Hernández dentro del programa de formación en competencias STEAM en el que participa el IES Juan Bosco de Alcázar de San Juan';
         document.getElementById('footer-copy').innerHTML = '© 2023 Todos los derechos reservados';
@@ -440,9 +440,9 @@ function cambiarIdiomaSaturno(idioma) {
         document.getElementById('uno-segundo-saturno').innerHTML = 'WATER: A study carried out by the University of Leicester has detected that water exists in the atmosphere.';
         document.getElementById('dos-segundo-saturno').innerHTML = 'DURATION: The duration of Saturn is 11 hours in total. Where 10 hours is for the day and only one for the night. The translation of Saturn is 29 Earth years.';
         document.getElementById('aside-saturno').innerHTML = 'Fun facts:';
-        document.getElementById('uno-aside-saturno').innerHTML = 'Saturn has a distance of 42.7 million kilometers.';
-        document.getElementById('dos-aside-saturno').innerHTML = 'A radius of 58,232 km.';
-        document.getElementById('tres-aside-saturno').innerHTML = 'Saturn is not the only planet with rings';
+        document.getElementById('uno-aside-saturno').innerHTML = ' Saturn has a distance of 42.7 million kilometers.';
+        document.getElementById('dos-aside-saturno').innerHTML = ' A radius of 58,232 km.';
+        document.getElementById('tres-aside-saturno').innerHTML = ' Saturn is not the only planet with rings';
         document.getElementById('footer-desarrolladores').innerHTML = 'Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
         document.getElementById('footer-info').innerHTML = 'The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco de Alcázar de San Juan participates';
         document.getElementById('footer-copy').innerHTML = '© 2023 All rights reserved';
