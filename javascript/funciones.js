@@ -123,9 +123,9 @@ function cambiarIdiomaMercurio(idioma) {
         document.getElementById('articulo-planetas-texto-informacion4').innerHTML = 'No podríamos ni andar ni saltar, flotaríamos. En la Tierra pesamos 100kg y en mercurio pesaríamos 38kg.';
         document.getElementById('articulo-planetas-texto-informacion5').innerHTML = 'La edad del planeta es de 4.500.000.000 años.';
         document.getElementById('aside-titulo').innerHTML = 'Datos Curiosos:';
-        document.getElementById('aside-planetas-texto1').innerHTML = ' Para llegar desde la Tierra se tardan 40 días';
-        document.getElementById('aside-planetas-texto2').innerHTML = ' Está a unos 80.000 kilómetros desde la Tierra';
-        document.getElementById('aside-planetas-texto3').innerHTML = ' Su color es grisáceo';
+        document.getElementById('aside-planetas-texto1').innerHTML = ' Para llegar desde la Tierra se tardan 40 días.';
+        document.getElementById('aside-planetas-texto2').innerHTML = ' Está a unos 80.000 kilómetros desde la Tierra.';
+        document.getElementById('aside-planetas-texto3').innerHTML = ' Su color es grisáceo.';
         document.getElementById('footer-desarrolladores').innerHTML = 'Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
         document.getElementById('footer-info').innerHTML = 'Han participado en la elaboración de esta web los alumnos de Marina Martínez Bonat de 3º de ESO A, B y C y los alumnos de Alicia Portero Hernández dentro del programa de formación en competencias STEAM en el que participa el IES Juan Bosco de Alcázar de San Juan';
         document.getElementById('footer-copy').innerHTML = '© 2023 Todos los derechos reservados';
