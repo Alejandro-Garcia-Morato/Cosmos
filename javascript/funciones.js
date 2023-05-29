@@ -384,7 +384,7 @@ function cambiarIdiomaJupiter(idioma) {
         document.getElementById('menu-lista_planetas-saturno').innerHTML = 'Saturn';
         document.getElementById('menu-lista_planetas-urano').innerHTML = 'Uranus';
         document.getElementById('menu-lista_planetas-neptuno').innerHTML = 'Neptune';
-        document.getElementById('main-cabecera-titulo-jupiter').innerHTML = 'Jupiter';
+        document.getElementById('main-cabecera-titulo-jupiter').innerHTML = 'jupiter';
         document.getElementById('primero-article-jupiter').innerHTML = 'etymology';
         document.getElementById('etimologia-jupiter').innerHTML = 'Jupiter derives from Ius-piter, that is, ultimately from Deus-pater "father god".';
         document.getElementById('segundo-article-jupiter').innerHTML = 'information';
