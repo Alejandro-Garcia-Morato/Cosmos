@@ -66,7 +66,7 @@ function cambiarIdiomaSol(idioma) {
         document.getElementById('etimologia-sol').innerHTML = 'Su nombre viene del latín sol, que era como los romanos llamaban al astro brillante que les ofrecía la luz del día.';
         document.getElementById('segundo-article-sol').innerHTML = 'información';
         document.getElementById('uno-sol').innerHTML = 'Se clasifica como una estrella tipo espectral G2 y clase de luminosidad V: una estrella “G2V”.';
-        document.getElementById('dos-sol').innerHTML = 'MEDIDAS: con un diámetro de 1,3927 millones km y con un Radio de 696.340 km.';
+        document.getElementById('dos-sol').innerHTML = 'MEDIDAS: Diámetro de 1,3927 millones de km y radio de 696.340 km.';
         document.getElementById('tres-sol').innerHTML = 'EDAD: 4.500.000.000 años.';
         document.getElementById('aside-sol').innerHTML = 'Datos Curiosos:';
         document.getElementById('uno-aside-sol').innerHTML = ' Aunque veamos que es amarillo en realidad es blanco.';
@@ -90,7 +90,7 @@ function cambiarIdiomaSol(idioma) {
         document.getElementById('etimologia-sol').innerHTML = 'Its name comes from the Latin sun, which was how the Romans called the bright star that offered them daylight.';
         document.getElementById('segundo-article-sol').innerHTML = 'information';
         document.getElementById('uno-sol').innerHTML = 'It is classified as a G2 spectral type star and luminosity class V: a “G2V” star.';
-        document.getElementById('dos-sol').innerHTML = 'MEASUREMENTS: with a diameter of 1.3927 million km and a radius of 696,340 km.';
+        document.getElementById('dos-sol').innerHTML = 'MEASUREMENTS: Diameter of 1.3927 million km and radius of 696,340 km.';
         document.getElementById('tres-sol').innerHTML = 'AGE: 4,500,000,000 years.';
         document.getElementById('aside-sol').innerHTML = 'Fun facts:';
         document.getElementById('uno-aside-sol').innerHTML = ' Although we see that it is yellow, it is actually white.';
