@@ -148,7 +148,7 @@ function cambiarIdiomaVenus(idioma) {
         document.getElementById('primero-article-venus').innerHTML = 'etimologia';
         document.getElementById('etimologia-venus').innerHTML = 'Su nombre viene de la mitologia romana que seria el equivalente a la diosa griega Afrodita. Es el unico planeta del sistema solar que tiene nombre de una diosa.';
         document.getElementById('segundo-article-venus').innerHTML = 'información';
-        document.getElementById('uno-venus').innerHTML = 'Su temperatura media 453ºC de día su temperatura es 426ºC y de noche -173ºC.En Venus no hay agua por su cercanía al sol.';
+        document.getElementById('uno-venus').innerHTML = 'Su temperatura media 453ºC, de día es 426ºC y de noche -173ºC.En Venus no hay agua por su cercanía al sol.';
         document.getElementById('dos-venus').innerHTML = 'DURACIONES: 243,0226 de dia ,sus noche 116,75 días terrestres y sus años 243 días terrestres.';
         document.getElementById('tres-venus').innerHTML = 'MOVIMIENTOS: su rotación es en dirección contraria a la de la Tierra y su translación 225 días terrestres.';
         document.getElementById('aside-venus').innerHTML = 'Datos Curiosos:';
@@ -171,7 +171,7 @@ function cambiarIdiomaVenus(idioma) {
         document.getElementById('primero-article-venus').innerHTML = 'etymology';
         document.getElementById('etimologia-venus').innerHTML = 'Its name comes from Roman mythology, which would be the equivalent of the Greek goddess Aphrodite.It is the only planet in the solar system named after a goddess.';
         document.getElementById('segundo-article-venus').innerHTML = 'information';
-        document.getElementById('uno-venus').innerHTML = 'Its average temperature is 453ºC during the day its temperature is 426ºC and at night -173ºC. On Venus there is no water because of its proximity to the sun.';
+        document.getElementById('uno-venus').innerHTML = 'Its average temperature is 453ºC, during the day its is 426ºC and at night -173ºC. On Venus there is no water because of its proximity to the sun.';
         document.getElementById('dos-venus').innerHTML = 'DURATION: 243.0226 days, its nights 116.75 Earth days and its years 243 Earth days.';
         document.getElementById('tres-venus').innerHTML = 'MOVEMENTS: its rotation is in the opposite direction to that of the Earth and its translation 225 Earth days.';
         document.getElementById('aside-venus').innerHTML = 'Fun facts:';
@@ -323,7 +323,7 @@ function cambiarIdiomaJupiter(idioma) {
         document.getElementById('tercero-article-jupiter').innerHTML = 'Does Jupiter have an atmosphere?';
         document.getElementById('uno-segundo-jupiter').innerHTML = 'Undoubtedly, one of the most fascinating aspects of Jupiter is its atmosphere, mainly composed of more than 80% hydrogen in addition to large proportions of helium, ammonia and ethane.';
         document.getElementById('aside-jupiter').innerHTML = 'Fun facts:';
-        document.getElementById('uno-aside-jupiter').innerHTML = ' 0d 9h 56m full day temperature. 4:56h at night and 5h during the day.';
+        document.getElementById('uno-aside-jupiter').innerHTML = ' the dat lasts 9h 56m full day temperature. 4:56h at night and 5h during the day.';
         document.getElementById('footer-desarrolladores').innerHTML = 'Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
         document.getElementById('footer-info').innerHTML = 'The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco de Alcázar de San Juan participates';
         document.getElementById('footer-copy').innerHTML = '© 2023 All rights reserved';
@@ -345,7 +345,7 @@ function cambiarIdiomaSaturno(idioma) {
         document.getElementById('primero-article-saturno').innerHTML = 'etimologia';
         document.getElementById('etimologia-saturno').innerHTML = 'Su nombre viene del latín sol que era como los romanos llamaban al astro brillante que les ofrecía la luz del día.';
         document.getElementById('segundo-article-saturno').innerHTML = 'información';
-        document.getElementById('uno-segundo-saturno').innerHTML = 'AGUA: Un estudio realizado por la universidad de Leicester ,ha detectado que el agua existe en la atmósfera.';
+        document.getElementById('uno-segundo-saturno').innerHTML = 'AGUA: Un estudio realizado por la universidad de Leicester, ha detectado que el agua existe en la atmósfera.';
         document.getElementById('dos-segundo-saturno').innerHTML = 'DURACIÓN: La duración de saturno es de 11 horas en total.Donde 10 horas es por el día y solo una por la noche la traslación de Saturno es de 29 años y la rotación de 10 horas.';
         document.getElementById('aside-saturno').innerHTML = 'Datos Curiosos:';
         document.getElementById('uno-aside-saturno').innerHTML = 'Saturno tiene una superficie de 42,7 de millones de kilómetros.';
