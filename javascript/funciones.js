@@ -363,13 +363,13 @@ function cambiarIdiomaJupiter(idioma) {
         document.getElementById('menu-lista_planetas-urano').innerHTML = 'Urano';
         document.getElementById('menu-lista_planetas-neptuno').innerHTML = 'Neptuno';
         document.getElementById('main-cabecera-titulo-jupiter').innerHTML = 'júpiter';
-        document.getElementById('primero-article-jupiter').innerHTML = 'etimologia';
+        document.getElementById('primero-article-jupiter').innerHTML = 'etimología';
         document.getElementById('etimologia-jupiter').innerHTML = 'Júpiter deriva de Ius-piter, o sea, últimamente de Deus-pater "dios padre".';
         document.getElementById('segundo-article-jupiter').innerHTML = 'información';
         document.getElementById('uno-segundo-jupiter').innerHTML = 'Júpiter tiene una variación extremada de lluvia mensual por estación. Llueve durante el año en Júpiter. El mes con más lluvia en Júpiter es septiembre, con un promedio de 147 milímetros de lluvia. El mes con menos lluvia en Júpiter es diciembre, con un promedio de 45 milímetros de lluvia.';
         document.getElementById('dos-segundo-jupiter').innerHTML = 'Su atmósfera se compone aproximadamente de un 82% de hidrógeno y un 17% de helio. A estos componentes principales hay que sumarle otros en mucho menor porcentaje como metano, vapor de agua, amoniaco, etano, fosfina, sulfuro de hidrógeno e hidrosulfuro.';
         document.getElementById('aside-jupiter').innerHTML = 'Datos Curiosos:';
-        document.getElementById('uno-aside-jupiter').innerHTML = ' El dia dura 9h 56m. De la noche 4:56h y del día 5 horas';
+        document.getElementById('uno-aside-jupiter').innerHTML = ' El día dura 9h 56m. De la noche 4:56h y del día 5 horas';
         document.getElementById('dos-aside-jupiter').innerHTML = ' Sin duda, uno de los aspectos más fascinantes de Júpiter es su atmósfera, principalmente compuesta de hidrógeno en más de uno 80% además de grandes proporciones de helio, amoniaco y etano.';
         document.getElementById('footer-desarrolladores').innerHTML = 'Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
         document.getElementById('footer-info').innerHTML = 'Han participado en la elaboración de esta web los alumnos de Marina Martínez Bonat de 3º de ESO A, B y C y los alumnos de Alicia Portero Hernández dentro del programa de formación en competencias STEAM en el que participa el IES Juan Bosco de Alcázar de San Juan';
@@ -387,7 +387,7 @@ function cambiarIdiomaJupiter(idioma) {
         document.getElementById('main-cabecera-titulo-jupiter').innerHTML = 'Jupiter';
         document.getElementById('primero-article-jupiter').innerHTML = 'etymology';
         document.getElementById('etimologia-jupiter').innerHTML = 'Jupiter derives from Ius-piter, that is, ultimately from Deus-pater "father god".';
-        document.getElementById('segundo-article-jupiter').innerHTML = 'rainfall';
+        document.getElementById('segundo-article-jupiter').innerHTML = 'information';
         document.getElementById('uno-segundo-jupiter').innerHTML = 'Jupiter has an extreme variation of monthly rainfall by season. Rain falls throughout the year on Jupiter. The month with the most rain on Jupiter is September, with an average of 147 millimeters of rain. The month with the least rain on Jupiter is December, with an average of 45 millimeters of rain. ';
         document.getElementById('dos-segundo-jupiter').innerHTML = 'Its atmosphere is made up of approximately 82% hydrogen and 17% helium. To these main components we must add others in a much lower percentage such as methane, water vapor, ammonia, ethane, phosphine, hydrogen sulfide and hydrosulfide.';
         document.getElementById('aside-jupiter').innerHTML = 'Fun facts:';
