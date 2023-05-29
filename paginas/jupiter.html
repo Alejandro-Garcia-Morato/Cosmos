@@ -31,22 +31,22 @@
                 </li>
                 <li><a id="menu-lista_planetas-sol" href="./sol.html">Sol</a></li>
                 <li><a id="menu-lista_planetas-mercurio" href="./mercurio.html">Mercurio</a></li>
-                <li><a href="../paginas/venus.html">Venus</a></li>
+                <li><a href="./venus.html">Venus</a></li>
                 <li><a id="menu-lista_planetas-tierra" href="./tierra.html">Tierra</a></li>
                 <li><a id="menu-lista_planetas-luna" href="./luna.html">Luna</a></li>
                 <li><a id="menu-lista_planetas-marte" href="./marte.html">Marte</a></li>
-                <li><a id="menu-lista_planetas-jupiter" href="./jupiter.html">Júpiter</a></li>
+                <li class="current"><a id="menu-lista_planetas-jupiter" href="./jupiter.html">Júpiter</a></li>
                 <li><a id="menu-lista_planetas-saturno" href="./saturno.html">Saturno</a></li>
                 <li><a id="menu-lista_planetas-urano" href="./urano.html">Urano</a></li>
                 <li><a id="menu-lista_planetas-neptuno" href="./neptuno.html">Neptuno</a></li>
             </ul>
 
             <ul class="menu-lista_idiomas">
-                <li><button onclick="cambiarIdioma('es')">Español</button></li>
+                <li><button onclick="cambiarIdiomaJupiter('es')">Español</button></li>
                 <li>
                     <p>|</p>
                 </li>
-                <li><button onclick="cambiarIdioma('en')">English</button></li>
+                <li><button onclick="cambiarIdiomaJupiter('en')">English</button></li>
             </ul>
 
         </nav>
@@ -111,53 +111,6 @@
         <!-- /PIE DE PÁGINA -->
     </div>
 </body>
-<script>
-    function cambiarIdioma(idioma) {
-            if (idioma === 'es') {
-                document.getElementById('menu-lista_planetas-sol').innerHTML = 'Sol';
-                document.getElementById('menu-lista_planetas-mercurio').innerHTML = 'Mercurio';
-                document.getElementById('menu-lista_planetas-tierra').innerHTML = 'Tierra';
-                document.getElementById('menu-lista_planetas-luna').innerHTML = 'Luna';
-                document.getElementById('menu-lista_planetas-marte').innerHTML = 'Marte';
-                document.getElementById('menu-lista_planetas-jupiter').innerHTML = 'Júpiter';
-                document.getElementById('menu-lista_planetas-saturno').innerHTML = 'Saturno';
-                document.getElementById('menu-lista_planetas-urano').innerHTML = 'Urano';
-                document.getElementById('menu-lista_planetas-neptuno').innerHTML = 'Neptuno';
-                document.getElementById('titulo-jupiter').innerHTML = 'júpiter';
-                document.getElementById('primero-article-jupiter').innerHTML = 'etimologia';
-                document.getElementById('etimologia-jupiter').innerHTML = 'Júpiter deriva de Ius-piter, o sea, últimamente de Deus-pater "dios padre"';
-                document.getElementById('segundo-article-jupiter').innerHTML = 'precipitaciones';
-                document.getElementById('uno-segundo-jupiter').innerHTML = 'Júpiter tiene una variación extremada de lluvia mensual por estación. Llueve durante el año en Júpiter. El mes con más lluvia en Júpiter es septiembre, con un promedio de 147 milímetros de lluvia. El mes con menos lluvia en Júpiter es diciembre, con un promedio de 45 milímetros de lluvia.Su atmósfera se compone aproximadamente de un 82% de hidrógeno y un 17% de helio. A estos componentes principales hay que sumarle otros en mucho menor porcentaje como metano, vapor de agua, amoniaco, etano, fosfina, sulfuro de hidrógeno e hidrosulfuro.';
-                document.getElementById('tercero-article-jupiter').innerHTML = '¿tiene atmósfera júpiter?';
-                document.getElementById('uno-segundo-jupiter').innerHTML = 'Sin duda, uno de los aspectos más fascinantes de Júpiter es su atmósfera, principalmente compuesta de hidrógeno en más de uno 80% además de grandes proporciones de helio amoniaco y etano.';
-                document.getElementById('aside-jupiter').innerHTML = '¿Cuánto dura el día en Júpiter?';
-                document.getElementById('uno-aside-jupiter').innerHTML = '0d 9h 56m temperatura del día completo.De la noche 4:56h y del día 5 horas';
-                document.getElementById('footer-desarrolladores').innerHTML = 'Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
-                document.getElementById('footer-info').innerHTML = 'Han participado en la elaboración de esta web los alumnos de Marina Martínez Bonat de 3º de ESO A, B y C y los alumnos de Alicia Portero Hernández dentro del programa de formación en competencias STEAM en el que participa el IES Juan Bosco de Alcázar de San Juan';
-                document.getElementById('footer-copy').innerHTML = '© 2023 Todos los derechos reservados';
-            } else if (idioma === 'en') {
-                document.getElementById('menu-lista_planetas-sol').innerHTML = 'Sun';
-                document.getElementById('menu-lista_planetas-mercurio').innerHTML = 'Mercury';
-                document.getElementById('menu-lista_planetas-tierra').innerHTML = 'Earth';
-                document.getElementById('menu-lista_planetas-luna').innerHTML = 'Moon';
-                document.getElementById('menu-lista_planetas-marte').innerHTML = 'Mars';
-                document.getElementById('menu-lista_planetas-jupiter').innerHTML = 'Jupiter';
-                document.getElementById('menu-lista_planetas-saturno').innerHTML = 'Saturn';
-                document.getElementById('menu-lista_planetas-urano').innerHTML = 'Uranus';
-                document.getElementById('menu-lista_planetas-neptuno').innerHTML = 'Neptune';
-                document.getElementById('titulo-jupiter').innerHTML = 'Jupiter';
-                document.getElementById('primero-article-jupiter').innerHTML = 'etymology';
-                document.getElementById('etimologia-jupiter').innerHTML = 'Jupiter derives from Ius-piter, that is, ultimately from Deus-pater "father god"';
-                document.getElementById('segundo-article-jupiter').innerHTML = 'rainfall';
-                document.getElementById('uno-segundo-jupiter').innerHTML = 'Jupiter has an extreme variation of monthly rainfall by season. Rain falls throughout the year on Jupiter. The month with the most rain on Jupiter is September, with an average of 147 millimeters of rain. The month with the least rain on Jupiter is December, with an average of 45 millimeters of rain. Its atmosphere is made up of approximately 82% hydrogen and 17% helium. To these main components we must add others in a much lower percentage such as methane, water vapor, ammonia, ethane, phosphine, hydrogen sulfide and hydrosulfide.';
-                document.getElementById('tercero-article-jupiter').innerHTML = 'Does Jupiter have an atmosphere?';
-                document.getElementById('uno-segundo-jupiter').innerHTML = 'Undoubtedly, one of the most fascinating aspects of Jupiter is its atmosphere, mainly composed of more than 80% hydrogen in addition to large proportions of helium, ammonia and ethane.';
-                document.getElementById('aside-jupiter').innerHTML = 'How long is a day on Jupiter?';
-                document.getElementById('uno-aside-jupiter').innerHTML = ' 0d 9h 56m full day temperature. 4:56h at night and 5h during the day.';
-                document.getElementById('footer-desarrolladores').innerHTML = 'Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos';
-                document.getElementById('footer-info').innerHTML = 'The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco de Alcázar de San Juan participates';
-                document.getElementById('footer-copy').innerHTML = '© 2023 All rights reserved';
-            }
-        }
-</script>
+
+    <script src="../javascript/funciones.js"></script>
 </html>
