@@ -940,39 +940,39 @@ function cambiarIdiomaNeptuno(idioma) {
         document.getElementById(
             "articulo-planetas-neptuno-etimologia-texto"
         ).innerHTML =
-            "Su nombre fue puesto en honor al dios romano del mar, que proviene de la mitología griega, hijo de los dioses Saturno y Ops, hermano de Júpiter y Plutón. Gobierna todas las aguas y mares y cabalga las olas sobre caballos blancos";
+            "Su nombre fue puesto en honor al dios romano del mar, que proviene de la mitología griega, hijo de los dioses Saturno y Ops, hermano de Júpiter y Plutón. Gobierna todas las aguas y mares y cabalga las olas sobre caballos blancos.";
         document.getElementById("articulo-planetas-neptuno-informacion").innerHTML =
             "información";
         document.getElementById(
             "articulo-planetas-neptuno-informacion-texto1"
         ).innerHTML =
-            "Su gravedad es ligeramente superior a la de la Tierra, aproximadamente un 10 %";
+            "Su gravedad es ligeramente superior a la de la Tierra, aproximadamente un 10 %.";
         document.getElementById(
             "articulo-planetas-neptuno-informacion-texto2"
         ).innerHTML =
-            "Su temperatura máxima durante el día es de -217 ºC, durante la noche de -223 ºC y la temperatura media es de -220 ºC";
+            "Su temperatura máxima durante el día es de -217 ºC, durante la noche de -223 ºC y la temperatura media es de -220 ºC.";
         document.getElementById(
             "articulo-planetas-neptuno-informacion-texto3"
         ).innerHTML =
-            "Es el planeta más ventoso del sistema solar y tiene grandes tormentas";
+            "Es el planeta más ventoso del sistema solar y tiene grandes tormentas.";
         document.getElementById(
             "articulo-planetas-neptuno-informacion-texto4"
         ).innerHTML =
-            "Su día dura unas 16 horas y su periodo sideral dura 175 años";
+            "Su día dura unas 16 horas y su periodo sideral dura 175 años.";
         document.getElementById(
             "articulo-planetas-neptuno-informacion-texto5"
         ).innerHTML =
-            "Sus principales gases son el hidrógeno (74 %), helio (24%) y metano (1%)";
+            "Sus principales gases son el hidrógeno (74 %), helio (24%) y metano (1%).";
         document.getElementById("aside-planetas-neptuno").innerHTML =
             "Datos curiosos:";
         document.getElementById("aside-planetas-neptuno-texto1").innerHTML =
-            "Tiene 58 veces el volumen de la Tierra";
+            " Tiene 58 veces el volumen de la Tierra.";
         document.getElementById("aside-planetas-neptuno-texto2").innerHTML =
-            "Dista del Sol más de 30 veces lo que la Tierra";
+            " Dista del Sol más de 30 veces lo que la Tierra.";
         document.getElementById("aside-planetas-neptuno-texto3").innerHTML =
-            "Está rodeado por seis anillos";
+            " Está rodeado por seis anillos.";
         document.getElementById("aside-planetas-neptuno-texto4").innerHTML =
-            "Es un gigante de hielo y gas";
+            " Es un gigante de hielo y gas.";
         document.getElementById("footer-desarrolladores").innerHTML =
             "Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
@@ -1000,38 +1000,38 @@ function cambiarIdiomaNeptuno(idioma) {
         document.getElementById(
             "articulo-planetas-neptuno-etimologia-texto"
         ).innerHTML =
-            "Its name was given in honor of the Roman god of the sea, which comes from Greek mythology, son of the gods Saturn and Ops, brother of Jupiter and Pluto. He rules all the waters and seas and rides the waves on white horses";
+            "Its name was given in honor of the Roman god of the sea, which comes from Greek mythology, son of the gods Saturn and Ops, brother of Jupiter and Pluto. He rules all the waters and seas and rides the waves on white horses.";
         document.getElementById("articulo-planetas-neptuno-informacion").innerHTML =
             "information";
         document.getElementById(
             "articulo-planetas-neptuno-informacion-texto1"
         ).innerHTML =
-            "Its gravity is slightly higher than Earth's, approximately 10%";
+            "Its gravity is slightly higher than Earth's, approximately 10%.";
         document.getElementById(
             "articulo-planetas-neptuno-informacion-texto2"
         ).innerHTML =
-            "Its maximum temperature during the day is -217 ºC, at night it is -223 ºC and the average temperature is -220 ºC";
+            "Its maximum temperature during the day is -217 ºC, at night it is -223 ºC and the average temperature is -220 ºC.";
         document.getElementById(
             "articulo-planetas-neptuno-informacion-texto3"
         ).innerHTML =
-            "It is the windiest planet in the solar system and has big storms";
+            "It is the windiest planet in the solar system and has big storms.";
         document.getElementById(
             "articulo-planetas-neptuno-informacion-texto4"
         ).innerHTML =
-            "Its day lasts about 16 hours and its sidereal period lasts 175 years";
+            "Its day lasts about 16 hours and its sidereal period lasts 175 years.";
         document.getElementById(
             "articulo-planetas-neptuno-informacion-texto5"
         ).innerHTML =
-            "Its main gases are hydrogen (74%), helium (24%) and methane (1%)";
+            "Its main gases are hydrogen (74%), helium (24%) and methane (1%).";
         document.getElementById("aside-planetas-neptuno").innerHTML = "Fun facts:";
         document.getElementById("aside-planetas-neptuno-texto1").innerHTML =
-            "It is 58 times the volume of the Earth";
+            " It is 58 times the volume of the Earth.";
         document.getElementById("aside-planetas-neptuno-texto2").innerHTML =
-            "It is more than 30 times distant from the Sun than the Earth";
+            " It is more than 30 times distant from the Sun than the Earth.";
         document.getElementById("aside-planetas-neptuno-texto3").innerHTML =
-            "It is surrounded by six rings";
+            " It is surrounded by six rings.";
         document.getElementById("aside-planetas-neptuno-texto4").innerHTML =
-            "It is a giant of ice and gas";
+            " It is a giant of ice and gas.";
 
         document.getElementById("footer-desarrolladores").innerHTML =
             "Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
