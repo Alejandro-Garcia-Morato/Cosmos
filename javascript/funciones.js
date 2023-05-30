@@ -280,13 +280,13 @@ function cambiarIdiomaVenus(idioma) {
             "MOVIMIENTOS: Su rotación es en dirección contraria a la de la Tierra y su translación son 225 días terrestres.";
         document.getElementById("aside-venus").innerHTML = "Datos Curiosos:";
         document.getElementById("uno-aside-venus").innerHTML =
-            "La superficie de Venus es de 460,2 millones de kilómetros/m2.";
+            " La superficie de Venus es de 460,2 millones de kilómetros/m2.";
         document.getElementById("dos-aside-venus").innerHTML =
-            "No se puede ver su superficie porque está cubierta por nubes espesas.";
+            " No se puede ver su superficie porque está cubierta por nubes espesas.";
         document.getElementById("tres-aside-venus").innerHTML =
-            "Gravedad: 8,87 m/s².";
+            " Gravedad: 8,87 m/s².";
         document.getElementById("cuatro-aside-venus").innerHTML =
-            "Atmósfera: Está hecha de un 96% de CO2 y 3% de nitrógeno.";
+            " Atmósfera: Está hecha de un 96% de CO2 y 3% de nitrógeno.";
         document.getElementById("footer-desarrolladores").innerHTML =
             "Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
