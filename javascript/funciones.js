@@ -318,13 +318,13 @@ function cambiarIdiomaVenus(idioma) {
             "MOVEMENTS: Its rotation is in the opposite direction to that of the Earth and its translation is 225 Earth days.";
         document.getElementById("aside-venus").innerHTML = "Fun facts:";
         document.getElementById("uno-aside-venus").innerHTML =
-            "The surface of Venus is 460.2 million km/m2.";
+            " The surface of Venus is 460.2 million km/m2.";
         document.getElementById("dos-aside-venus").innerHTML =
-            "Its surface cannot be seen because it is covered by thick clouds.";
+            " Its surface cannot be seen because it is covered by thick clouds.";
         document.getElementById("tres-aside-venus").innerHTML =
-            "Gravity: 8.87 m/s².";
+            " Gravity: 8.87 m/s².";
         document.getElementById("cuatro-aside-venus").innerHTML =
-            "Atmosphere: It is made of 96% CO2 and 3% nitrogen.";
+            " Atmosphere: It is made of 96% CO2 and 3% nitrogen.";
         document.getElementById("footer-desarrolladores").innerHTML =
             "Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
