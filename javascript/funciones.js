@@ -1042,7 +1042,7 @@ function cambiarIdiomaNeptuno(idioma) {
     }
 }
 
-function castParallax() {
+function parallax() {
 
 	var opThresh = 350;
 	var opFactor = 750;
@@ -1063,4 +1063,24 @@ function castParallax() {
 	});
 }
 
-document.body.onload = castParallax();
+document.body.onload = parallax();
+
+
+function scrollAnimation() {
+
+	const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            console.log(entry)
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+            }/* else{
+                entry.target.classList.remove('show');
+            } */
+        });
+    });
+
+    const hiddenElements = document.querySelectorAll('.hidden');
+    hiddenElements.forEach((el) => observer.observe(el));
+}
+
+document.body.onload = scrollAnimation();
