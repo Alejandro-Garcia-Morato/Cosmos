@@ -110,13 +110,13 @@ function cambiarIdiomaSol(idioma) {
         document.getElementById("tres-sol").innerHTML = "EDAD: 4.500.000.000 años.";
         document.getElementById("aside-sol").innerHTML = "Datos Curiosos:";
         document.getElementById("uno-aside-sol").innerHTML =
-            "Aunque veamos que es amarillo en realidad es blanco.";
+            " Aunque veamos que es amarillo en realidad es blanco.";
         document.getElementById("dos-aside-sol").innerHTML =
-            "Su temperatura de superficie es de 5.778 K.";
+            " Su temperatura de superficie es de 5.778 K.";
         document.getElementById("tres-aside-sol").innerHTML =
-            "Tiene una gravedad de 274 m/s².";
+            " Tiene una gravedad de 274 m/s².";
         document.getElementById("footer-desarrolladores").innerHTML =
-            "Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
+            " Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
             "Han participado en la elaboración de esta web los alumnos de Marina Martínez Bonat de 3º de ESO A, B y C y los alumnos de Alicia Portero Hernández dentro del programa de formación en competencias STEAM en el que participa el IES Juan Bosco de Alcázar de San Juan";
         document.getElementById("footer-copy").innerHTML =
