@@ -365,13 +365,13 @@ function cambiarIdiomaTierra(idioma) {
             "La atmósfera nos aporta gases para respirar, el más importante es el oxígeno. Nos protege del impacto de meteoritos. La atmosfera esta compuestas de nitrógeno, argón, oxígeno, dióxido de carbono y vapor de agua.";
         document.getElementById("aside-titulo").innerHTML = "Datos Curiosos:";
         document.getElementById("aside-planetas-texto1").innerHTML =
-            "Un día dura 12h y la noche 12h y el año 365 días.";
+            " Un día dura 12h y la noche 12h y el año 365 días.";
         document.getElementById("aside-planetas-texto2").innerHTML =
-            "La mayoría de la superficie de la tierra esta compuesta por agua y lo demás por tierra.";
+            " La mayoría de la superficie de la tierra está compuesta por agua y lo demás por tierra.";
         document.getElementById("aside-planetas-texto3").innerHTML =
-            "La gravedad no afecta de igual manera en todos los puntos de la Tierra.";
+            " La gravedad no afecta de igual manera en todos los puntos de la Tierra.";
         document.getElementById("footer-desarrolladores").innerHTML =
-            "Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
+            " Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
             "Han participado en la elaboración de esta web los alumnos de Marina Martínez Bonat de 3º de ESO A, B y C y los alumnos de Alicia Portero Hernández dentro del programa de formación en competencias STEAM en el que participa el IES Juan Bosco de Alcázar de San Juan";
         document.getElementById("footer-copy").innerHTML =
@@ -407,7 +407,7 @@ function cambiarIdiomaTierra(idioma) {
         document.getElementById("aside-planetas-texto1").innerHTML =
             "A day lasts 12h and the night 12h and the year 365 days.";
         document.getElementById("aside-planetas-texto2").innerHTML =
-            "Most of the earth's surface is made up of water and the rest is made up of land.";
+            "Most of the earth's surface is made up of water and the rest by land.";
         document.getElementById("aside-planetas-texto3").innerHTML =
             "Gravity does not affect all points on Earth in the same way.";
         document.getElementById("footer-desarrolladores").innerHTML =
