@@ -819,39 +819,39 @@ function cambiarIdiomaUrano(idioma) {
         document.getElementById(
             "articulo-planetas-urano-etimologia-texto"
         ).innerHTML =
-            "Del latín Uranus, de la traducción latina del griego antiguo representante del cielo y padre del dios Saturno";
+            "Del latín Uranus, de la traducción latina del griego antiguo representante del cielo y padre del dios Saturno.";
         document.getElementById("articulo-planetas-urano-informacion").innerHTML =
             "información";
         document.getElementById(
             "articulo-planetas-urano-informacion-texto1"
         ).innerHTML =
-            "Es conocido por su inclinación extrema, ya que su eje de rotación está inclinado en más de 90 grados en relación con su plano orbita, lo que significa que parece estar girando sobre su costado";
+            "Es conocido por su inclinación extrema, ya que su eje de rotación está inclinado en más de 90 grados en relación con su plano orbita, lo que significa que parece estar girando sobre su costado.";
         document.getElementById(
             "articulo-planetas-urano-informacion-texto2"
-        ).innerHTML = "La temperatura media es de -218ºC";
+        ).innerHTML = "La temperatura media es de -218ºC.";
         document.getElementById(
             "articulo-planetas-urano-informacion-texto3"
-        ).innerHTML = "Tiene presencia de agua, en su mayoría hielo";
+        ).innerHTML = "Tiene presencia de agua, en su mayoría hielo.";
         document.getElementById(
             "articulo-planetas-urano-informacion-texto4"
         ).innerHTML =
-            "Su atmósfera se compone de hidrógeno, helio, metano, agua y amoníaco";
+            "Su atmósfera se compone de hidrógeno, helio, metano, agua y amoníaco.";
         document.getElementById(
             "articulo-planetas-urano-informacion-texto5"
         ).innerHTML =
-            "Tiene una gravedad de 8,87 m/s² y una superficie de 8,083 miles de millones de km²";
+            "Tiene una gravedad de 8,87 m/s² y una superficie de 8,083 miles de millones de km².";
         document.getElementById(
             "articulo-planetas-urano-informacion-texto6"
         ).innerHTML =
-            "Un día dura 17 horas, 14 minutos y 24 segundos y un año dura 84 años terrestres";
+            "Un día dura 17 horas, 14 minutos y 24 segundos y un año dura 84 años terrestres.";
         document.getElementById("aside-planetas-urano").innerHTML =
             "Datos curiosos:";
         document.getElementById("aside-planetas-urano-texto1").innerHTML =
-            "Sistema de anillos muy tenue, fue descubierto en 1977";
+            " Sistema de anillos muy tenue, fue descubierto en 1977.";
         document.getElementById("aside-planetas-urano-texto2").innerHTML =
-            "Urano tiene 27 lunas conocidas, las más grandes son Titania y Oberón. Sus nombres son los de la reina y el rey de las hadas en la obra El sueño de una noche de verano de Shakespeare";
+            " Urano tiene 27 lunas conocidas, las más grandes son Titania y Oberón. Sus nombres son los de la reina y el rey de las hadas en la obra El sueño de una noche de verano de Shakespeare.";
         document.getElementById("aside-planetas-urano-texto3").innerHTML =
-            "Cada una de sus lunas tiene su propia orbita y caracteristicas únicas";
+            " Cada una de sus lunas tiene su propia orbita y caracteristicas únicas.";
         document.getElementById("footer-desarrolladores").innerHTML =
             "Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
@@ -877,38 +877,38 @@ function cambiarIdiomaUrano(idioma) {
         document.getElementById(
             "articulo-planetas-urano-etimologia-texto"
         ).innerHTML =
-            "From the Latin Uranus, from the Latin translation of the ancient Greek representative of heaven and father of the god Saturn";
+            "From the Latin Uranus, from the Latin translation of the ancient Greek representative of heaven and father of the god Saturn.";
         document.getElementById("articulo-planetas-urano-informacion").innerHTML =
             "information";
         document.getElementById(
             "articulo-planetas-urano-informacion-texto1"
         ).innerHTML =
-            "It is known for its extreme tilt, as its axis of rotation is tilted by more than 90 degrees relative to its orbital plane, meaning it appears to be spinning on its side";
+            "It is known for its extreme tilt, as its axis of rotation is tilted by more than 90 degrees relative to its orbital plane, meaning it appears to be spinning on its side.";
         document.getElementById(
             "articulo-planetas-urano-informacion-texto2"
-        ).innerHTML = "The average temperature is -218ºC";
+        ).innerHTML = "The average temperature is -218ºC.";
         document.getElementById(
             "articulo-planetas-urano-informacion-texto3"
-        ).innerHTML = "Has presence of water, mostly ice";
+        ).innerHTML = "Has presence of water, mostly ice.";
         document.getElementById(
             "articulo-planetas-urano-informacion-texto4"
         ).innerHTML =
-            "Its atmosphere is made up of hydrogen, helium, methane, water and ammonia";
+            "Its atmosphere is made up of hydrogen, helium, methane, water and ammonia.";
         document.getElementById(
             "articulo-planetas-urano-informacion-texto5"
         ).innerHTML =
-            "It has a gravity of 8.87 m/s² and an area of 8.083 billion km²";
+            "It has a gravity of 8.87 m/s² and an area of 8.083 billion km².";
         document.getElementById(
             "articulo-planetas-urano-informacion-texto6"
         ).innerHTML =
-            "A day lasts 17 hours, 14 minutes and 24 seconds and a year lasts 84 Earth years";
+            "A day lasts 17 hours, 14 minutes and 24 seconds and a year lasts 84 Earth years.";
         document.getElementById("aside-planetas-urano").innerHTML = "Fun facts:";
         document.getElementById("aside-planetas-urano-texto1").innerHTML =
-            "Very faint ring system, it was discovered in 1977";
+            " Very faint ring system, it was discovered in 1977.";
         document.getElementById("aside-planetas-urano-texto2").innerHTML =
-            "Their names are those of the queen and king of the fairies in Shakespeare's A Midsummer Night's Dream";
+            " Their names are those of the queen and king of the fairies in Shakespeare's A Midsummer Night's Dream.";
         document.getElementById("aside-planetas-urano-texto3").innerHTML =
-            "Each of its moons has its own orbit and unique characteristics";
+            " Each of its moons has its own orbit and unique characteristics.";
         document.getElementById("footer-desarrolladores").innerHTML =
             "Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
