@@ -562,17 +562,17 @@ function cambiarIdiomaMarte(idioma) {
         document.getElementById("aside-planetas-marte").innerHTML =
             "Datos Curiosos:";
         document.getElementById("aside-planetas-marte-texto1").innerHTML =
-            "Marte es el 4º planeta en orden de distancia al Sol.";
+            " Marte es el 4º planeta en orden de distancia al Sol.";
         document.getElementById("aside-planetas-marte-texto2").innerHTML =
-            "Es el 2º más pequeño del sistema solar después de Mercurio.";
+            " Es el 2º más pequeño del sistema solar después de Mercurio.";
         document.getElementById("aside-planetas-marte-texto3").innerHTML =
-            "Un año en Marte es de 687 días.";
+            " Un año en Marte es de 687 días.";
         document.getElementById("aside-planetas-marte-texto4").innerHTML =
-            "Un día en Marte dura 24 horas y 37 minutos.";
+            " Un día en Marte dura 24 horas y 37 minutos.";
         document.getElementById("aside-planetas-marte-texto5").innerHTML =
-            "Marte es un planeta desértico y frío.";
+            " Marte es un planeta desértico y frío.";
         document.getElementById("aside-planetas-marte-texto6").innerHTML =
-            "Es la mitad del tamaño de la Tierra.";
+            " Es la mitad del tamaño de la Tierra.";
         document.getElementById("footer-desarrolladores").innerHTML =
             "Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
@@ -624,17 +624,17 @@ function cambiarIdiomaMarte(idioma) {
         ).innerHTML = "Mars has seasons that last twice as long as on Earth.";
         document.getElementById("aside-planetas-marte").innerHTML = "Fun facts:";
         document.getElementById("aside-planetas-marte-texto1").innerHTML =
-            "Mars is the 4th planet in order of distance from the Sun.";
+            " Mars is the 4th planet in order of distance from the Sun.";
         document.getElementById("aside-planetas-marte-texto2").innerHTML =
-            "It is the 2nd smallest in the solar system after Mercury.";
+            " It is the 2nd smallest in the solar system after Mercury.";
         document.getElementById("aside-planetas-marte-texto3").innerHTML =
-            "A year on Mars is 687 days.";
+            " A year on Mars is 687 days.";
         document.getElementById("aside-planetas-marte-texto4").innerHTML =
-            "A day on Mars lasts 24 hours and 37 minutes.";
+            " A day on Mars lasts 24 hours and 37 minutes.";
         document.getElementById("aside-planetas-marte-texto5").innerHTML =
-            "Mars is a cold desert planet.";
+            " Mars is a cold desert planet.";
         document.getElementById("aside-planetas-marte-texto6").innerHTML =
-            "It is half the size of the Earth.";
+            " It is half the size of the Earth.";
         document.getElementById("footer-desarrolladores").innerHTML =
             "Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
