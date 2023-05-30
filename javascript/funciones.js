@@ -747,11 +747,11 @@ function cambiarIdiomaSaturno(idioma) {
             "DURACIÓN: La duración de saturno es de 11 horas en total. Donde 10 horas es por el día y solo una por la noche. La traslación de Saturno es de 29 años terrestres.";
         document.getElementById("aside-saturno").innerHTML = "Datos Curiosos:";
         document.getElementById("uno-aside-saturno").innerHTML =
-            "Saturno tiene una superficie de 42,7 de millones de kilómetros.";
+            " Saturno tiene una superficie de 42,7 de millones de kilómetros.";
         document.getElementById("dos-aside-saturno").innerHTML =
-            "Un radio de 58.232 km.";
+            " Un radio de 58.232 km.";
         document.getElementById("tres-aside-saturno").innerHTML =
-            "Saturno no es el único planeta que tiene anillos.";
+            " Saturno no es el único planeta que tiene anillos.";
         document.getElementById("footer-desarrolladores").innerHTML =
             "Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
@@ -784,11 +784,11 @@ function cambiarIdiomaSaturno(idioma) {
             "DURATION: The duration of Saturn is 11 hours in total. Where 10 hours is for the day and only one for the night. The translation of Saturn is 29 Earth years.";
         document.getElementById("aside-saturno").innerHTML = "Fun facts:";
         document.getElementById("uno-aside-saturno").innerHTML =
-            "Saturn has a distance of 42.7 million kilometers.";
+            " Saturn has a distance of 42.7 million kilometers.";
         document.getElementById("dos-aside-saturno").innerHTML =
-            "A radius of 58,232 km.";
+            " A radius of 58,232 km.";
         document.getElementById("tres-aside-saturno").innerHTML =
-            "Saturn is not the only planet with rings";
+            " Saturn is not the only planet with rings";
         document.getElementById("footer-desarrolladores").innerHTML =
             "Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
