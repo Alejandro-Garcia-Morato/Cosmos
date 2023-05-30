@@ -1089,6 +1089,14 @@ footer {
         font-size: 3.5rem;
     }
 
+    .planetas-img-titulo {
+        width: 70vw;
+    }
+
+    .main-cabecera-titulo {
+        font-size: 17vw;
+    }
+
     .seccion-planetas {
         /* text-align: justify; */
         display: grid;
@@ -1279,6 +1287,14 @@ footer {
 
     .home-articulo-planeta-titulo {
         width: 95%;
+    }
+
+    .planetas-img-titulo {
+        width: 70vw;
+    }
+
+    .main-cabecera-titulo {
+        font-size: 17vw;
     }
 
     .seccion-planetas {
