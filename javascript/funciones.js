@@ -535,44 +535,44 @@ function cambiarIdiomaMarte(idioma) {
         document.getElementById(
             "articulo-planetas-marte-etimologia-texto"
         ).innerHTML =
-            "Su nombre se debe al dios de la guerra según la mitología romana (Ares para los griegos)";
+            "Su nombre se debe al dios de la guerra según la mitología romana (Ares para los griegos).";
         document.getElementById("articulo-planetas-marte-informacion").innerHTML =
             "información";
         document.getElementById(
             "articulo-planetas-marte-informacion-texto1"
         ).innerHTML =
-            "Marte tiene la montaña más alta conocida de todo el sistema solar";
+            "Marte tiene la montaña más alta conocida de todo el sistema solar.";
         document.getElementById(
             "articulo-planetas-marte-informacion-texto2"
         ).innerHTML =
-            "La temperatura durante el día es de unos 0ºC y durante la noche de unos -129ºC, con una temperatura media de -50ºC";
+            "La temperatura durante el día es de unos 0ºC y durante la noche de unos -129ºC, con una temperatura media de -50ºC.";
         document.getElementById(
             "articulo-planetas-marte-informacion-texto3"
-        ).innerHTML = "Tiene una gravedad de 3,721 m/s²";
+        ).innerHTML = "Tiene una gravedad de 3,721 m/s².";
         document.getElementById(
             "articulo-planetas-marte-informacion-texto4"
-        ).innerHTML = "No hay presencia de agua líquida";
+        ).innerHTML = "No hay presencia de agua líquida.";
         document.getElementById(
             "articulo-planetas-marte-informacion-texto5"
         ).innerHTML =
-            "Su ligera atmósfera, que hace que no se soporten grandes presiones, está formada en un 95% de dióxido, en un 2,7% de nitrógeno y en un 1,7% de argón";
+            "Su ligera atmósfera, que hace que no se soporten grandes presiones, está formada en un 95% de dióxido, en un 2,7% de nitrógeno y en un 1,7% de argón.";
         document.getElementById(
             "articulo-planetas-marte-informacion-texto6"
-        ).innerHTML = "Presenta estaciones que duran el doble que en la Tierra";
+        ).innerHTML = "Presenta estaciones que duran el doble que en la Tierra.";
         document.getElementById("aside-planetas-marte").innerHTML =
             "Datos Curiosos:";
         document.getElementById("aside-planetas-marte-texto1").innerHTML =
-            "Marte es el 4º planeta en orden de distancia al Sol";
+            "Marte es el 4º planeta en orden de distancia al Sol.";
         document.getElementById("aside-planetas-marte-texto2").innerHTML =
-            "Es el 2º más pequeño del sistema solar después de Mercurio";
+            "Es el 2º más pequeño del sistema solar después de Mercurio.";
         document.getElementById("aside-planetas-marte-texto3").innerHTML =
-            "Un año en Marte es de 687 días";
+            "Un año en Marte es de 687 días.";
         document.getElementById("aside-planetas-marte-texto4").innerHTML =
-            "Un día en Marte dura 24 horas y 37 minutos";
+            "Un día en Marte dura 24 horas y 37 minutos.";
         document.getElementById("aside-planetas-marte-texto5").innerHTML =
-            "Marte es un planeta desértico y frío";
+            "Marte es un planeta desértico y frío.";
         document.getElementById("aside-planetas-marte-texto6").innerHTML =
-            "Es la mitad del tamaño de la Tierra";
+            "Es la mitad del tamaño de la Tierra.";
         document.getElementById("footer-desarrolladores").innerHTML =
             "Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
@@ -598,43 +598,43 @@ function cambiarIdiomaMarte(idioma) {
         document.getElementById(
             "articulo-planetas-marte-etimologia-texto"
         ).innerHTML =
-            "Its name is due to the god of war according to Roman mythology (Ares for the Greeks)";
+            "Its name is due to the god of war according to Roman mythology (Ares for the Greeks).";
         document.getElementById("articulo-planetas-marte-informacion").innerHTML =
             "information";
         document.getElementById(
             "articulo-planetas-marte-informacion-texto1"
         ).innerHTML =
-            "Mars has the highest known mountain in the entire solar system";
+            "Mars has the highest known mountain in the entire solar system.";
         document.getElementById(
             "articulo-planetas-marte-informacion-texto2"
         ).innerHTML =
-            "The temperature during the day is about 0ºC and during the night about -129ºC, with an average temperature of -50ºC";
+            "The temperature during the day is about 0ºC and during the night about -129ºC, with an average temperature of -50ºC.";
         document.getElementById(
             "articulo-planetas-marte-informacion-texto3"
-        ).innerHTML = "It has a gravity of 3,721 m/s²";
+        ).innerHTML = "It has a gravity of 3,721 m/s².";
         document.getElementById(
             "articulo-planetas-marte-informacion-texto4"
-        ).innerHTML = "There is no presence of liquid water";
+        ).innerHTML = "There is no presence of liquid water.";
         document.getElementById(
             "articulo-planetas-marte-informacion-texto5"
         ).innerHTML =
             "Its thin atmosphere is made up of 95% dioxide, 2.7% nitrogen and 1.7% argon.";
         document.getElementById(
             "articulo-planetas-marte-informacion-texto6"
-        ).innerHTML = "Mars has seasons that last twice as long as on Earth";
+        ).innerHTML = "Mars has seasons that last twice as long as on Earth.";
         document.getElementById("aside-planetas-marte").innerHTML = "Fun facts:";
         document.getElementById("aside-planetas-marte-texto1").innerHTML =
             "Mars is the 4th planet in order of distance from the Sun.";
         document.getElementById("aside-planetas-marte-texto2").innerHTML =
-            "It is the 2nd smallest in the solar system after Mercury";
+            "It is the 2nd smallest in the solar system after Mercury.";
         document.getElementById("aside-planetas-marte-texto3").innerHTML =
-            "A year on Mars is 687 days";
+            "A year on Mars is 687 days.";
         document.getElementById("aside-planetas-marte-texto4").innerHTML =
-            "A day on Mars lasts 24 hours and 37 minutes";
+            "A day on Mars lasts 24 hours and 37 minutes.";
         document.getElementById("aside-planetas-marte-texto5").innerHTML =
-            "Mars is a cold desert planet";
+            "Mars is a cold desert planet.";
         document.getElementById("aside-planetas-marte-texto6").innerHTML =
-            "It is half the size of the Earth";
+            "It is half the size of the Earth.";
         document.getElementById("footer-desarrolladores").innerHTML =
             "Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
