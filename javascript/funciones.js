@@ -142,7 +142,7 @@ function cambiarIdiomaSol(idioma) {
         document.getElementById("uno-sol").innerHTML =
             "It is classified as a G2 spectral type star and luminosity class V: a “G2V” star.";
         document.getElementById("dos-sol").innerHTML =
-            "MEASUREMENTS: Diameter of 1.3927 million km and radius of 696,340 km";
+            "MEASUREMENTS: Diameter of 1.3927 million km and radius of 696,340 km.";
         document.getElementById("tres-sol").innerHTML = "AGE: 4,500,000,000 years.";
         document.getElementById("aside-sol").innerHTML = "Fun facts:";
         document.getElementById("uno-aside-sol").innerHTML =
