@@ -239,11 +239,11 @@ function cambiarIdiomaMercurio(idioma) {
             "The age of the planet is 4,500,000,000 years.";
         document.getElementById("aside-titulo").innerHTML = "Fun facts:";
         document.getElementById("aside-planetas-texto1").innerHTML =
-            " To get there from Earth it takes 40 days";
+            " To get there from Earth it takes 40 days.";
         document.getElementById("aside-planetas-texto2").innerHTML =
-            " It is about 80,000 kilometers from Earth";
+            " It is about 80,000 kilometers from Earth.";
         document.getElementById("aside-planetas-texto3").innerHTML =
-            " Its color is greyish";
+            " Its color is greyish.";
         document.getElementById("footer-desarrolladores").innerHTML =
             "Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
@@ -405,11 +405,11 @@ function cambiarIdiomaTierra(idioma) {
             "The atmosphere provides us with gases to breathe, the most important being oxygen. It protects us from the impact of meteorites. The atmosphere is composed of nitrogen, argon, oxygen, carbon dioxide and water vapor.";
         document.getElementById("aside-titulo").innerHTML = "Fun facts:";
         document.getElementById("aside-planetas-texto1").innerHTML =
-            "A day lasts 12h and the night 12h and the year 365 days.";
+            " A day lasts 12h and the night 12h and the year 365 days.";
         document.getElementById("aside-planetas-texto2").innerHTML =
-            "Most of the earth's surface is made up of water and the rest by land.";
+            " Most of the earth's surface is made up of water and the rest by land.";
         document.getElementById("aside-planetas-texto3").innerHTML =
-            "Gravity does not affect all points on Earth in the same way.";
+            " Gravity does not affect all points on Earth in the same way.";
         document.getElementById("footer-desarrolladores").innerHTML =
             "Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
@@ -788,7 +788,7 @@ function cambiarIdiomaSaturno(idioma) {
         document.getElementById("dos-aside-saturno").innerHTML =
             " A radius of 58,232 km.";
         document.getElementById("tres-aside-saturno").innerHTML =
-            " Saturn is not the only planet with rings";
+            " Saturn is not the only planet with rings.";
         document.getElementById("footer-desarrolladores").innerHTML =
             "Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
@@ -845,7 +845,7 @@ function cambiarIdiomaUrano(idioma) {
         ).innerHTML =
             "Un día dura 17 horas, 14 minutos y 24 segundos y un año dura 84 años terrestres.";
         document.getElementById("aside-planetas-urano").innerHTML =
-            "Datos curiosos:";
+            "Datos Curiosos:";
         document.getElementById("aside-planetas-urano-texto1").innerHTML =
             " Sistema de anillos muy tenue, fue descubierto en 1977.";
         document.getElementById("aside-planetas-urano-texto2").innerHTML =
@@ -964,7 +964,7 @@ function cambiarIdiomaNeptuno(idioma) {
         ).innerHTML =
             "Sus principales gases son el hidrógeno (74 %), helio (24%) y metano (1%).";
         document.getElementById("aside-planetas-neptuno").innerHTML =
-            "Datos curiosos:";
+            "Datos Curiosos:";
         document.getElementById("aside-planetas-neptuno-texto1").innerHTML =
             " Tiene 58 veces el volumen de la Tierra.";
         document.getElementById("aside-planetas-neptuno-texto2").innerHTML =
