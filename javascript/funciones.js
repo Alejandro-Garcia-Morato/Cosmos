@@ -190,7 +190,7 @@ function cambiarIdiomaMercurio(idioma) {
         document.getElementById("articulo-planetas-texto-informacion3").innerHTML =
             "Está llena de cráteres, grietas y de marcas de meteoritos.";
         document.getElementById("articulo-planetas-texto-informacion4").innerHTML =
-            "No podríamos ni andar ni saltar, flotaríamos. En la Tierra pesamos 100 kg y en mercurio pesaríamos 38 kg.";
+            "No podríamos ni andar ni saltar, flotaríamos. En la Tierra pesamos 100 kg y en Mercurio pesaríamos 38 kg.";
         document.getElementById("articulo-planetas-texto-informacion5").innerHTML =
             "La edad del planeta es de 4.500.000.000 años.";
         document.getElementById("aside-titulo").innerHTML = "Datos Curiosos:";
@@ -273,7 +273,7 @@ function cambiarIdiomaVenus(idioma) {
             "Su nombre viene de la mitología romana, que sería el equivalente a la diosa griega Afrodita. Es el único planeta del sistema solar que tiene nombre de una diosa.";
         document.getElementById("segundo-article-venus").innerHTML = "información";
         document.getElementById("uno-venus").innerHTML =
-            "Su temperatura media es de 453º C, de día es de 426º C y de noche de -173º C. En Venus no hay agua por su cercanía al sol.";
+            "Su temperatura media es de 453º C, de día es de 426º C y de noche de -173º C. En Venus no hay agua por su cercanía al Sol.";
         document.getElementById("dos-venus").innerHTML =
             "Un año en Venus son 243 días terrestres.";
         document.getElementById("tres-venus").innerHTML =
@@ -365,7 +365,7 @@ function cambiarIdiomaTierra(idioma) {
             "La atmósfera nos aporta gases para respirar, el más importante es el oxígeno. Nos protege del impacto de meteoritos. La atmosfera está compuestas de nitrógeno, argón, oxígeno, dióxido de carbono y vapor de agua.";
         document.getElementById("aside-titulo").innerHTML = "Datos Curiosos:";
         document.getElementById("aside-planetas-texto1").innerHTML =
-            " Un día dura 12 h y la noche 12 h y el año 365 días.";
+            " Un día dura 12 h, la noche 12 h y el año 365 días.";
         document.getElementById("aside-planetas-texto2").innerHTML =
             " La mayoría de la superficie de la tierra está compuesta por agua y lo demás por tierra.";
         document.getElementById("aside-planetas-texto3").innerHTML =
@@ -402,10 +402,10 @@ function cambiarIdiomaTierra(idioma) {
         document.getElementById("articulo-planetas-texto-informacion2").innerHTML =
             "The volume of water on earth is 1,500 million cubic km, of which the majority is salt water, although there is also a presence of fresh water in the three states.";
         document.getElementById("articulo-planetas-texto-informacion3").innerHTML =
-            "The atmosphere provides us with gases to breathe, the most important being oxygen. It protects us from the impact of meteorites. The atmosphere is composed of nitrogen, argon, oxygen, carbon dioxide and water vapor.";
+            "The atmosphere provides us with gases to breathe, the most important being on oxygen. It protects us from the impact of meteorites. The atmosphere is composed of nitrogen, argon, oxygen, carbon dioxide and water vapor.";
         document.getElementById("aside-titulo").innerHTML = "Fun facts:";
         document.getElementById("aside-planetas-texto1").innerHTML =
-            " A day lasts 12h and the night 12h and the year 365 days.";
+            " A day lasts 12h, the night 12h and the year 365 days.";
         document.getElementById("aside-planetas-texto2").innerHTML =
             " Most of the earth's surface is made up of water and the rest by land.";
         document.getElementById("aside-planetas-texto3").innerHTML =
@@ -446,18 +446,18 @@ function cambiarIdiomaLuna(idioma) {
         document.getElementById("articulo-planetas-texto-informacion2").innerHTML =
             "Astro más cercano a la Tierra (384.400Km) y satélite natural de nuestro planeta y el segundo más grande del sistema solar.";
         document.getElementById("articulo-planetas-texto-informacion3").innerHTML =
-            "La luna tiene un diámetro de 2474,8 Km. Su superficie está repleta de cráteres producidos por impactos de meteoritos debido a que la luna no tiene atmósfera.";
+            "La luna tiene un diámetro de 2474,8 km. Su superficie está repleta de cráteres producidos por impactos de meteoritos debido a que la Luna no tiene atmósfera.";
         document.getElementById("articulo-planetas-texto-informacion4").innerHTML =
             "Periodo de rotación: 27,3 días. Periodo de traslación: 27,3 días. Por eso siempre vemos la misma cara de la luna.";
         document.getElementById("articulo-planetas-texto-informacion5").innerHTML =
-            "La gravedad es menor que en la TIerra (1,62m/s2). Una persona que pese 45 kilos en la Luna pesaría 8,05 kilos.";
+            "La gravedad es menor que en la TIerra (1,62 m/s2). Una persona que pese 45 kilos en la Luna pesaría 8,05 kilos.";
         document.getElementById("aside-titulo").innerHTML = "Datos Curiosos:";
         document.getElementById("aside-planetas-texto1").innerHTML =
             " Ha llegado más gente a la Luna que a las profundidades de los océanos.";
         document.getElementById("aside-planetas-texto2").innerHTML =
             " En la Luna no hay viento ni sonido.";
         document.getElementById("aside-planetas-texto3").innerHTML =
-            " Cada año la Luna se aleja de la Tierra 3.8 centímetros.";
+            " Cada año, la Luna se aleja de la Tierra 3.8 centímetros.";
         document.getElementById("aside-planetas-texto4").innerHTML =
             " ¿Sabías que Mercurio y Venus son los únicos planetas del sistema solar que no tienen satélites?";
         document.getElementById("footer-desarrolladores").innerHTML =
@@ -500,7 +500,7 @@ function cambiarIdiomaLuna(idioma) {
         document.getElementById("aside-planetas-texto1").innerHTML =
             " More people have reached the Moon than the depths of the oceans.";
         document.getElementById("aside-planetas-texto2").innerHTML =
-            " On the Moon there is no wind or sound.";
+            " On the Moon, there is no wind or sound.";
         document.getElementById("aside-planetas-texto3").innerHTML =
             " Every year the Moon moves away from Earth 3.8 centimeters.";
         document.getElementById("aside-planetas-texto4").innerHTML =
@@ -545,7 +545,7 @@ function cambiarIdiomaMarte(idioma) {
         document.getElementById(
             "articulo-planetas-marte-informacion-texto2"
         ).innerHTML =
-            "La temperatura durante el día es de unos 0ºC y durante la noche de unos -129ºC, con una temperatura media de -50ºC.";
+            "La temperatura durante el día es de unos 0º C y durante la noche de unos -129º C, con una temperatura media de -50º C.";
         document.getElementById(
             "articulo-planetas-marte-informacion-texto3"
         ).innerHTML = "Tiene una gravedad de 3,721 m/s².";
@@ -667,12 +667,12 @@ function cambiarIdiomaJupiter(idioma) {
         document.getElementById("segundo-article-jupiter").innerHTML =
             "información";
         document.getElementById("uno-segundo-jupiter").innerHTML =
-            "Júpiter tiene una variación extremada de lluvia mensual por estación. Llueve durante el año en Júpiter. El mes con más lluvia en Júpiter es septiembre, con un promedio de 147 milímetros de lluvia. El mes con menos lluvia en Júpiter es diciembre, con un promedio de 45 milímetros de lluvia.";
+            "Júpiter tiene una variación extremada de lluvia mensual por estación. El mes con más lluvia en Júpiter es septiembre, con un promedio de 147 milímetros de lluvia. El mes con menos lluvia en Júpiter es diciembre, con un promedio de 45 milímetros de lluvia.";
         document.getElementById("dos-segundo-jupiter").innerHTML =
             "Su atmósfera se compone aproximadamente de un 82% de hidrógeno y un 17% de helio. A estos componentes principales hay que sumarle otros en mucho menor porcentaje como metano, vapor de agua, amoniaco, etano, fosfina, sulfuro de hidrógeno e hidrosulfuro.";
         document.getElementById("aside-jupiter").innerHTML = "Datos Curiosos:";
         document.getElementById("uno-aside-jupiter").innerHTML =
-            " El día dura 9h 56m. De la noche 4:56h y del día 5 horas.";
+            " El día dura 9 h 56 m. La noche son 4:56 h y el día 5 horas.";
         document.getElementById("dos-aside-jupiter").innerHTML =
             " Sin duda, uno de los aspectos más fascinantes de Júpiter es su atmósfera, principalmente compuesta de hidrógeno en más de uno 80% además de grandes proporciones de helio, amoniaco y etano.";
         document.getElementById("footer-desarrolladores").innerHTML =
@@ -702,7 +702,7 @@ function cambiarIdiomaJupiter(idioma) {
         document.getElementById("segundo-article-jupiter").innerHTML =
             "information";
         document.getElementById("uno-segundo-jupiter").innerHTML =
-            "Jupiter has an extreme variation of monthly rainfall by season. Rain falls throughout the year on Jupiter. The month with the most rain on Jupiter is September, with an average of 147 millimeters of rain. The month with the least rain on Jupiter is December, with an average of 45 millimeters of rain. ";
+            "Jupiter has an extreme variation of monthly rainfall by season. The month with the most rain on Jupiter is September, with an average of 147 millimeters of rain. The month with the least rain on Jupiter is December, with an average of 45 millimeters of rain.";
         document.getElementById("dos-segundo-jupiter").innerHTML =
             "Its atmosphere is made up of approximately 82% hydrogen and 17% helium. To these main components we must add others in a much lower percentage such as methane, water vapor, ammonia, ethane, phosphine, hydrogen sulfide and hydrosulfide.";
         document.getElementById("aside-jupiter").innerHTML = "Fun facts:";
@@ -742,9 +742,9 @@ function cambiarIdiomaSaturno(idioma) {
         document.getElementById("segundo-article-saturno").innerHTML =
             "información";
         document.getElementById("uno-segundo-saturno").innerHTML =
-            "AGUA: Un estudio realizado por la universidad de Leicester, ha detectado que el agua existe en la atmósfera.";
+            "AGUA: Un estudio realizado por la Universidad de Leicester, ha detectado que el agua existe en la atmósfera.";
         document.getElementById("dos-segundo-saturno").innerHTML =
-            "DURACIÓN: La duración de saturno es de 11 horas en total. Donde 10 horas es por el día y solo una por la noche. La traslación de Saturno es de 29 años terrestres.";
+            "DURACIÓN: La duración de Saturno es de 11 horas en total. Donde 10 horas son por el día y solo una por la noche. La traslación de Saturno es de 29 años terrestres.";
         document.getElementById("aside-saturno").innerHTML = "Datos Curiosos:";
         document.getElementById("uno-aside-saturno").innerHTML =
             " Saturno tiene una superficie de 42,7 de millones de kilómetros.";
@@ -825,10 +825,10 @@ function cambiarIdiomaUrano(idioma) {
         document.getElementById(
             "articulo-planetas-urano-informacion-texto1"
         ).innerHTML =
-            "Es conocido por su inclinación extrema, ya que su eje de rotación está inclinado en más de 90 grados en relación con su plano orbita, lo que significa que parece estar girando sobre su costado.";
+            "Es conocido por su inclinación extrema, ya que su eje de rotación está inclinado en más de 90 grados en relación con su plano órbita, lo que significa que parece estar girando sobre su costado.";
         document.getElementById(
             "articulo-planetas-urano-informacion-texto2"
-        ).innerHTML = "La temperatura media es de -218ºC.";
+        ).innerHTML = "La temperatura media es de -218º C.";
         document.getElementById(
             "articulo-planetas-urano-informacion-texto3"
         ).innerHTML = "Tiene presencia de agua, en su mayoría hielo.";
@@ -851,7 +851,7 @@ function cambiarIdiomaUrano(idioma) {
         document.getElementById("aside-planetas-urano-texto2").innerHTML =
             " Urano tiene 27 lunas conocidas, las más grandes son Titania y Oberón. Sus nombres son los de la reina y el rey de las hadas en la obra El sueño de una noche de verano de Shakespeare.";
         document.getElementById("aside-planetas-urano-texto3").innerHTML =
-            " Cada una de sus lunas tiene su propia orbita y caracteristicas únicas.";
+            " Cada una de sus lunas tiene su propia órbita y características únicas..";
         document.getElementById("footer-desarrolladores").innerHTML =
             "Página desarrollada por: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
@@ -889,7 +889,7 @@ function cambiarIdiomaUrano(idioma) {
         ).innerHTML = "The average temperature is -218ºC.";
         document.getElementById(
             "articulo-planetas-urano-informacion-texto3"
-        ).innerHTML = "Has presence of water, mostly ice.";
+        ).innerHTML = "Has the presence of water, mostly ice.";
         document.getElementById(
             "articulo-planetas-urano-informacion-texto4"
         ).innerHTML =
@@ -962,7 +962,7 @@ function cambiarIdiomaNeptuno(idioma) {
         document.getElementById(
             "articulo-planetas-neptuno-informacion-texto5"
         ).innerHTML =
-            "Sus principales gases son el hidrógeno (74 %), helio (24%) y metano (1%).";
+            "Sus principales gases son el hidrógeno (74%), helio (24%) y metano (1%).";
         document.getElementById("aside-planetas-neptuno").innerHTML =
             "Datos Curiosos:";
         document.getElementById("aside-planetas-neptuno-texto1").innerHTML =
@@ -1000,7 +1000,7 @@ function cambiarIdiomaNeptuno(idioma) {
         document.getElementById(
             "articulo-planetas-neptuno-etimologia-texto"
         ).innerHTML =
-            "Its name was given in honor of the Roman god of the sea, which comes from Greek mythology, son of the gods Saturn and Ops, brother of Jupiter and Pluto. He rules all the waters and seas and rides the waves on white horses.";
+            "Its name was given in honor of the Roman god of the sea, which comes from Greek mythology, son of the gods Saturn and Ops, brother of Jupiter and Pluto. He rules all the waters and the seas and rides the waves on white horses.";
         document.getElementById("articulo-planetas-neptuno-informacion").innerHTML =
             "information";
         document.getElementById(
