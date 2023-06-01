@@ -34,7 +34,7 @@
     font-family: Poppins;
 }
 
-body{
+body {
     background-color: #080808;
     width: 100vw;
 }
@@ -1162,6 +1162,11 @@ footer {
 
 /* Para móviles */
 @media (max-width: 426px) {
+
+    /* CONTENEDOR */
+    .contenedor-home {
+        background-image: linear-gradient(rgba(8, 8, 8, 0.8), rgba(8, 8, 8, 0.7)), url(../recursos/imagenes/bg-mini.webp);
+    }
 
     /* MENÚ PRINCIPAL */
 
