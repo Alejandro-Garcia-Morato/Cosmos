@@ -234,7 +234,7 @@ function cambiarIdiomaMercurio(idioma) {
         document.getElementById("articulo-planetas-texto-informacion3").innerHTML =
             "It is full of craters, cracks and meteorite marks.";
         document.getElementById("articulo-planetas-texto-informacion4").innerHTML =
-            "We could neither walk nor jump, we would float. On Earth, we weigh 100kg and on Mercury, we would weigh 38kg.";
+            "We could neither walk nor jump, we would float. On Earth, we weigh 100 kg and on Mercury, we would weigh 38 kg.";
         document.getElementById("articulo-planetas-texto-informacion5").innerHTML =
             "The age of the planet is 4,500,000,000 years.";
         document.getElementById("aside-titulo").innerHTML = "Fun facts:";
@@ -311,7 +311,7 @@ function cambiarIdiomaVenus(idioma) {
             "Its name comes from Roman mythology, which would be the equivalent of the Greek goddess Aphrodite. It is the only planet in the solar system named after a goddess.";
         document.getElementById("segundo-article-venus").innerHTML = "information";
         document.getElementById("uno-venus").innerHTML =
-            "Its average temperature is 453ºC, during the day it is 426ºC and at night it is -173ºC. On Venus there is no water because of its proximity to the sun.";
+            "Its average temperature is 453ºC, during the day it is 426ºC and at night it is -173ºC. On Venus, there is no water because of its proximity to the sun.";
         document.getElementById("dos-venus").innerHTML =
             "A year on Venus is 243 Earth days.";
         document.getElementById("tres-venus").innerHTML =
