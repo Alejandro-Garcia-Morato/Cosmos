@@ -190,7 +190,7 @@ function cambiarIdiomaMercurio(idioma) {
         document.getElementById("articulo-planetas-texto-informacion3").innerHTML =
             "Está llena de cráteres, grietas y de marcas de meteoritos.";
         document.getElementById("articulo-planetas-texto-informacion4").innerHTML =
-            "No podríamos ni andar ni saltar, flotaríamos. En la Tierra pesamos 100kg y en mercurio pesaríamos 38kg.";
+            "No podríamos ni andar ni saltar, flotaríamos. En la Tierra pesamos 100 kg y en mercurio pesaríamos 38 kg.";
         document.getElementById("articulo-planetas-texto-informacion5").innerHTML =
             "La edad del planeta es de 4.500.000.000 años.";
         document.getElementById("aside-titulo").innerHTML = "Datos Curiosos:";
@@ -234,7 +234,7 @@ function cambiarIdiomaMercurio(idioma) {
         document.getElementById("articulo-planetas-texto-informacion3").innerHTML =
             "It is full of craters, cracks and meteorite marks.";
         document.getElementById("articulo-planetas-texto-informacion4").innerHTML =
-            "We could neither walk nor jump, we would float. On Earth we weigh 100kg and on Mercury we would weigh 38kg.";
+            "We could neither walk nor jump, we would float. On Earth we weigh 100 kg and on Mercury we would weigh 38 kg.";
         document.getElementById("articulo-planetas-texto-informacion5").innerHTML =
             "The age of the planet is 4,500,000,000 years.";
         document.getElementById("aside-titulo").innerHTML = "Fun facts:";
