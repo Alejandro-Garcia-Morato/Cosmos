@@ -77,7 +77,7 @@ function cambiarIdiomaHome(idioma) {
         document.getElementById("footer-desarrolladores").innerHTML =
             "Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
-            "The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco de Alcázar de San Juan participates";
+            "The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco from Alcázar de San Juan participates";
         document.getElementById("footer-copy").innerHTML =
             "© 2023 All rights reserved";
     }
@@ -154,7 +154,7 @@ function cambiarIdiomaSol(idioma) {
         document.getElementById("footer-desarrolladores").innerHTML =
             "Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
-            "The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco de Alcázar de San Juan participates";
+            "The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco from Alcázar de San Juan participates";
         document.getElementById("footer-copy").innerHTML =
             "© 2023 All rights reserved";
     }
@@ -247,7 +247,7 @@ function cambiarIdiomaMercurio(idioma) {
         document.getElementById("footer-desarrolladores").innerHTML =
             "Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
-            "The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco de Alcázar de San Juan participates";
+            "The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco from Alcázar de San Juan participates";
         document.getElementById("footer-copy").innerHTML =
             "© 2023 All rights reserved";
     }
@@ -328,7 +328,7 @@ function cambiarIdiomaVenus(idioma) {
         document.getElementById("footer-desarrolladores").innerHTML =
             "Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
-            "The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco de Alcázar de San Juan participates";
+            "The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco from Alcázar de San Juan participates";
         document.getElementById("footer-copy").innerHTML =
             "© 2023 All rights reserved";
     }
@@ -413,7 +413,7 @@ function cambiarIdiomaTierra(idioma) {
         document.getElementById("footer-desarrolladores").innerHTML =
             "Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
-            "The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco de Alcázar de San Juan participates";
+            "The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco from Alcázar de San Juan participates";
         document.getElementById("footer-copy").innerHTML =
             "© 2023 All rights reserved";
     }
@@ -508,7 +508,7 @@ function cambiarIdiomaLuna(idioma) {
         document.getElementById("footer-desarrolladores").innerHTML =
             "Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
-            "The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco de Alcázar de San Juan participates";
+            "The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco from Alcázar de San Juan participates";
         document.getElementById("footer-copy").innerHTML =
             "© 2023 All rights reserved";
     }
@@ -638,7 +638,7 @@ function cambiarIdiomaMarte(idioma) {
         document.getElementById("footer-desarrolladores").innerHTML =
             "Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
-            "The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco de Alcázar de San Juan participates";
+            "The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco from Alcázar de San Juan participates";
         document.getElementById("footer-copy").innerHTML =
             "© 2023 All rights reserved";
     }
@@ -713,7 +713,7 @@ function cambiarIdiomaJupiter(idioma) {
         document.getElementById("footer-desarrolladores").innerHTML =
             "Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
-            "The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco de Alcázar de San Juan participates";
+            "The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco from Alcázar de San Juan participates";
         document.getElementById("footer-copy").innerHTML =
             "© 2023 All rights reserved";
     }
@@ -792,7 +792,7 @@ function cambiarIdiomaSaturno(idioma) {
         document.getElementById("footer-desarrolladores").innerHTML =
             "Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
-            "The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco de Alcázar de San Juan participates";
+            "The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco from Alcázar de San Juan participates";
         document.getElementById("footer-copy").innerHTML =
             "© 2023 All rights reserved";
     }
@@ -912,7 +912,7 @@ function cambiarIdiomaUrano(idioma) {
         document.getElementById("footer-desarrolladores").innerHTML =
             "Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
-            "The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco de Alcázar de San Juan participates";
+            "The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco from Alcázar de San Juan participates";
         document.getElementById("footer-copy").innerHTML =
             "© 2023 All rights reserved";
     }
@@ -1036,7 +1036,7 @@ function cambiarIdiomaNeptuno(idioma) {
         document.getElementById("footer-desarrolladores").innerHTML =
             "Page developed by: Teresa María Fontela Lorenzo | Izan Gallego Torres | Alejandro García-Morato Ramos";
         document.getElementById("footer-info").innerHTML =
-            "The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco de Alcázar de San Juan participates";
+            "The students of Marina Martínez Bonat in the 3rd year of ESO A, B and C and the students of Alicia Portero Hernández have participated in the development of this website within the training program in STEAM competences in which the IES Juan Bosco from Alcázar de San Juan participates";
         document.getElementById("footer-copy").innerHTML =
             "© 2023 All rights reserved";
     }
