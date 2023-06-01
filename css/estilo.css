@@ -34,6 +34,10 @@
     font-family: Poppins;
 }
 
+body{
+    background-color: #080808;
+}
+
 /* CONTENEDOR */
 .contenedor-home {
     display: grid;
@@ -41,6 +45,11 @@
         "cabecera"
         "contenido"
         "footer";
+    background-image: linear-gradient(rgba(8, 8, 8, 0.8), rgba(8, 8, 8, 0.7)), url(../recursos/imagenes/bg.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-position-y: bottom;
 }
 
 /* MENÚ PRINCIPAL */
@@ -155,8 +164,12 @@ input:checked~.burguer_menu .burguer_menu-linea:nth-child(3) {
 /* CABECERA */
 header {
     grid-area: cabecera;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
+    clip-path: circle(0px at center);
 }
 
 .bg-header {
@@ -213,6 +226,7 @@ header {
         "luna marte jupiter"
         "saturno urano neptuno";
     gap: 3vw;
+    margin-top: 200vh;
 }
 
 .home-articulo-planeta {
@@ -569,7 +583,7 @@ footer {
         font-size: 3.9rem;
     }
 
-    .aside-planetas p{
+    .aside-planetas p {
         font-size: 2.4rem;
     }
 
@@ -634,7 +648,7 @@ footer {
         font-size: 3.3rem;
     }
 
-    .aside-planetas p{
+    .aside-planetas p {
         font-size: 2rem;
     }
 
@@ -684,7 +698,7 @@ footer {
     .home-articulo-planeta-titulo a {
         font-size: 4.2rem;
     }
-    
+
     .articulo-planetas .articulo-planetas-titulo {
         font-size: 4.1rem;
     }
@@ -699,7 +713,7 @@ footer {
         font-size: 2.6rem;
     }
 
-    .aside-planetas p{
+    .aside-planetas p {
         font-size: 1.6rem;
     }
 
@@ -749,7 +763,7 @@ footer {
     .home-articulo-planeta-titulo a {
         font-size: 3.8rem;
     }
-        
+
     .articulo-planetas .articulo-planetas-titulo {
         font-size: 3.1rem;
     }
@@ -764,7 +778,7 @@ footer {
         font-size: 2rem;
     }
 
-    .aside-planetas p{
+    .aside-planetas p {
         font-size: 1.2rem;
     }
 
@@ -916,7 +930,7 @@ footer {
         font-size: 2.5rem;
     }
 
-    .aside-planetas p{
+    .aside-planetas p {
         font-size: 1.2rem;
     }
 
@@ -1059,7 +1073,7 @@ footer {
         filter: blur(2rem);
         transform: translateX(100%);
     }
-    
+
     .show:nth-child(even) {
         opacity: 1;
         filter: none;
@@ -1127,7 +1141,7 @@ footer {
         font-size: 2.1rem;
     }
 
-    .aside-planetas p{
+    .aside-planetas p {
         font-size: 1.1rem;
     }
 
@@ -1271,7 +1285,7 @@ footer {
         filter: blur(2rem);
         transform: translateX(100%);
     }
-    
+
     .show:nth-child(even) {
         opacity: 1;
         filter: none;
@@ -1339,7 +1353,7 @@ footer {
         font-size: 2.2rem;
     }
 
-    .aside-planetas p{
+    .aside-planetas p {
         font-size: 1rem;
     }
 

@@ -1044,23 +1044,23 @@ function cambiarIdiomaNeptuno(idioma) {
 
 function parallax() {
 
-	var opThresh = 350;
-	var opFactor = 750;
+    var opThresh = 350;
+    var opFactor = 750;
 
-	window.addEventListener("scroll", function(event){
+    window.addEventListener("scroll", function (event) {
 
-		var top = this.scrollY;
+        var top = this.scrollY;
 
-		var layers = document.getElementsByClassName("parallax");
-		var layer, speed, yPos;
-		for (var i = 0; i < layers.length; i++) {
-			layer = layers[i];
-			speed = layer.getAttribute('data-speed');
-			var yPos = -(top * speed / 100);
-			layer.setAttribute('style', 'transform: translate3d(0px, ' + yPos + 'px, 0px)');
+        var layers = document.getElementsByClassName("parallax");
+        var layer, speed, yPos;
+        for (var i = 0; i < layers.length; i++) {
+            layer = layers[i];
+            speed = layer.getAttribute('data-speed');
+            var yPos = -(top * speed / 100);
+            layer.setAttribute('style', 'transform: translate3d(0px, ' + yPos + 'px, 0px)');
 
-		}
-	});
+        }
+    });
 }
 
 document.body.onload = parallax();
@@ -1068,7 +1068,7 @@ document.body.onload = parallax();
 
 function scrollAnimation() {
 
-	const observer = new IntersectionObserver((entries) => {
+    const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
             console.log(entry)
             if (entry.isIntersecting) {
@@ -1084,3 +1084,23 @@ function scrollAnimation() {
 }
 
 document.body.onload = scrollAnimation();
+
+
+function scrollTelescopio() {
+    var header = document.querySelector('header');
+    window.addEventListener('scroll', function () {
+        var value = window.scrollY;
+        header.style.clipPath = "circle(" + value + "px at center)"
+    })
+}
+
+document.body.onload = scrollTelescopio();
+
+/* function scrollSizeHeader() {
+    const bg = document.getElementById('bg-header');
+    window.addEventListener('scroll', function () {
+        bg.style.backgroundSize = 150 - +window.pageYOffset / 200 + '%';
+    })
+}
+
+document.body.onload = scrollSizeHeader(); */
