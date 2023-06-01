@@ -110,7 +110,7 @@ function cambiarIdiomaSol(idioma) {
         document.getElementById("tres-sol").innerHTML = "EDAD: 4.500.000.000 años.";
         document.getElementById("aside-sol").innerHTML = "Datos Curiosos:";
         document.getElementById("uno-aside-sol").innerHTML =
-            " Aunque veamos que es amarillo en realidad es blanco.";
+            " Aunque veamos que es amarillo, en realidad es blanco.";
         document.getElementById("dos-aside-sol").innerHTML =
             " Su temperatura de superficie es de 5.778 K.";
         document.getElementById("tres-aside-sol").innerHTML =
