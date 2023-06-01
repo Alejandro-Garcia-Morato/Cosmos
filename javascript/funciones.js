@@ -270,10 +270,10 @@ function cambiarIdiomaVenus(idioma) {
             "Neptuno";
         document.getElementById("primero-article-venus").innerHTML = "etimología";
         document.getElementById("etimologia-venus").innerHTML =
-            "Su nombre viene de la mitología romana que sería el equivalente a la diosa griega Afrodita. Es el único planeta del sistema solar que tiene nombre de una diosa.";
+            "Su nombre viene de la mitología romana, que sería el equivalente a la diosa griega Afrodita. Es el único planeta del sistema solar que tiene nombre de una diosa.";
         document.getElementById("segundo-article-venus").innerHTML = "información";
         document.getElementById("uno-venus").innerHTML =
-            "Su temperatura media es de 453ºC, de día es de 426ºC y de noche de -173ºC. En Venus no hay agua por su cercanía al sol.";
+            "Su temperatura media es de 453º C, de día es de 426º C y de noche de -173º C. En Venus no hay agua por su cercanía al sol.";
         document.getElementById("dos-venus").innerHTML =
             "Un año en Venus son 243 días terrestres.";
         document.getElementById("tres-venus").innerHTML =
