@@ -354,7 +354,7 @@ function cambiarIdiomaTierra(idioma) {
         document.getElementById("articulo-planetas-titulo-etimologia").innerHTML =
             "etimología";
         document.getElementById("articulo-planetas-texto-etimologia").innerHTML =
-            'Su nombre proviene del latín "terra" con mismo significado que el nuestro y relacionado con el verbo "torror", que significa secar o chamuscar.';
+            'Su nombre proviene del latín "terra" con el mismo significado que el nuestro y relacionado con el verbo "torror", que significa secar o chamuscar.';
         document.getElementById("articulo-planetas-titulo-informacion").innerHTML =
             "información";
         document.getElementById("articulo-planetas-texto-informacion1").innerHTML =
@@ -365,7 +365,7 @@ function cambiarIdiomaTierra(idioma) {
             "La atmósfera nos aporta gases para respirar, el más importante es el oxígeno. Nos protege del impacto de meteoritos. La atmosfera esta compuestas de nitrógeno, argón, oxígeno, dióxido de carbono y vapor de agua.";
         document.getElementById("aside-titulo").innerHTML = "Datos Curiosos:";
         document.getElementById("aside-planetas-texto1").innerHTML =
-            " Un día dura 12h y la noche 12h y el año 365 días.";
+            " Un día dura 12 h y la noche 12 h y el año 365 días.";
         document.getElementById("aside-planetas-texto2").innerHTML =
             " La mayoría de la superficie de la tierra está compuesta por agua y lo demás por tierra.";
         document.getElementById("aside-planetas-texto3").innerHTML =
