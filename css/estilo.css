@@ -471,6 +471,7 @@ footer {
 .articulo-planetas .articulo-planetas-titulo {
     font-size: 2.8rem;
     font-variant: small-caps;
+    text-shadow: .1rem .1rem 1rem rgba(228, 228, 228, 0.5);
 }
 
 .articulo-planetas p {
@@ -1053,6 +1054,18 @@ footer {
         gap: 5vh;
     }
 
+    .hidden:nth-child(even) {
+        opacity: 0;
+        filter: blur(2rem);
+        transform: translateX(100%);
+    }
+    
+    .show:nth-child(even) {
+        opacity: 1;
+        filter: none;
+        transform: translateX(0);
+    }
+
     .home-articulo-planeta:hover {
         transform: scale(1.1);
     }
@@ -1251,6 +1264,18 @@ footer {
             "urano"
             "neptuno";
         gap: 5vh;
+    }
+
+    .hidden:nth-child(even) {
+        opacity: 0;
+        filter: blur(2rem);
+        transform: translateX(100%);
+    }
+    
+    .show:nth-child(even) {
+        opacity: 1;
+        filter: none;
+        transform: translateX(0);
     }
 
     .home-articulo-planeta:hover {
