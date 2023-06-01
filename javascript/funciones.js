@@ -180,7 +180,7 @@ function cambiarIdiomaMercurio(idioma) {
         document.getElementById("articulo-planetas-titulo-etimologia").innerHTML =
             "etimología";
         document.getElementById("articulo-planetas-texto-etimologia").innerHTML =
-            "Su nombre viene de la mitología romana que es el equivalente de hermes: Mercurio.";
+            "Su nombre viene de la mitología romana, que es el equivalente de Hermes: Mercurio.";
         document.getElementById("articulo-planetas-titulo-informacion").innerHTML =
             "información";
         document.getElementById("articulo-planetas-texto-informacion1").innerHTML =
