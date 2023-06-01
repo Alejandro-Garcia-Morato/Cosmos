@@ -360,9 +360,9 @@ function cambiarIdiomaTierra(idioma) {
         document.getElementById("articulo-planetas-texto-informacion1").innerHTML =
             "La temperatura media es de 15º gracias a la presencia de gases de efecto invernadero en la atmósfera.";
         document.getElementById("articulo-planetas-texto-informacion2").innerHTML =
-            "El volumen de agua en la tierra es de 1500 millones de Km cúbicos, de los cuales la mayoría es agua salada, aunque también hay presencia de agua dulce en los tres estados.";
+            "El volumen de agua en la Tierra es de 1500 millones de km cúbicos, de los cuales la mayoría es agua salada, aunque también hay presencia de agua dulce en los tres estados.";
         document.getElementById("articulo-planetas-texto-informacion3").innerHTML =
-            "La atmósfera nos aporta gases para respirar, el más importante es el oxígeno. Nos protege del impacto de meteoritos. La atmosfera esta compuestas de nitrógeno, argón, oxígeno, dióxido de carbono y vapor de agua.";
+            "La atmósfera nos aporta gases para respirar, el más importante es el oxígeno. Nos protege del impacto de meteoritos. La atmosfera está compuestas de nitrógeno, argón, oxígeno, dióxido de carbono y vapor de agua.";
         document.getElementById("aside-titulo").innerHTML = "Datos Curiosos:";
         document.getElementById("aside-planetas-texto1").innerHTML =
             " Un día dura 12 h y la noche 12 h y el año 365 días.";
