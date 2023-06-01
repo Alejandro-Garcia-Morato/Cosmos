@@ -234,7 +234,7 @@ function cambiarIdiomaMercurio(idioma) {
         document.getElementById("articulo-planetas-texto-informacion3").innerHTML =
             "It is full of craters, cracks and meteorite marks.";
         document.getElementById("articulo-planetas-texto-informacion4").innerHTML =
-            "We could neither walk nor jump, we would float. On Earth we weigh 100 kg and on Mercury we would weigh 38 kg.";
+            "We could neither walk nor jump, we would float. On Earth, we weigh 100kg and on Mercury, we would weigh 38kg.";
         document.getElementById("articulo-planetas-texto-informacion5").innerHTML =
             "The age of the planet is 4,500,000,000 years.";
         document.getElementById("aside-titulo").innerHTML = "Fun facts:";
